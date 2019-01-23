@@ -7,27 +7,36 @@
 //
 
 import Foundation
+import CoreLocation
 
 struct Country {
-    
-    var name: String
-    var population: Int
-    var areaSize: Double
-    var flag: String?
-    var capital: String?
-    var region: String?
-    var regionalBlock: RegionalBlock?
+    let name: String
+    let population: Int
+    let areaSize: Double
+    let latitude: Double
+    let longitude: Double
+    let flag: String?
+    let capital: String?
+    let region: String?
+    let regionalBlock: RegionalBlock?
     var languages: [Language]?
     var currencies: [Currency]?
-    
+}
+
+extension Country {
     init?(withJson json: [String : Any]?) {
         guard let name = json?["name"] as? String,
             let areaSize = json?["area"] as? Double,
-            let population = json?["population"] as? Int else {
+            let population = json?["population"] as? Int,
+            let latlng = json?["latlng"] as? [Double],
+            let latitude = latlng[safe: 0],
+            let longitude = latlng[safe: 1] else {
                 return nil
         }
         
         self.name = name
+        self.latitude = latitude
+        self.longitude = longitude
         self.areaSize = areaSize
         self.population = population
         
@@ -70,5 +79,9 @@ struct Country {
         }
         
         return currencies.count > 0 ? currencies : nil
+    }
+    
+    func distance(to location: CLLocation) -> CLLocationDistance {
+        return location.distance(from: CLLocation(latitude: self.latitude, longitude: self.longitude))
     }
 }

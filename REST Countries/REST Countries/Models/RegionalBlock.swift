@@ -9,19 +9,20 @@
 import Foundation
 
 struct RegionalBlock {
-    
-    var acronym: String
-    var name: String
-    var otherAcronyms: [String]
-    var otherNames: [String]
-    
+    let acronym: String
+    let name: String
+    let otherAcronyms: [String]
+    let otherNames: [String]
+}
+
+extension RegionalBlock {
     init?(withJson json: [String : Any]?) {
         guard let acronym = json?["acronym"] as? String,
             let name = json?["name"] as? String,
             let otherAcronyms = json?["otherAcronyms"] as? [String],
             let otherNames = json?["otherNames"] as? [String] else {
-            
-            return nil
+                
+                return nil
         }
         
         self.acronym = acronym

@@ -9,11 +9,12 @@
 import Foundation
 
 struct Endpoints {
+    static let all = "https://restcountries.eu/rest/v2/all"
     static let name = "https://restcountries.eu/rest/v2/name/"
     static let capital = "https://restcountries.eu/rest/v2/capital/"
     static let language = "https://restcountries.eu/rest/v2/lang/"
-    static let searchFilter = "?fields=name;flag;population;area"
-    static let currentCountryFilter = "?fields=name;flag;population;capital;region;regionalBlocs;languages;currencies"
+    static let searchFilter = "?fields=name;flag;population;area;latlng"
+    static let currentCountryFilter = "?fields=name;flag;population;capital;region;regionalBlocs;languages;currencies;latlng"
 }
 
 enum SearchScope: String, CaseIterable {

@@ -13,6 +13,12 @@ import os.log
 
 struct Service {
     
+    func requestAllCountries(completion: @escaping (_ response: [Country]?, _ error: Error?) -> Void) {
+        requestCountriesData(url: Endpoints.all) { response, error in
+            completion(response, error)
+        }
+    }
+    
     func requestCountryByName(countryName: String, completion: @escaping (_ response: [Country]?, _ error: Error?) -> Void) {
         requestCountriesData(url: Endpoints.name, queryParam: countryName) { response, error in
             completion(response, error)
@@ -31,8 +37,8 @@ struct Service {
         }
     }
     
-    private func requestCountriesData(url: String, queryParam: String, completion: @escaping (_ response: [Country]?, _ error: Error?) -> Void) {
-        Alamofire.request("\(url)\(queryParam)").responseJSON { response in
+    private func requestCountriesData(url: String, queryParam: String = "", completion: @escaping (_ response: [Country]?, _ error: Error?) -> Void) {
+        Alamofire.request("\(url)\(queryParam)\(Endpoints.searchFilter)").responseJSON { response in
             
             guard response.result.isSuccess else {
                 if let error = response.result.error {

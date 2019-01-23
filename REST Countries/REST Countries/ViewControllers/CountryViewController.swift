@@ -15,6 +15,7 @@ class CountryViewController: UIViewController {
     private lazy var locationPermissionManager = LocationPermissionManager()
     private let searchController = SearchController(searchResultsController: nil)
     private let dataSource = CountryViewModel()
+    private let locationManager = LocationManager()
     private let endpoints = [Endpoints.name, Endpoints.capital, Endpoints.language]
     private var scope: SearchScope = .name
     
@@ -40,26 +41,15 @@ class CountryViewController: UIViewController {
         setupSearchBar()
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        dataSource.requestAllCountries()
+    }
+    
     private func setupSearchBar() {
         searchController.searchBar.delegate = self
         searchController.searchResultsUpdater = self
         navigationItem.searchController = searchController
-        definesPresentationContext = true
-    }
-
-    private func searchCountry() {
-        guard let searchText = searchController.searchBar.text else {
-            return
-        }
-        
-        switch scope {
-        case .name:
-            dataSource.requestCountriesByName(countryName: searchText)
-        case .capital:
-            dataSource.requestCountriesByCapital(capital: searchText)
-        case .language:
-            dataSource.requestCountriesByLanguage(language: searchText)
-        }
     }
 }
 
@@ -80,7 +70,9 @@ extension CountryViewController: UITableViewDataSource {
 
 extension CountryViewController: CountryViewModelDelegate {
     func didReceiveCountries(countries: [Country]) {
-        self.countries = countries
+        self.countries = countries.sorted(by: {
+            $0.distance(to: locationManager.myLocation!) < $1.distance(to: locationManager.myLocation!)
+        })
     }
     
     func didFailDownloadCountries(error: Error) {
@@ -91,12 +83,52 @@ extension CountryViewController: CountryViewModelDelegate {
 extension CountryViewController: UISearchBarDelegate {
     func searchBar(_ searchBar: UISearchBar, selectedScopeButtonIndexDidChange selectedScope: Int) {
         scope = SearchScope.init(id: selectedScope) ?? .name
-        searchCountry()
+        updatePlaceholder()
+        searchForCountry()
+    }
+    
+    func searchBar(_ searchBar: UISearchBar, shouldChangeTextIn range: NSRange, replacementText text: String) -> Bool {
+        switch scope {
+        case .language:
+            return (searchBar.text?.appending(text).count ?? 0) <= 2
+        default:
+            return true
+        }
     }
 }
 
 extension CountryViewController: UISearchResultsUpdating {
     func updateSearchResults(for searchController: UISearchController) {
-        searchCountry()
+        searchForCountry()
+    }
+}
+
+private extension CountryViewController {
+    func searchForCountry() {
+        guard let searchText = searchController.searchBar.text, searchText.count > 0 else {
+            return
+        }
+        
+        switch scope {
+        case .name:
+            dataSource.requestCountriesByName(countryName: searchText)
+        case .capital:
+            dataSource.requestCountriesByCapital(capital: searchText)
+        case .language:
+            if searchText.count == 2 {
+                dataSource.requestCountriesByLanguage(language: searchText)
+            }
+        }
+    }
+    
+    func updatePlaceholder() {
+        switch scope {
+        case .name:
+            searchController.searchBar.placeholder = Placeholder.name
+        case .capital:
+            searchController.searchBar.placeholder = Placeholder.capital
+        case .language:
+            searchController.searchBar.placeholder = Placeholder.language
+        }
     }
 }

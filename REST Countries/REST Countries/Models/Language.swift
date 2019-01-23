@@ -9,19 +9,20 @@
 import Foundation
 
 struct Language {
-    
-    var iso639_1: String
-    var iso639_2: String
-    var name: String
-    var nativeName: String
-    
+    let iso639_1: String
+    let iso639_2: String
+    let name: String
+    let nativeName: String
+}
+
+extension Language {
     init?(withJson json: [String : Any]?) {
         guard let iso639_1 = json?["iso639_1"] as? String,
             let iso639_2 = json?["iso639_2"] as? String,
             let name = json?["name"] as? String,
             let nativeName = json?["nativeName"] as? String else {
-            
-            return nil
+                
+                return nil
         }
         
         self.iso639_1 = iso639_1

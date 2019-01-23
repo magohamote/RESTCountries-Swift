@@ -9,19 +9,14 @@
 import UIKit
 import CoreLocation
 
-protocol LocationManagerDelegate {
-    func locationManagerDidUpdate(_ locationManager: LocationManager, location: CLLocation)
-}
-
 class LocationManager: NSObject {
     
-    var locationManagerDelegate: LocationManagerDelegate?
+    var myLocation: CLLocation?
     
     private lazy var locationManager: CLLocationManager = {
         let manager = CLLocationManager()
         manager.desiredAccuracy = kCLLocationAccuracyKilometer
         manager.delegate = self
-        manager.allowsBackgroundLocationUpdates = true
         manager.requestAlwaysAuthorization()
         return manager
     }()
@@ -33,12 +28,7 @@ class LocationManager: NSObject {
 }
 
 extension LocationManager: CLLocationManagerDelegate {
-
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
-        guard let mostRecentLocation = locations.last else {
-            return
-        }
-
-        locationManagerDelegate?.locationManagerDidUpdate(self, location: mostRecentLocation)
+        myLocation = locations.last
     }
 }

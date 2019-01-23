@@ -9,11 +9,12 @@
 import Foundation
 
 struct Currency {
-    
-    var code: String
-    var name: String
-    var symbol: String
-    
+    let code: String
+    let name: String
+    let symbol: String
+}
+
+extension Currency {
     init?(withJson json: [String : Any]?) {
         guard let code = json?["code"] as? String,
             let name = json?["name"] as? String,
