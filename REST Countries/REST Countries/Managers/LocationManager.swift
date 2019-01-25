@@ -46,12 +46,20 @@ class LocationManager: NSObject {
         
         let geoCoder = CLGeocoder()
         geoCoder.reverseGeocodeLocation(myLocation, completionHandler: { [unowned self] placemarks, error -> Void in
-            guard let placeMark = placemarks?.first,
-                let countryName = placeMark.country else {
+
+            // The API works only with english country names. My phone is in french, so placemarks?.first?.country
+            // will return "Allemagne" instead of "Germany" in my case. This guarantee that the country name
+            // will always be in english regardless of the language of the phone.
+
+            let countryCode = placemarks?.first?.isoCountryCode
+            guard let dictionary = [NSLocale.Key.countryCode.rawValue : countryCode] as? [String : String] else {
                 return
             }
 
-            self.myCountryName = countryName
+            let identifier = NSLocale.localeIdentifier(fromComponents: dictionary)
+            let country = NSLocale(localeIdentifier: "en_US").displayName(forKey: .identifier, value: identifier)
+
+            self.myCountryName = country
             self.locationManagerDelegate?.locationManagerGotCurrentCity(self)
         })
     }
