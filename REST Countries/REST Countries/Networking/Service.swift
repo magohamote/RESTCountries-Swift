@@ -13,6 +13,12 @@ import os.log
 
 struct Service {
     
+    func requestMyCountry(countryName: String, completion: @escaping (_ response: [Country]?, _ error: Error?) -> Void) {
+        requestCountriesData(url: Endpoints.name, queryParam: countryName, filter: Endpoints.currentCountryFilter) { response, error in
+            completion(response, error)
+        }
+    }
+    
     func requestAllCountries(completion: @escaping (_ response: [Country]?, _ error: Error?) -> Void) {
         requestCountriesData(url: Endpoints.all) { response, error in
             completion(response, error)
@@ -68,11 +74,7 @@ struct Service {
                     countries.append(country)
                 }
             }
-            
-            if countries.count != responseJSON.count {
-               completion(nil, FormatError.badFormatError)
-            }
-            
+
             completion(countries, nil)
         }
     }

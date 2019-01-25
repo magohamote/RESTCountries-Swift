@@ -7,8 +7,8 @@ target 'REST Countries' do
 
   # Pods for REST Countries
   pod 'Alamofire'
-  pod 'SwiftSVG'
-
+  pod 'SVGKit'
+  
   target 'REST CountriesTests' do
     inherit! :search_paths
     # Pods for testing

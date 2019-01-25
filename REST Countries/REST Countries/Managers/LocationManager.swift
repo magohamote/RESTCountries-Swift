@@ -11,6 +11,7 @@ import CoreLocation
 
 protocol LocationManagerDelegate: AnyObject {
     func locationManagerDidUpdate(_ locationManager: LocationManager)
+    func locationManagerGotCurrentCity(_ locationManager: LocationManager)
 }
 
 class LocationManager: NSObject {
@@ -44,13 +45,14 @@ class LocationManager: NSObject {
         }
         
         let geoCoder = CLGeocoder()
-        geoCoder.reverseGeocodeLocation(myLocation, completionHandler: { placemarks, error -> Void in
+        geoCoder.reverseGeocodeLocation(myLocation, completionHandler: { [unowned self] placemarks, error -> Void in
             guard let placeMark = placemarks?.first,
                 let countryName = placeMark.country else {
                 return
             }
 
             self.myCountryName = countryName
+            self.locationManagerDelegate?.locationManagerGotCurrentCity(self)
         })
     }
 }

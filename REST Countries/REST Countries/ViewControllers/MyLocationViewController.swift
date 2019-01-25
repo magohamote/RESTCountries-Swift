@@ -54,6 +54,7 @@ class MyLocationViewController: UIViewController {
         
         countryViewModel.delegate = self
         tableView?.dataSource = self
+        tableView?.delegate = self
         tableView?.tableFooterView = UIView()
         
         setupDismiss()
@@ -61,9 +62,9 @@ class MyLocationViewController: UIViewController {
     }
     
     private func setupDismiss() {
-        let dismissButton = UIBarButtonItem(barButtonSystemItem: .cancel, target: self, action: #selector(dismiss(_:)))
+        let dismissButton = UIBarButtonItem(image: UIImage(named: "close")?.withRenderingMode(.alwaysTemplate), style: .plain, target: self, action: #selector(dismiss(_:)))
         dismissButton.tintColor = .white
-        navigationItem.leftBarButtonItem = dismissButton
+        navigationItem.rightBarButtonItem = dismissButton
     }
     
     @objc private func dismiss(_ sender: UIButton) {
@@ -121,12 +122,16 @@ extension MyLocationViewController: UITableViewDataSource {
         
         switch header {
         case .flag:
-            // TODO
-            return UITableViewCell()
+            guard let flagCell = tableView.dequeueReusableCell(withIdentifier: FlagCell.identifier) as? FlagCell else {
+                    return UITableViewCell()
+            }
+            
+            flagCell.config(with: myLocation.flag)
+            return flagCell
         case .fullName:
             cell.textLabel?.text = myLocation.name
         case .population:
-            cell.textLabel?.text = String(myLocation.population)
+            cell.textLabel?.text = String(myLocation.population.formattedWithSeparator)
         case .capital:
             cell.textLabel?.text = myLocation.capital
         case .region:
@@ -144,6 +149,30 @@ extension MyLocationViewController: UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
         return MyLocationHeaders.init(id: section)?.rawValue
+    }
+}
+
+extension MyLocationViewController: UITableViewDelegate {
+    func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
+        return 50
+    }
+    
+    func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
+        let headerView = UIView()
+        headerView.backgroundColor = .clear
+        
+        let headerLabel = UILabel(frame: .zero)
+        headerLabel.font = UIFont.systemFont(ofSize: 20, weight: .light)
+        headerLabel.textColor = .turquoise
+        headerLabel.text = self.tableView(tableView, titleForHeaderInSection: section)
+        headerLabel.sizeToFit()
+        headerView.addSubview(headerLabel, withConstraints: [
+            headerLabel.leadingAnchor.constraint(equalTo: headerView.leadingAnchor, constant: 20),
+            headerLabel.bottomAnchor.constraint(equalTo: headerView.bottomAnchor, constant: -8),
+            headerLabel.trailingAnchor.constraint(equalTo: headerView.trailingAnchor)
+        ])
+        
+        return headerView
     }
 }
 

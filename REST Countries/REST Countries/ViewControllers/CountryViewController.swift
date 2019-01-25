@@ -31,9 +31,7 @@ class CountryViewController: UIViewController {
         title = "REST Country"
         
         navigationController?.isNavigationBarHidden = false
-        
-        locationPermissionManager.checkPermission(self)
-        
+
         countryViewModel.delegate = self
         locationManager.locationManagerDelegate = self
         tableView?.dataSource = self
@@ -43,6 +41,11 @@ class CountryViewController: UIViewController {
         setupMyLocationButton()
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        locationPermissionManager.checkPermission(self)
+    }
+    
     private func setupSearchBar() {
         searchController.searchBar.delegate = self
         searchController.searchResultsUpdater = self
@@ -50,9 +53,10 @@ class CountryViewController: UIViewController {
     }
     
     private func setupMyLocationButton() {
-        let myLocationButton = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(openMyLocation(_:)))
+        let myLocationButton = UIBarButtonItem(image: UIImage(named: "location")?.withRenderingMode(.alwaysTemplate), style: .plain, target: self, action: #selector(openMyLocation(_:)))
         myLocationButton.tintColor = .white
         navigationItem.rightBarButtonItem = myLocationButton
+        navigationItem.rightBarButtonItem?.isEnabled = false
     }
     
     @objc private func openMyLocation(_ sender: UIBarButtonItem) {
@@ -86,6 +90,10 @@ extension CountryViewController: UITableViewDataSource {
 extension CountryViewController: LocationManagerDelegate {
     func locationManagerDidUpdate(_ locationManager: LocationManager) {
         countryViewModel.requestAllCountries()
+    }
+
+    func locationManagerGotCurrentCity(_ locationManager: LocationManager) {
+        navigationItem.rightBarButtonItem?.isEnabled = true
     }
 }
 

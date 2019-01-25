@@ -20,36 +20,36 @@ class CountryViewModel {
     let service = Service()
     
     func requestMyCountry(countryName: String) {
-        service.requestCountryByName(countryName: countryName, filter: Endpoints.currentCountryFilter, completion: completionBlock(result:error:))
+        service.requestMyCountry(countryName: countryName, completion: completionBlock)
     }
     
     func requestAllCountries() {
-        service.requestAllCountries(completion: completionBlock(result:error:))
+        service.requestAllCountries(completion: completionBlock)
     }
     
     func requestCountriesByName(countryName: String) {
-        service.requestCountryByName(countryName: countryName, completion: completionBlock(result:error:))
+        service.requestCountryByName(countryName: countryName, completion: completionBlock)
     }
     
     func requestCountriesByCapital(capital: String) {
-        service.requestCountryByCapital(capital: capital, completion: completionBlock(result:error:))
+        service.requestCountryByCapital(capital: capital, completion: completionBlock)
     }
     
     func requestCountriesByLanguage(language: String) {
-        service.requestCountryByLanguage(language: language, completion: completionBlock(result:error:))
+        service.requestCountryByLanguage(language: language, completion: completionBlock)
     }
     
     private func completionBlock(result: [Country]?, error: Error?) {
-        weak var weakSelf = self
+        unowned let unownedSelf = self
         
         guard let result = result else {
             if let error = error {
-                weakSelf?.delegate?.didFailDownloadCountries(error: error)
+                unownedSelf.delegate?.didFailDownloadCountries(error: error)
             }
             
             return
         }
         
-        weakSelf?.delegate?.didReceiveCountries(countries: result)
+        unownedSelf.delegate?.didReceiveCountries(countries: result)
     }
 }
