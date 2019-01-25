@@ -74,11 +74,7 @@ struct Service {
                     countries.append(country)
                 }
             }
-            
-            if countries.count != responseJSON.count {
-               completion(nil, FormatError.badFormatError)
-            }
-            
+
             completion(countries, nil)
         }
     }

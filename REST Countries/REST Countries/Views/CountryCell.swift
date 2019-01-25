@@ -20,12 +20,13 @@ class CountryCell: UITableViewCell {
     func config(withCountry country: Country?) {
         if let flag = country?.flag, let flagUrl = URL(string: flag) {
             flagView?.image = SVGKImage(contentsOf: flagUrl)
-            flagView?.contentMode = .scaleAspectFit
+            flagView?.layer.borderColor = UIColor.lightGray.cgColor
+            flagView?.layer.borderWidth = 0.5
         }
 
         countryNameLabel?.text = country?.name
         populationCountLabel?.text = country?.population.formattedWithSeparator
-        areaSizeLabel?.text = country?.areaSize.formattedWithSeparator
+        areaSizeLabel?.text = "\(country?.areaSize?.formattedWithSeparator ?? "Unknown") km\u{00B2}"
     }
     
     override func layoutSubviews() {

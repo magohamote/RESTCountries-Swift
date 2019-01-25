@@ -12,7 +12,7 @@ import CoreLocation
 struct Country {
     let name: String
     let population: Int
-    let areaSize: Double
+    let areaSize: Double?
     let latitude: Double
     let longitude: Double
     let flag: String?
@@ -26,7 +26,6 @@ struct Country {
 extension Country {
     init?(withJson json: [String : Any]?) {
         guard let name = json?["name"] as? String,
-            let areaSize = json?["area"] as? Double,
             let population = json?["population"] as? Int,
             let latlng = json?["latlng"] as? [Double],
             let latitude = latlng[safe: 0],
@@ -37,9 +36,9 @@ extension Country {
         self.name = name
         self.latitude = latitude
         self.longitude = longitude
-        self.areaSize = areaSize
         self.population = population
         
+        self.areaSize = json?["area"] as? Double
         self.flag = json?["flag"] as? String
         self.capital = json?["capital"] as? String
         self.region = json?["region"] as? String
