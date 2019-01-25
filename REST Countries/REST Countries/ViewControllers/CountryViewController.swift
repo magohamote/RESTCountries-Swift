@@ -14,7 +14,7 @@ class CountryViewController: UIViewController {
     
     private lazy var locationPermissionManager = LocationPermissionManager()
     private let searchController = SearchController(searchResultsController: nil)
-    private let dataSource = CountryViewModel()
+    private let countryViewModel = CountryViewModel()
     private let locationManager = LocationManager()
     private let endpoints = [Endpoints.name, Endpoints.capital, Endpoints.language]
     private var scope: SearchScope = .name
@@ -34,16 +34,13 @@ class CountryViewController: UIViewController {
         
         locationPermissionManager.checkPermission(self)
         
-        dataSource.delegate = self
+        countryViewModel.delegate = self
+        locationManager.locationManagerDelegate = self
         tableView?.dataSource = self
         tableView?.tableFooterView = UIView()
         
         setupSearchBar()
-    }
-    
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
-        dataSource.requestAllCountries()
+        setupMyLocationButton()
     }
     
     private func setupSearchBar() {
@@ -51,8 +48,25 @@ class CountryViewController: UIViewController {
         searchController.searchResultsUpdater = self
         navigationItem.searchController = searchController
     }
+    
+    private func setupMyLocationButton() {
+        let myLocationButton = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(openMyLocation(_:)))
+        myLocationButton.tintColor = .white
+        navigationItem.rightBarButtonItem = myLocationButton
+    }
+    
+    @objc private func openMyLocation(_ sender: UIBarButtonItem) {
+        guard let vc = storyboard?.instantiateViewController(withIdentifier: MyLocationViewController.identifier) as? MyLocationViewController else {
+            return
+        }
+        
+        vc.myCountryName = locationManager.myCountryName
+        let nav = NavigationController(rootViewController: vc)
+        present(nav, animated: true, completion: nil)
+    }
 }
 
+// MARK: - UITableViewDataSource
 extension CountryViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return countries.count
@@ -68,10 +82,23 @@ extension CountryViewController: UITableViewDataSource {
     }
 }
 
+// MARK: - LocationManagerDelegate
+extension CountryViewController: LocationManagerDelegate {
+    func locationManagerDidUpdate(_ locationManager: LocationManager) {
+        countryViewModel.requestAllCountries()
+    }
+}
+
+// MARK: - CountryViewModelDelegate
 extension CountryViewController: CountryViewModelDelegate {
     func didReceiveCountries(countries: [Country]) {
+        guard let myLocation = locationManager.myLocation else {
+            self.countries = countries
+            return
+        }
+        
         self.countries = countries.sorted(by: {
-            $0.distance(to: locationManager.myLocation!) < $1.distance(to: locationManager.myLocation!)
+            $0.distance(to: myLocation) < $1.distance(to: myLocation)
         })
     }
     
@@ -80,6 +107,7 @@ extension CountryViewController: CountryViewModelDelegate {
     }
 }
 
+// MARK: - UISearchBarDelegate
 extension CountryViewController: UISearchBarDelegate {
     func searchBar(_ searchBar: UISearchBar, selectedScopeButtonIndexDidChange selectedScope: Int) {
         scope = SearchScope.init(id: selectedScope) ?? .name
@@ -97,6 +125,7 @@ extension CountryViewController: UISearchBarDelegate {
     }
 }
 
+// MARK: - UISearchResultsUpdating
 extension CountryViewController: UISearchResultsUpdating {
     func updateSearchResults(for searchController: UISearchController) {
         searchForCountry()
@@ -111,12 +140,12 @@ private extension CountryViewController {
         
         switch scope {
         case .name:
-            dataSource.requestCountriesByName(countryName: searchText)
+            countryViewModel.requestCountriesByName(countryName: searchText)
         case .capital:
-            dataSource.requestCountriesByCapital(capital: searchText)
+            countryViewModel.requestCountriesByCapital(capital: searchText)
         case .language:
             if searchText.count == 2 {
-                dataSource.requestCountriesByLanguage(language: searchText)
+                countryViewModel.requestCountriesByLanguage(language: searchText)
             }
         }
     }

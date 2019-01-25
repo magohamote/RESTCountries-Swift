@@ -14,7 +14,7 @@ struct Endpoints {
     static let capital = "https://restcountries.eu/rest/v2/capital/"
     static let language = "https://restcountries.eu/rest/v2/lang/"
     static let searchFilter = "?fields=name;flag;population;area;latlng"
-    static let currentCountryFilter = "?fields=name;flag;population;capital;region;regionalBlocs;languages;currencies;latlng"
+    static let currentCountryFilter = "?fields=name;flag;population;capital;region;regionalBlocs;languages;currencies;latlng;area"
 }
 
 enum SearchScope: String, CaseIterable {
