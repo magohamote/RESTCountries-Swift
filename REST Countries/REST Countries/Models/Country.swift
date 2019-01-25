@@ -18,7 +18,7 @@ struct Country {
     let flag: String?
     let capital: String?
     let region: String?
-    let regionalBlock: RegionalBlock?
+    var regionalBlocks: [RegionalBlock]?
     var languages: [Language]?
     var currencies: [Currency]?
 }
@@ -43,8 +43,8 @@ extension Country {
         self.flag = json?["flag"] as? String
         self.capital = json?["capital"] as? String
         self.region = json?["region"] as? String
-        self.regionalBlock = RegionalBlock(withJson: json?["regionalBlocs"] as? [String: Any])
         
+        self.regionalBlocks = getRegionalBlocks(json: json?["regionalBlocs"] as? [[String: Any]])
         self.languages = getLanguages(json: json?["languages"] as? [[String: Any]])
         self.currencies = getCurrencies(json: json?["currencies"] as? [[String: Any]])
     }
@@ -79,6 +79,22 @@ extension Country {
         }
         
         return currencies.count > 0 ? currencies : nil
+    }
+    
+    private func getRegionalBlocks(json: [[String: Any]]?) -> [RegionalBlock]? {
+        guard let json = json else {
+            return nil
+        }
+        
+        var regionalBlocks = [RegionalBlock]()
+        
+        for data in json {
+            if let regionalBlock = RegionalBlock(withJson: data) {
+                regionalBlocks.append(regionalBlock)
+            }
+        }
+        
+        return regionalBlocks.count > 0 ? regionalBlocks : nil
     }
     
     func distance(to location: CLLocation) -> CLLocationDistance {

@@ -20,7 +20,6 @@ class AskLocationPermissionViewController: UIViewController {
         super.viewDidLoad()
         
         locationManager.delegate = self
-        navigationController?.isNavigationBarHidden = true
         
         switch status {
         case .denied, .restricted:

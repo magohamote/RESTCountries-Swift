@@ -19,6 +19,10 @@ class CountryViewModel {
     
     let service = Service()
     
+    func requestMyCountry(countryName: String) {
+        service.requestCountryByName(countryName: countryName, filter: Endpoints.currentCountryFilter, completion: completionBlock(result:error:))
+    }
+    
     func requestAllCountries() {
         service.requestAllCountries(completion: completionBlock(result:error:))
     }
