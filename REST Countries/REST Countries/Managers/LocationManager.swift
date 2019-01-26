@@ -16,15 +16,13 @@ protocol LocationManagerDelegate: AnyObject {
 
 class LocationManager: NSObject {
     
+    weak var locationManagerDelegate: LocationManagerDelegate?
+    var myCountryName: String?
     var myLocation: CLLocation? {
         didSet {
             getCity()
         }
     }
-    
-    var myCountryName: String?
-    
-    weak var locationManagerDelegate: LocationManagerDelegate?
     
     private lazy var locationManager: CLLocationManager = {
         let manager = CLLocationManager()
@@ -72,7 +70,7 @@ extension LocationManager: CLLocationManagerDelegate {
         }
         
         if myLocation == nil || lastLocation.distance(from: (myLocation ?? lastLocation)) > 1000 {
-            self.myLocation = lastLocation
+            myLocation = lastLocation
             locationManagerDelegate?.locationManagerDidUpdate(self)
         }
     }

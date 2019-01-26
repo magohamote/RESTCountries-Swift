@@ -9,6 +9,17 @@
 /* Begin PBXBuildFile section */
 		111BB3CCE34A0A7F04EC70F5 /* Pods_REST_CountriesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C0F2907B0E968A56878ECB1 /* Pods_REST_CountriesTests.framework */; };
 		138F9B97E6C5447D9C9ED5C7 /* Pods_REST_CountriesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6AA4E777661F9571FCDA7F7 /* Pods_REST_CountriesUITests.framework */; };
+		820443EA21FC854000DDE1DF /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 820443D521FC830E00DDE1DF /* NotificationCenter.framework */; };
+		820443ED21FC854000DDE1DF /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820443EC21FC854000DDE1DF /* TodayViewController.swift */; };
+		820443F021FC854000DDE1DF /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 820443EE21FC854000DDE1DF /* MainInterface.storyboard */; };
+		820443FC21FCD86600DDE1DF /* CountryData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820443FB21FCD86600DDE1DF /* CountryData.swift */; };
+		820443FD21FCDB3C00DDE1DF /* REST Countries Widget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 820443E921FC854000DDE1DF /* REST Countries Widget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8204440121FCE0F700DDE1DF /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D137F021F701AD00E60037 /* Country.swift */; };
+		8204440221FCE0FB00DDE1DF /* RegionalBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D137F221F7034000E60037 /* RegionalBlock.swift */; };
+		8204440321FCE0FE00DDE1DF /* Language.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D137F421F7042700E60037 /* Language.swift */; };
+		8204440421FCE10200DDE1DF /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D137F621F704C300E60037 /* Currency.swift */; };
+		8204440521FCE10500DDE1DF /* CountryData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820443FB21FCD86600DDE1DF /* CountryData.swift */; };
+		8204440621FCE11E00DDE1DF /* Collection+SafeIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FCBF4C21F8B5D90073C5AF /* Collection+SafeIndex.swift */; };
 		82D137BF21F7015800E60037 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D137BE21F7015800E60037 /* AppDelegate.swift */; };
 		82D137C121F7015800E60037 /* CountryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D137C021F7015800E60037 /* CountryViewController.swift */; };
 		82D137C421F7015800E60037 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82D137C221F7015800E60037 /* Main.storyboard */; };
@@ -42,6 +53,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		820443FE21FCDB3C00DDE1DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82D137B321F7015800E60037 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 820443E821FC854000DDE1DF;
+			remoteInfo = "REST Countries Widget";
+		};
 		82D137D021F7015A00E60037 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 82D137B321F7015800E60037 /* Project object */;
@@ -58,9 +76,31 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		8204440021FCDB3C00DDE1DF /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				820443FD21FCDB3C00DDE1DF /* REST Countries Widget.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		1C0F2907B0E968A56878ECB1 /* Pods_REST_CountriesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_REST_CountriesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		74315BD31D6A11235F0E38D9 /* Pods-REST CountriesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-REST CountriesUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-REST CountriesUITests/Pods-REST CountriesUITests.release.xcconfig"; sourceTree = "<group>"; };
+		820443D521FC830E00DDE1DF /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		820443E921FC854000DDE1DF /* REST Countries Widget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "REST Countries Widget.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		820443EC21FC854000DDE1DF /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		820443EF21FC854000DDE1DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		820443F121FC854000DDE1DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		820443F921FCCAC400DDE1DF /* REST Countries.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "REST Countries.entitlements"; sourceTree = "<group>"; };
+		820443FA21FCCB0500DDE1DF /* REST Countries Widget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "REST Countries Widget.entitlements"; sourceTree = "<group>"; };
+		820443FB21FCD86600DDE1DF /* CountryData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryData.swift; sourceTree = "<group>"; };
 		82D137BB21F7015800E60037 /* REST Countries.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "REST Countries.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		82D137BE21F7015800E60037 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		82D137C021F7015800E60037 /* CountryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryViewController.swift; sourceTree = "<group>"; };
@@ -106,6 +146,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		820443E621FC854000DDE1DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				820443EA21FC854000DDE1DF /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		82D137B821F7015800E60037 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -146,12 +194,24 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		820443EB21FC854000DDE1DF /* REST Countries Widget */ = {
+			isa = PBXGroup;
+			children = (
+				820443FA21FCCB0500DDE1DF /* REST Countries Widget.entitlements */,
+				820443EC21FC854000DDE1DF /* TodayViewController.swift */,
+				820443EE21FC854000DDE1DF /* MainInterface.storyboard */,
+				820443F121FC854000DDE1DF /* Info.plist */,
+			);
+			path = "REST Countries Widget";
+			sourceTree = "<group>";
+		};
 		82D137B221F7015800E60037 = {
 			isa = PBXGroup;
 			children = (
 				82D137BD21F7015800E60037 /* REST Countries */,
 				82D137D221F7015A00E60037 /* REST CountriesTests */,
 				82D137DD21F7015A00E60037 /* REST CountriesUITests */,
+				820443EB21FC854000DDE1DF /* REST Countries Widget */,
 				82D137BC21F7015800E60037 /* Products */,
 				110E2CB40785E925F1FA22E2 /* Pods */,
 				E300448E2D5E3F27F1564162 /* Frameworks */,
@@ -164,6 +224,7 @@
 				82D137BB21F7015800E60037 /* REST Countries.app */,
 				82D137CF21F7015A00E60037 /* REST CountriesTests.xctest */,
 				82D137DA21F7015A00E60037 /* REST CountriesUITests.xctest */,
+				820443E921FC854000DDE1DF /* REST Countries Widget.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -171,6 +232,7 @@
 		82D137BD21F7015800E60037 /* REST Countries */ = {
 			isa = PBXGroup;
 			children = (
+				820443F921FCCAC400DDE1DF /* REST Countries.entitlements */,
 				82D137BE21F7015800E60037 /* AppDelegate.swift */,
 				82D137CA21F7015A00E60037 /* Info.plist */,
 				82D137F921F7791000E60037 /* Networking */,
@@ -211,6 +273,7 @@
 				82D137F221F7034000E60037 /* RegionalBlock.swift */,
 				82D137F421F7042700E60037 /* Language.swift */,
 				82D137F621F704C300E60037 /* Currency.swift */,
+				820443FB21FCD86600DDE1DF /* CountryData.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -307,6 +370,7 @@
 				C8D088FCD81429401C3A7D5D /* Pods_REST_Countries.framework */,
 				1C0F2907B0E968A56878ECB1 /* Pods_REST_CountriesTests.framework */,
 				C6AA4E777661F9571FCDA7F7 /* Pods_REST_CountriesUITests.framework */,
+				820443D521FC830E00DDE1DF /* NotificationCenter.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -314,6 +378,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		820443E821FC854000DDE1DF /* REST Countries Widget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 820443F521FC854000DDE1DF /* Build configuration list for PBXNativeTarget "REST Countries Widget" */;
+			buildPhases = (
+				820443E521FC854000DDE1DF /* Sources */,
+				820443E621FC854000DDE1DF /* Frameworks */,
+				820443E721FC854000DDE1DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "REST Countries Widget";
+			productName = "REST Countries Widget";
+			productReference = 820443E921FC854000DDE1DF /* REST Countries Widget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		82D137BA21F7015800E60037 /* REST Countries */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 82D137E321F7015A00E60037 /* Build configuration list for PBXNativeTarget "REST Countries" */;
@@ -323,10 +404,12 @@
 				82D137B821F7015800E60037 /* Frameworks */,
 				82D137B921F7015800E60037 /* Resources */,
 				0CFCA08550B345F29B705837 /* [CP] Embed Pods Frameworks */,
+				8204440021FCDB3C00DDE1DF /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				820443FF21FCDB3C00DDE1DF /* PBXTargetDependency */,
 			);
 			name = "REST Countries";
 			productName = "REST Countries";
@@ -381,8 +464,21 @@
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Cédric Rolland";
 				TargetAttributes = {
+					820443E821FC854000DDE1DF = {
+						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
 					82D137BA21F7015800E60037 = {
 						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					82D137CE21F7015A00E60037 = {
 						CreatedOnToolsVersion = 10.1;
@@ -408,6 +504,7 @@
 			projectRoot = "";
 			targets = (
 				82D137BA21F7015800E60037 /* REST Countries */,
+				820443E821FC854000DDE1DF /* REST Countries Widget */,
 				82D137CE21F7015A00E60037 /* REST CountriesTests */,
 				82D137D921F7015A00E60037 /* REST CountriesUITests */,
 			);
@@ -415,6 +512,14 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		820443E721FC854000DDE1DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				820443F021FC854000DDE1DF /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		82D137B921F7015800E60037 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -537,6 +642,20 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		820443E521FC854000DDE1DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8204440121FCE0F700DDE1DF /* Country.swift in Sources */,
+				8204440421FCE10200DDE1DF /* Currency.swift in Sources */,
+				8204440321FCE0FE00DDE1DF /* Language.swift in Sources */,
+				8204440621FCE11E00DDE1DF /* Collection+SafeIndex.swift in Sources */,
+				820443ED21FC854000DDE1DF /* TodayViewController.swift in Sources */,
+				8204440521FCE10500DDE1DF /* CountryData.swift in Sources */,
+				8204440221FCE0FB00DDE1DF /* RegionalBlock.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		82D137B721F7015800E60037 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -557,6 +676,7 @@
 				82F5BDE121FB614D00788E76 /* UIView+AutoLayout.swift in Sources */,
 				82D137FB21F7BAEA00E60037 /* LocationManager.swift in Sources */,
 				82D137FE21F7BF3400E60037 /* AskLocationPermissionViewController.swift in Sources */,
+				820443FC21FCD86600DDE1DF /* CountryData.swift in Sources */,
 				82D1380E21F88FF500E60037 /* Formatter+Separator.swift in Sources */,
 				82D137F121F701AD00E60037 /* Country.swift in Sources */,
 				82FCBF4D21F8B5D90073C5AF /* Collection+SafeIndex.swift in Sources */,
@@ -587,6 +707,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		820443FF21FCDB3C00DDE1DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 820443E821FC854000DDE1DF /* REST Countries Widget */;
+			targetProxy = 820443FE21FCDB3C00DDE1DF /* PBXContainerItemProxy */;
+		};
 		82D137D121F7015A00E60037 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 82D137BA21F7015800E60037 /* REST Countries */;
@@ -600,6 +725,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		820443EE21FC854000DDE1DF /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				820443EF21FC854000DDE1DF /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
 		82D137C221F7015800E60037 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -619,6 +752,46 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		820443F621FC854000DDE1DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "REST Countries Widget/REST Countries Widget.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 847P2LXN5F;
+				INFOPLIST_FILE = "REST Countries Widget/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = eu.restcountries.RESTCountries.Widget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		820443F721FC854000DDE1DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "REST Countries Widget/REST Countries Widget.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 847P2LXN5F;
+				INFOPLIST_FILE = "REST Countries Widget/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = eu.restcountries.RESTCountries.Widget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		82D137E121F7015A00E60037 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -739,7 +912,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E41B53465D755E54FE4D4C46 /* Pods-REST Countries.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "REST Countries/REST Countries.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 847P2LXN5F;
 				INFOPLIST_FILE = "REST Countries/Info.plist";
@@ -747,7 +922,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "eu.restcountries.REST-Countries";
+				PRODUCT_BUNDLE_IDENTIFIER = eu.restcountries.RESTCountries;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -758,7 +933,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EB3B21770C2386A4D2BB526C /* Pods-REST Countries.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "REST Countries/REST Countries.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 847P2LXN5F;
 				INFOPLIST_FILE = "REST Countries/Info.plist";
@@ -766,7 +943,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "eu.restcountries.REST-Countries";
+				PRODUCT_BUNDLE_IDENTIFIER = eu.restcountries.RESTCountries;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -862,6 +1039,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		820443F521FC854000DDE1DF /* Build configuration list for PBXNativeTarget "REST Countries Widget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				820443F621FC854000DDE1DF /* Debug */,
+				820443F721FC854000DDE1DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		82D137B621F7015800E60037 /* Build configuration list for PBXProject "REST Countries" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

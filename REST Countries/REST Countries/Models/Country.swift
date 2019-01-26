@@ -9,7 +9,7 @@
 import Foundation
 import CoreLocation
 
-struct Country {
+struct Country: Codable {
     let name: String
     let population: Int
     let areaSize: Double?
@@ -43,59 +43,11 @@ extension Country {
         self.capital = json?["capital"] as? String
         self.region = json?["region"] as? String
         
-        self.regionalBlocks = getRegionalBlocks(json: json?["regionalBlocs"] as? [[String: Any]])
-        self.languages = getLanguages(json: json?["languages"] as? [[String: Any]])
-        self.currencies = getCurrencies(json: json?["currencies"] as? [[String: Any]])
+        self.regionalBlocks = RegionalBlock.getCountryData(json: json?["regionalBlocs"] as? [[String: Any]]) as? [RegionalBlock]
+        self.languages = Language.getCountryData(json: json?["languages"] as? [[String: Any]]) as? [Language]
+        self.currencies = Currency.getCountryData(json: json?["currencies"] as? [[String: Any]]) as? [Currency]
     }
-    
-    private func getLanguages(json: [[String: Any]]?) -> [Language]? {
-        guard let json = json else {
-            return nil
-        }
-        
-        var languages = [Language]()
-        
-        for data in json {
-            if let language = Language(withJson: data) {
-                languages.append(language)
-            }
-        }
-        
-        return languages.count > 0 ? languages : nil
-    }
-    
-    private func getCurrencies(json: [[String: Any]]?) -> [Currency]? {
-        guard let json = json else {
-            return nil
-        }
-        
-        var currencies = [Currency]()
-        
-        for data in json {
-            if let currency = Currency(withJson: data) {
-                currencies.append(currency)
-            }
-        }
-        
-        return currencies.count > 0 ? currencies : nil
-    }
-    
-    private func getRegionalBlocks(json: [[String: Any]]?) -> [RegionalBlock]? {
-        guard let json = json else {
-            return nil
-        }
-        
-        var regionalBlocks = [RegionalBlock]()
-        
-        for data in json {
-            if let regionalBlock = RegionalBlock(withJson: data) {
-                regionalBlocks.append(regionalBlock)
-            }
-        }
-        
-        return regionalBlocks.count > 0 ? regionalBlocks : nil
-    }
-    
+
     func distance(to location: CLLocation) -> CLLocationDistance {
         return location.distance(from: CLLocation(latitude: self.latitude, longitude: self.longitude))
     }

@@ -40,6 +40,7 @@ class MyLocationViewController: UIViewController {
     
     var myCountryName: String?
     
+    private let sharedDefaults = UserDefaults(suiteName: "group.eu.restcountries.REST-Countries")
     private var countryViewModel = CountryViewModel()
     private var myCountry: Country? {
         didSet {
@@ -141,7 +142,7 @@ extension MyLocationViewController: UITableViewDataSource {
         case .languages:
             cell.textLabel?.text = myLocation.languages?[safe: indexPath.row]?.name
         case .currencies:
-            cell.textLabel?.text = myLocation.currencies?[safe: indexPath.row]?.name
+            cell.textLabel?.text = "\(myLocation.currencies?[safe: indexPath.row]?.name ?? "") - \(myLocation.currencies?[safe: indexPath.row]?.symbol ?? "")"
         }
         
         return cell
@@ -179,6 +180,11 @@ extension MyLocationViewController: UITableViewDelegate {
 extension MyLocationViewController: CountryViewModelDelegate {
     func didReceiveCountries(countries: [Country]) {
         myCountry = countries.first
+        do {
+            sharedDefaults?.set(try PropertyListEncoder().encode(myCountry), forKey:"myCountry")
+        } catch let error {
+            print(error.localizedDescription)
+        }
     }
     
     func didFailDownloadCountries(error: Error) {
