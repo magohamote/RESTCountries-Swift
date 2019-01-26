@@ -154,7 +154,7 @@ extension MyLocationViewController: UITableViewDataSource {
 
 extension MyLocationViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
-        return 50
+        return 40
     }
     
     func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {

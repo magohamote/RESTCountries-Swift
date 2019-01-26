@@ -12,7 +12,6 @@ class CountryViewController: UIViewController {
 
     @IBOutlet weak var tableView: UITableView?
     
-    private lazy var locationPermissionManager = LocationPermissionManager()
     private let searchController = SearchController(searchResultsController: nil)
     private let countryViewModel = CountryViewModel()
     private let locationManager = LocationManager()
@@ -31,6 +30,8 @@ class CountryViewController: UIViewController {
         title = "REST Country"
         
         navigationController?.isNavigationBarHidden = false
+        navigationController?.interactivePopGestureRecognizer?.isEnabled = false
+        navigationItem.hidesBackButton = true
 
         countryViewModel.delegate = self
         locationManager.locationManagerDelegate = self
@@ -39,11 +40,6 @@ class CountryViewController: UIViewController {
         
         setupSearchBar()
         setupMyLocationButton()
-    }
-    
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
-        locationPermissionManager.checkPermission(self)
     }
     
     private func setupSearchBar() {
