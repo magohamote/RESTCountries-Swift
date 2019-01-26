@@ -19,7 +19,11 @@ class CountryCell: UITableViewCell {
     
     func config(withCountry country: Country?) {
         if let flag = country?.flag, let flagUrl = URL(string: flag) {
-            flagView?.image = SVGKImage(contentsOf: flagUrl)
+            // This svg is malformed and makes the SVGKit library crash
+            // (SwiftSVG is even worse than SVGKit)
+            if flag != "https://restcountries.eu/data/shn.svg" {
+                self.flagView?.image = SVGKImage(contentsOf: flagUrl)
+            }
             flagView?.layer.borderColor = UIColor.lightGray.cgColor
             flagView?.layer.borderWidth = 0.5
         }
