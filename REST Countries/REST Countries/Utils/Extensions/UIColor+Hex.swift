@@ -21,4 +21,8 @@ extension UIColor {
     static var turquoise: UIColor {
         return UIColor(rgb: 0x408e83)
     }
+    
+    static var anthracite: UIColor {
+        return UIColor(rgb: 0x4a4f51)
+    }
 }

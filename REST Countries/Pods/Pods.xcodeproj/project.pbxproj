@@ -46,7 +46,7 @@
 		201CA6F0160B1A614D825DD7480915B3 /* SVGElementInstanceList.h in Headers */ = {isa = PBXBuildFile; fileRef = 56300D34B31127D7D4796850410972BB /* SVGElementInstanceList.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		214DB70BC7D21E1B014634A4D8DC7C38 /* DDMultiFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 37A86DBBF24842BAD48CF2A6914726FF /* DDMultiFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		232676C500EF54F49DD9626A2D1B48B8 /* SVGTransform.h in Headers */ = {isa = PBXBuildFile; fileRef = E2A8442ABDF44240230913980A88E152 /* SVGTransform.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		23CEB9F53CE81D3BC54FC92180D5BD3E /* Pods-REST Countries-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CBFEAB483F5A32BBED17037DB19880B /* Pods-REST Countries-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		23CEB9F53CE81D3BC54FC92180D5BD3E /* Pods-REST Countries-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AF9B2ED5DE01DC0D6B2B13F8A0FCF773 /* Pods-REST Countries-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		24EF1FEC9FA481FE527824CACF7AEAE3 /* CSSStyleRule.m in Sources */ = {isa = PBXBuildFile; fileRef = 829324AF1BB62F3578C3256E4EAC314E /* CSSStyleRule.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		263DD4448D191EEB489AED046AB55028 /* SVGPolylineElement.m in Sources */ = {isa = PBXBuildFile; fileRef = BA2402CF4AA8BF74E6D3ACA6B39AEF47 /* SVGPolylineElement.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		2795C11C7F4A43C3BB4F129B64E94398 /* CSSValue.h in Headers */ = {isa = PBXBuildFile; fileRef = E6F30CD61E5EDD6E9BCB6EBECAC07158 /* CSSValue.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -68,6 +68,7 @@
 		3469A29F4A26C51578D052671EA0CC5B /* DDFileLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 1261C365521AB1F50FC319355BB95A80 /* DDFileLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		34C074F48535196816A9A8DD727F5FC6 /* DocumentType.h in Headers */ = {isa = PBXBuildFile; fileRef = 931327C6F4A3B624C54C09F14A85120D /* DocumentType.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		35150B1DDAD5BAC2D1AB6F31B07790DE /* SVGDescriptionElement.h in Headers */ = {isa = PBXBuildFile; fileRef = D40EBC2990F90763219C8BBD60AA492F /* SVGDescriptionElement.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3548B9C91AE7F854314FAF02EF6F4EEF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69217A2D61811C228290D3CBC3CA9075 /* Foundation.framework */; };
 		36FF8853CB34A9297AFAA8F5F7456324 /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8ECB221E87EF130BF56988EC546C72C /* TaskDelegate.swift */; };
 		37885605BE5730C38DBA861022564184 /* NodeList.m in Sources */ = {isa = PBXBuildFile; fileRef = 266E6A698397E30EF7D10B4726C490BF /* NodeList.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		38435304455BCF85C4022EB5BB9DBD23 /* CSSPrimitiveValue_ConfigurablePixelsPerInch.h in Headers */ = {isa = PBXBuildFile; fileRef = D16848E5928523B373CCB6595B4B56DA /* CSSPrimitiveValue_ConfigurablePixelsPerInch.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -100,6 +101,7 @@
 		517C5A0030B704ECBC7EB7F322D00067 /* SVGPreserveAspectRatio.h in Headers */ = {isa = PBXBuildFile; fileRef = 30ED68F444EBE6AAA82AC000765A800D /* SVGPreserveAspectRatio.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		51B6A209BCEEB6CBDD31C113561EAF82 /* SVGLineElement.h in Headers */ = {isa = PBXBuildFile; fileRef = E3317AAD557D13059D9A338ADB7166C9 /* SVGLineElement.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		52237C35642089F77DD4D723CEB25737 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB64857A5CFF178C3FC0AA6CDF2A6557 /* Response.swift */; };
+		52BC38453C5A0D13FD72A686A3D07CBA /* Pods-REST Countries Widget-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 235D1A88DCCF521300EEC9F5031ABB81 /* Pods-REST Countries Widget-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5469BC59C67A54EBCA878800043DF65C /* SVGTransformable.h in Headers */ = {isa = PBXBuildFile; fileRef = 82B5892C54D7BF559B0EAF3F5704EDD7 /* SVGTransformable.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5769B6496DABBBDD1FE31D39E02F2FBE /* NamedNodeMap.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F7368429E3999BD659F1DD337631360 /* NamedNodeMap.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5800292C0594D735D8ED0F6B77FAD8A8 /* DDASLLogCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A481A1A005E6435348A8B772A2AB37F /* DDASLLogCapture.m */; };
@@ -158,7 +160,7 @@
 		841BDD0C477AE3F49AF3F57B402C8504 /* SVGKSourceURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AF1CE9B310708FD0ACB9AC297D7D01A /* SVGKSourceURL.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		84FDCD1FD09047A3A21A46588A59154E /* SVGRect.h in Headers */ = {isa = PBXBuildFile; fileRef = 68B1EF1D78C4D21B6F71C1BE97C29A1D /* SVGRect.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		861399F5C3470F7016CB7FF7176CE783 /* SVGKParserExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FFF41F2A59C9CB24DA9ADA71396B2E5 /* SVGKParserExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		86D03763D73CAE6A2BE50BCD6927217B /* Pods-REST CountriesTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 171FB37516D8A6D9269D4D5C44D10759 /* Pods-REST CountriesTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		86D03763D73CAE6A2BE50BCD6927217B /* Pods-REST CountriesTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B70BDF98CEB40572F6BB71E590AF520C /* Pods-REST CountriesTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8875A51546ABC0F0DC2C6F27D52D74DA /* SVGGElement.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F07C3AA0074EF299D67768C2C5FC4A /* SVGGElement.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		895C05D8C428CA322395BA8025BD9BE0 /* EntityReference.h in Headers */ = {isa = PBXBuildFile; fileRef = D33E6C829715C14EA363FE469C0AD2D9 /* EntityReference.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8A90C966E37D0D94B614329CC8F77FA3 /* SVGLinearGradientElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 86A7075D75CD0FE692F2D390E0E789AE /* SVGLinearGradientElement.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
@@ -169,6 +171,7 @@
 		8FE2BD5376C4BD07E7BE22DE568DB0FB /* SVGMatrix.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DF1F54ED34E146060F00B5236ACEC48 /* SVGMatrix.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9099655B11D7A9A345DC87598FF13E60 /* SVGKFastImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = D47FF57D844D8BE0B89F33AF71FD3B9A /* SVGKFastImageView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		90D1B430427D763282C494B7F4D80814 /* AppleSucksDOMImplementation.h in Headers */ = {isa = PBXBuildFile; fileRef = BAC2A5E16C4C44AE92E7877C48D7A1C4 /* AppleSucksDOMImplementation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91FFE8C22B4A0DF6D5B04445076CD091 /* Pods-REST Countries Widget-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCFD0AB05019616A945E9C799E80016 /* Pods-REST Countries Widget-dummy.m */; };
 		92F4F06860F09AD81C2EC5FDB2684AAA /* SVGGElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A8B54628CEB810D6CBC1A47446A7414 /* SVGGElement.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		944FF5443111F11BE0446D9076FBB224 /* SVGGradientStop.h in Headers */ = {isa = PBXBuildFile; fileRef = 33E2B39D14D55FD9201A8E396AD209A0 /* SVGGradientStop.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		965DACF3DC02857ECBE66C5CBA3DA5D4 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785AFAB409593CBA9D68B6AB2B00FF55 /* Request.swift */; };
@@ -180,7 +183,7 @@
 		9BD291775EC2AB538AD2ABD58E2D2760 /* SVGKParseResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 28BF33A48BB17DF81E4182D6ACDF8F89 /* SVGKParseResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A0727F8CF57A774D960F31F99B84AF5C /* SVGKPointsAndPathsParser.m in Sources */ = {isa = PBXBuildFile; fileRef = E69FC24E5261C0CE922F26E936BE17F2 /* SVGKPointsAndPathsParser.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		A13882FAAFDB889105E57F24194B1C4C /* SVGDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 26968BB00E68ED7698BE243FCAC6E5F4 /* SVGDocument.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		A1BDCBBD13D570C481C7164D5FD97507 /* Pods-REST CountriesTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B64E218CBC057016A7E3EE38DFC85A /* Pods-REST CountriesTests-dummy.m */; };
+		A1BDCBBD13D570C481C7164D5FD97507 /* Pods-REST CountriesTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 572D67DB8E58982C71AC7EC75714C82F /* Pods-REST CountriesTests-dummy.m */; };
 		A2F87C6705ACCE629B6391712306FFA4 /* SVGKParserPatternsAndGradients.m in Sources */ = {isa = PBXBuildFile; fileRef = 21D11D5855BBAC7E9AD0638B944220A6 /* SVGKParserPatternsAndGradients.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		A37B0328286E13B68CCB4566EFC3797B /* Element.h in Headers */ = {isa = PBXBuildFile; fileRef = EDE6AFF608947E4F6A41BAEABA89877F /* Element.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A46F1286B4E6AF7123A5E83D6EA2595F /* CSSStyleDeclaration.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C07B0990BBCFF95FBDDC17AF0433E77 /* CSSStyleDeclaration.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
@@ -229,7 +232,7 @@
 		BE4BA1EDE444A770F834605F4B65348E /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3BBD711F2DDE42839B1BB1EFFA1DEE /* AFError.swift */; };
 		C0B5C73C9700A75D55868CC40CC18272 /* DocumentCSS.h in Headers */ = {isa = PBXBuildFile; fileRef = D086DE4B5C887266BC3E4CDA6FBD97CA /* DocumentCSS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C1495F831F9FC2A3E6FFB7986E04A7E6 /* SVGGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD52C2A13CF48B41DA1F90DC6E5359A /* SVGGradientLayer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		C22529EA589566D37AEF5DE7B3D23463 /* Pods-REST CountriesUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DC9705021DFF72780E0905FB6D47C990 /* Pods-REST CountriesUITests-dummy.m */; };
+		C22529EA589566D37AEF5DE7B3D23463 /* Pods-REST CountriesUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5983FE629A5B16D3F149777D5AF7EC /* Pods-REST CountriesUITests-dummy.m */; };
 		C22F6FD5DCABEFE433C3C6E92211CCA6 /* DDContextFilterLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 28CE740609693460B2601B96CD5B6844 /* DDContextFilterLogFormatter.m */; };
 		C29D0D1663CC45FD05BB89E6B6355D73 /* SVGRadialGradientElement.h in Headers */ = {isa = PBXBuildFile; fileRef = CA5ECC976D691D07EFFD0094C148A626 /* SVGRadialGradientElement.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C55644B87CC8F40F5572A45DBE27C160 /* SVGElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 25F23295816393EFDE4F70A781FECDB8 /* SVGElement.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
@@ -259,7 +262,7 @@
 		D6D321D12CB8A30F931CFF06044C187B /* NSCharacterSet+SVGKExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 099AC6FB24AB83171DB1A7CC47F8B54F /* NSCharacterSet+SVGKExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D7C2E5F78092668E3464421BF694CC73 /* NSCharacterSet+SVGKExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FA2561544BDBA54DD48D895114389FE /* NSCharacterSet+SVGKExtensions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		D98CC0597F702C1E8616C43FB3FF59CB /* SVGTextPositioningElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B65273D6F578F40E6231204DE6CE8D2 /* SVGTextPositioningElement.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DAE26067465F47A425856B10BC350EBD /* Pods-REST Countries-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 424FF16598A059E8F4F5DF89DA4745F6 /* Pods-REST Countries-dummy.m */; };
+		DAE26067465F47A425856B10BC350EBD /* Pods-REST Countries-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 54A4CD754912EF231819974F6597F1F1 /* Pods-REST Countries-dummy.m */; };
 		DBE6E2E4D205545E7988CFA5057C31D6 /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A2A3A9FF80FB455F6A026077E67D18 /* DispatchQueue+Alamofire.swift */; };
 		DD109F27A72CC76691E85D7CEDC68781 /* SVGKSourceString.h in Headers */ = {isa = PBXBuildFile; fileRef = D978401394CE211CA905E811EC8BA6AA /* SVGKSourceString.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DD85CEF1F03F21548B1D05575E2CCAEC /* SVGTextContentElement.h in Headers */ = {isa = PBXBuildFile; fileRef = E0E7FD173C2AC007FA62F7FE8995DB31 /* SVGTextContentElement.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -291,7 +294,7 @@
 		F1F5CA9A55CBE55BE54C2D901C123878 /* SVGMatrix.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1848140C4A4E8AC6F40AA761D644D0 /* SVGMatrix.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		F289D7E3D16ABC0F4521DC3E1C0A8935 /* DDAbstractDatabaseLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A5EE7713D0DC5F7D82149065D4E955 /* DDAbstractDatabaseLogger.m */; };
 		F31C60ACDED46AD731CEDF65F5AC4D26 /* SVGElementInstance_Mutable.h in Headers */ = {isa = PBXBuildFile; fileRef = AA456BBB719DE61E776A8DBEF281F105 /* SVGElementInstance_Mutable.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F3DAB378BF6F2AF2FE03DE3C43A23C4C /* Pods-REST CountriesUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A0F0AB2DEF8B67268BC7DBF2611E31CA /* Pods-REST CountriesUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F3DAB378BF6F2AF2FE03DE3C43A23C4C /* Pods-REST CountriesUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3708A4A279A68001DD6F08F54D46973E /* Pods-REST CountriesUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F5167871F22A1A12DF0F3634E8EB0516 /* Comment.h in Headers */ = {isa = PBXBuildFile; fileRef = 05C8FE2EE8D501849B3D52769EBA14B9 /* Comment.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F883716500BDA0B38580EE1DA785D896 /* DocumentType.m in Sources */ = {isa = PBXBuildFile; fileRef = B6FC8B0EACFDFF2CB772D2115A269453 /* DocumentType.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		F8D23F325109CD4A1EB0ABBC5A93F1B3 /* SVGStylable.h in Headers */ = {isa = PBXBuildFile; fileRef = 068EC65AAEDB4988CB915715F2E54285 /* SVGStylable.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -309,6 +312,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = DB92966AB0B8FBB717367BD16F6D1C51;
 			remoteInfo = CocoaLumberjack;
+		};
+		3C81D4A8FFD97CA00BC60F66D6747AD5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B289C8391B929AE99E9155095CC48B07;
+			remoteInfo = SVGKit;
 		};
 		554E9870176C9D5939E5FD573FAF8AA4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -331,6 +341,13 @@
 			remoteGlobalIDString = 63B7B406D55867DF99FCA1237684FB8C;
 			remoteInfo = "Pods-REST Countries";
 		};
+		A592A8BDEAE5F0A9DE3C4F123A3B3A79 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB92966AB0B8FBB717367BD16F6D1C51;
+			remoteInfo = CocoaLumberjack;
+		};
 		D9F45DAA653665CEB6BA508F732CCCC0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
@@ -350,10 +367,10 @@
 /* Begin PBXFileReference section */
 		007A476D8509BF65B6F38BC143E8C68E /* SVGAnimatedPreserveAspectRatio.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVGAnimatedPreserveAspectRatio.h; path = "Source/DOM classes/SVG-DOM/SVGAnimatedPreserveAspectRatio.h"; sourceTree = "<group>"; };
 		00B32A2B80F9AF90D4556A57EFCB7707 /* CocoaLumberjack-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaLumberjack-umbrella.h"; sourceTree = "<group>"; };
-		0326F4A3019911286D442B6534E8A992 /* Pods-REST CountriesUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-REST CountriesUITests-frameworks.sh"; sourceTree = "<group>"; };
 		037797C11B5013A9717CBE9E9F10DCC7 /* SVGKSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVGKSource.h; path = Source/SVGKSource.h; sourceTree = "<group>"; };
 		0388F1AE8BCC71C7E382E09E919857D1 /* DDLegacyMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDLegacyMacros.h; path = Classes/DDLegacyMacros.h; sourceTree = "<group>"; };
 		03C8C27921DB9765A038EF32D8CA453D /* NSData+NSInputStream.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+NSInputStream.m"; path = "Source/Foundation additions/NSData+NSInputStream.m"; sourceTree = "<group>"; };
+		03D8B969B6F2C34AA85699CC7D11B2C9 /* Pods-REST Countries Widget.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-REST Countries Widget.release.xcconfig"; sourceTree = "<group>"; };
 		05C8FE2EE8D501849B3D52769EBA14B9 /* Comment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Comment.h; path = "Source/DOM classes/Core DOM/Comment.h"; sourceTree = "<group>"; };
 		068EC65AAEDB4988CB915715F2E54285 /* SVGStylable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVGStylable.h; path = "Source/DOM classes/SVG-DOM/SVGStylable.h"; sourceTree = "<group>"; };
 		06CC08E742C6EAE422A1F4D305011160 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
@@ -363,38 +380,39 @@
 		099AC6FB24AB83171DB1A7CC47F8B54F /* NSCharacterSet+SVGKExtensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSCharacterSet+SVGKExtensions.h"; path = "Source/Foundation additions/NSCharacterSet+SVGKExtensions.h"; sourceTree = "<group>"; };
 		0A481A1A005E6435348A8B772A2AB37F /* DDASLLogCapture.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDASLLogCapture.m; path = Classes/DDASLLogCapture.m; sourceTree = "<group>"; };
 		0AABAC3D41E35AF47EE10B4A211825E0 /* SVGDescriptionElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVGDescriptionElement.m; path = "Source/DOM classes/Unported or Partial DOM/SVGDescriptionElement.m"; sourceTree = "<group>"; };
+		0D0B406D6F740C99A70F34AB8BCF7234 /* Pods_REST_CountriesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_REST_CountriesUITests.framework; path = "Pods-REST CountriesUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DFB299D93185485D9C9190D0A2AAA04 /* SVGElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVGElement.h; path = "Source/DOM classes/Unported or Partial DOM/SVGElement.h"; sourceTree = "<group>"; };
 		0E6D02B94DEDB3FF237FA6FBA93762CC /* SVGUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVGUtils.h; path = Source/Utils/SVGUtils.h; sourceTree = "<group>"; };
 		0F7368429E3999BD659F1DD337631360 /* NamedNodeMap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NamedNodeMap.h; path = "Source/DOM classes/Core DOM/NamedNodeMap.h"; sourceTree = "<group>"; };
 		1000D4B4C2E65D743FFFA1252D38EDE8 /* DDASLLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDASLLogger.h; path = Classes/DDASLLogger.h; sourceTree = "<group>"; };
 		106E8DA100DDD2C85E293D8BA0A9B51F /* SVGTextPositioningElement_Mutable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVGTextPositioningElement_Mutable.h; path = "Source/DOM classes/SVG-DOM/SVGTextPositioningElement_Mutable.h"; sourceTree = "<group>"; };
-		108AA64BF0934971088B066AD2EAC2EA /* SVGKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SVGKit.framework; path = SVGKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		10CB97E32CCA3C644D84C67EE8B93392 /* SVGDefsElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVGDefsElement.m; path = "Source/DOM classes/SVG-DOM/SVGDefsElement.m"; sourceTree = "<group>"; };
 		123A326803EE7715EA8A06E65AE05D8A /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
 		1261C365521AB1F50FC319355BB95A80 /* DDFileLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDFileLogger.h; path = Classes/DDFileLogger.h; sourceTree = "<group>"; };
 		14FF01F6FE61397051D8D2EEE73F2B43 /* SVGRectElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVGRectElement.m; path = "Source/DOM classes/Unported or Partial DOM/SVGRectElement.m"; sourceTree = "<group>"; };
 		15128B8CA8389543F312072E30F838D3 /* SVGAngle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVGAngle.m; path = "Source/DOM classes/SVG-DOM/SVGAngle.m"; sourceTree = "<group>"; };
+		1518D1D4DFF879652B1B2C0EE06EA249 /* SVGKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SVGKit.framework; path = SVGKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		158BDF0E72A790476552490CBCF945F3 /* EntityReference.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EntityReference.m; path = "Source/DOM classes/Core DOM/EntityReference.m"; sourceTree = "<group>"; };
 		15AFC215526CEE26A1E48BC60703F784 /* Document+Mutable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Document+Mutable.h"; path = "Source/DOM classes/Core DOM/Document+Mutable.h"; sourceTree = "<group>"; };
 		15B6D7C94CCB1AE92D08A97CA5988D86 /* SVGElementInstanceList.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVGElementInstanceList.m; path = "Source/DOM classes/SVG-DOM/SVGElementInstanceList.m"; sourceTree = "<group>"; };
 		15D71C1C2EFBD3D0984365940D01CECF /* CSSStyleDeclaration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSSStyleDeclaration.h; path = "Source/DOM classes/Core DOM/CSSStyleDeclaration.h"; sourceTree = "<group>"; };
 		15E3CE8CAC474A265F724BCD99A15837 /* CAShapeLayerWithHitTest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CAShapeLayerWithHitTest.m; path = "Source/QuartzCore additions/CAShapeLayerWithHitTest.m"; sourceTree = "<group>"; };
 		160BE4261A0BA0AEF1C8213F4ECC4732 /* SVGClipPathElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVGClipPathElement.m; path = "Source/DOM classes/SVG-DOM/SVGClipPathElement.m"; sourceTree = "<group>"; };
-		171FB37516D8A6D9269D4D5C44D10759 /* Pods-REST CountriesTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-REST CountriesTests-umbrella.h"; sourceTree = "<group>"; };
 		1743A02BAC5665D53B1E04AA2D8E77A7 /* SVGKExporterUIImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVGKExporterUIImage.m; path = Source/Exporters/SVGKExporterUIImage.m; sourceTree = "<group>"; };
 		17617DFF7D6C86111E733C9D0EF151EF /* DocumentStyle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DocumentStyle.h; path = "Source/DOM classes/Core DOM/DocumentStyle.h"; sourceTree = "<group>"; };
 		18A5EE7713D0DC5F7D82149065D4E955 /* DDAbstractDatabaseLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDAbstractDatabaseLogger.m; path = Classes/DDAbstractDatabaseLogger.m; sourceTree = "<group>"; };
 		18A99B27B52D1F7885862B56CD740B8F /* SVGKLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVGKLayer.m; path = "Source/QuartzCore additions/SVGKLayer.m"; sourceTree = "<group>"; };
 		1A1EB083D03979A6728444D3E287DC2B /* SVGTransform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVGTransform.m; path = "Source/DOM classes/SVG-DOM/SVGTransform.m"; sourceTree = "<group>"; };
 		1B7BDB2962A08A301A8709C69A116E79 /* NodeList.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NodeList.h; path = "Source/DOM classes/Core DOM/NodeList.h"; sourceTree = "<group>"; };
-		1B8B8F16B22B1BB93C82D547BF9A6CD2 /* Pods-REST CountriesTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-REST CountriesTests.modulemap"; sourceTree = "<group>"; };
 		1D2EBD12D66D958F944FFF4ECF47F134 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
 		1DC32963AAF419A21A916AA0C63643FA /* Node+Mutable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Node+Mutable.h"; path = "Source/DOM classes/Core DOM/Node+Mutable.h"; sourceTree = "<group>"; };
-		1F10941BDD0DDDA51902083C9D0FDF29 /* Pods-REST Countries-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-REST Countries-resources.sh"; sourceTree = "<group>"; };
 		21D11D5855BBAC7E9AD0638B944220A6 /* SVGKParserPatternsAndGradients.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVGKParserPatternsAndGradients.m; path = "Source/Parsers/Parser Extensions/SVGKParserPatternsAndGradients.m"; sourceTree = "<group>"; };
 		2320956B385418896F82C59EBDDD233C /* Element.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Element.m; path = "Source/DOM classes/Core DOM/Element.m"; sourceTree = "<group>"; };
 		233DC37E661B8D7B03AAE61760C2F4CA /* CALayerWithClipRender.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CALayerWithClipRender.m; path = "Source/QuartzCore additions/CALayerWithClipRender.m"; sourceTree = "<group>"; };
+		235D1A88DCCF521300EEC9F5031ABB81 /* Pods-REST Countries Widget-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-REST Countries Widget-umbrella.h"; sourceTree = "<group>"; };
+		23B22BBA5CE97EF87BE23EF659CE2E6D /* Pods_REST_CountriesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_REST_CountriesTests.framework; path = "Pods-REST CountriesTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		249A745D33051E59BD5DA08C73838515 /* SVGStyleElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVGStyleElement.m; path = "Source/DOM classes/Unported or Partial DOM/SVGStyleElement.m"; sourceTree = "<group>"; };
+		24E03F32C346132257E353F180EFC5EA /* Pods-REST Countries Widget.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-REST Countries Widget.modulemap"; sourceTree = "<group>"; };
 		256B0B3656269E6B29FDDB574F272B68 /* CSSPrimitiveValue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSSPrimitiveValue.m; path = "Source/DOM classes/Core DOM/CSSPrimitiveValue.m"; sourceTree = "<group>"; };
 		25A9C289A77F62AE9D4A35820C27A58D /* DDLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDLog.h; path = Classes/DDLog.h; sourceTree = "<group>"; };
 		25F23295816393EFDE4F70A781FECDB8 /* SVGElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVGElement.m; path = "Source/DOM classes/Unported or Partial DOM/SVGElement.m"; sourceTree = "<group>"; };
@@ -403,20 +421,18 @@
 		26510BAEAA95122406D858FFFF8CF7CF /* Document.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Document.m; path = "Source/DOM classes/Core DOM/Document.m"; sourceTree = "<group>"; };
 		266E6A698397E30EF7D10B4726C490BF /* NodeList.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NodeList.m; path = "Source/DOM classes/Core DOM/NodeList.m"; sourceTree = "<group>"; };
 		26968BB00E68ED7698BE243FCAC6E5F4 /* SVGDocument.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVGDocument.m; path = "Source/DOM classes/SVG-DOM/SVGDocument.m"; sourceTree = "<group>"; };
-		26BA4806E14536BDC00D23287DF5183F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		27C590F085097AD1544FEFAFB7CBD58B /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
 		280E945B29AE2EC1F7C40323A0B21B1F /* SVGHelperUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVGHelperUtilities.h; path = "Source/DOM classes/SVG-DOM/SVGHelperUtilities.h"; sourceTree = "<group>"; };
 		28336D96CC33C7F67B68EA3E6A7E05CD /* SVGGroupElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVGGroupElement.m; path = "Source/DOM classes/Unported or Partial DOM/SVGGroupElement.m"; sourceTree = "<group>"; };
 		28BF33A48BB17DF81E4182D6ACDF8F89 /* SVGKParseResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVGKParseResult.h; path = Source/Parsers/SVGKParseResult.h; sourceTree = "<group>"; };
 		28CE740609693460B2601B96CD5B6844 /* DDContextFilterLogFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDContextFilterLogFormatter.m; path = Classes/Extensions/DDContextFilterLogFormatter.m; sourceTree = "<group>"; };
+		28E4C9AA0400B7FE171F3056712444C4 /* Pods-REST CountriesUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-REST CountriesUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		29906B60C5AA00A4993A318C64FC150E /* CSSStyleSheet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSSStyleSheet.m; path = "Source/DOM classes/Core DOM/CSSStyleSheet.m"; sourceTree = "<group>"; };
 		2A5CDA01FC3454B6FAA1D58659D1C9FB /* SVGKImage+CGContext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SVGKImage+CGContext.m"; path = "Source/Exporters/SVGKImage+CGContext.m"; sourceTree = "<group>"; };
 		2A8B54628CEB810D6CBC1A47446A7414 /* SVGGElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVGGElement.h; path = "Source/DOM classes/SVG-DOM/SVGGElement.h"; sourceTree = "<group>"; };
 		2ACB8A28B9B735506471BBD5A4FA4F8C /* SVGAnimatedPreserveAspectRatio.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVGAnimatedPreserveAspectRatio.m; path = "Source/DOM classes/SVG-DOM/SVGAnimatedPreserveAspectRatio.m"; sourceTree = "<group>"; };
 		2AE408070178516EC26F6312A90EA0AB /* CAShapeLayerWithClipRender.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CAShapeLayerWithClipRender.m; path = "Source/QuartzCore additions/CAShapeLayerWithClipRender.m"; sourceTree = "<group>"; };
-		2CBFEAB483F5A32BBED17037DB19880B /* Pods-REST Countries-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-REST Countries-umbrella.h"; sourceTree = "<group>"; };
 		2D3BF1B0F080D284FF1DF7B96FCD7550 /* CSSRuleList.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSSRuleList.m; path = "Source/DOM classes/Core DOM/CSSRuleList.m"; sourceTree = "<group>"; };
-		2E7D6B461D5BCB55B6192F1CEEAE5FE1 /* Pods-REST CountriesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-REST CountriesUITests.release.xcconfig"; sourceTree = "<group>"; };
 		2F4B00310C61EBD0D39A8303EF37816B /* SVGEllipseElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVGEllipseElement.m; path = "Source/DOM classes/Unported or Partial DOM/SVGEllipseElement.m"; sourceTree = "<group>"; };
 		30ED68F444EBE6AAA82AC000765A800D /* SVGPreserveAspectRatio.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVGPreserveAspectRatio.h; path = "Source/DOM classes/SVG-DOM/SVGPreserveAspectRatio.h"; sourceTree = "<group>"; };
 		327DD2503DF895116691CDE70F147E6F /* TinySVGTextAreaElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TinySVGTextAreaElement.h; path = "Source/DOM classes/Unported or Partial DOM/TinySVGTextAreaElement.h"; sourceTree = "<group>"; };
@@ -425,12 +441,13 @@
 		362E4C5E38AFF9EE4776BBE90965FFD4 /* SVGKImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVGKImage.m; path = Source/SVGKImage.m; sourceTree = "<group>"; };
 		36576E02B9DE1FF66F53A35845F8C74B /* SVGPolygonElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVGPolygonElement.m; path = "Source/DOM classes/Unported or Partial DOM/SVGPolygonElement.m"; sourceTree = "<group>"; };
 		36C098F9BFB7047D132308C9CEC5FE73 /* CALayerWithClipRender.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CALayerWithClipRender.h; path = "Source/QuartzCore additions/CALayerWithClipRender.h"; sourceTree = "<group>"; };
+		3708A4A279A68001DD6F08F54D46973E /* Pods-REST CountriesUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-REST CountriesUITests-umbrella.h"; sourceTree = "<group>"; };
 		37A86DBBF24842BAD48CF2A6914726FF /* DDMultiFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDMultiFormatter.h; path = Classes/Extensions/DDMultiFormatter.h; sourceTree = "<group>"; };
 		3823624300C52FE2DA97691DA5CCCE17 /* DocumentFragment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DocumentFragment.h; path = "Source/DOM classes/Core DOM/DocumentFragment.h"; sourceTree = "<group>"; };
 		396734175EC8C82867944171CB1B5180 /* Node.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Node.m; path = "Source/DOM classes/Core DOM/Node.m"; sourceTree = "<group>"; };
 		39B2508F61E648A836B934117BA7894C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		3AF2D3077039AB4E9C2A2CA94A50F62A /* Pods-REST Countries-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-REST Countries-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3B2BFCE7913132F015038929C4DC89C2 /* SVGRect.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVGRect.m; path = "Source/DOM classes/SVG-DOM/SVGRect.m"; sourceTree = "<group>"; };
-		3BC536362FE75E653D33CC2DCB97F959 /* Pods_REST_CountriesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_REST_CountriesUITests.framework; path = "Pods-REST CountriesUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EEDA5188C5AA426BA82FDA863ED2ADB /* CocoaLumberjack.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CocoaLumberjack.xcconfig; sourceTree = "<group>"; };
 		3F4AEB28203F1BE44A01235CA80D6430 /* SVGElement_ForParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVGElement_ForParser.h; path = "Source/DOM classes/Unported or Partial DOM/SVGElement_ForParser.h"; sourceTree = "<group>"; };
 		405FB816B8FB339F77831ABD93866D45 /* DOMHelperUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DOMHelperUtilities.m; path = "Source/DOM classes/Core DOM/DOMHelperUtilities.m"; sourceTree = "<group>"; };
@@ -438,11 +455,9 @@
 		4179091E9832BC607C36A45FE1A2A2C4 /* SVGKParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVGKParser.m; path = Source/Parsers/SVGKParser.m; sourceTree = "<group>"; };
 		41A4BF27C5A610BC1D3CAF39664E4F87 /* SVGPathElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVGPathElement.h; path = "Source/DOM classes/Unported or Partial DOM/SVGPathElement.h"; sourceTree = "<group>"; };
 		41E0A3E7DE3569525360B96C1F85ABE1 /* SVGImageElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVGImageElement.m; path = "Source/DOM classes/Unported or Partial DOM/SVGImageElement.m"; sourceTree = "<group>"; };
-		424FF16598A059E8F4F5DF89DA4745F6 /* Pods-REST Countries-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-REST Countries-dummy.m"; sourceTree = "<group>"; };
 		439E56C59BEEE1EB1B732E0103AF5113 /* BaseClassForAllSVGBasicShapes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BaseClassForAllSVGBasicShapes.h; path = "Source/DOM classes/Unported or Partial DOM/BaseClassForAllSVGBasicShapes.h"; sourceTree = "<group>"; };
 		49336B5FA431D8F3CD5B9C271E167152 /* SVGSwitchElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVGSwitchElement.m; path = "Source/DOM classes/Unported or Partial DOM/SVGSwitchElement.m"; sourceTree = "<group>"; };
 		4988498A01F31CEB1D6AE899A5B0F6D5 /* CharacterData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CharacterData.m; path = "Source/DOM classes/Core DOM/CharacterData.m"; sourceTree = "<group>"; };
-		49B64E218CBC057016A7E3EE38DFC85A /* Pods-REST CountriesTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-REST CountriesTests-dummy.m"; sourceTree = "<group>"; };
 		4A6419F67224845762E24A9A621617FD /* ConverterSVGToCALayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ConverterSVGToCALayer.h; path = "Source/DOM classes/Unported or Partial DOM/ConverterSVGToCALayer.h"; sourceTree = "<group>"; };
 		4BB166DC497746202B597D0032569300 /* BaseClassForAllSVGBasicShapes_ForSubclasses.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BaseClassForAllSVGBasicShapes_ForSubclasses.h; path = "Source/DOM classes/Unported or Partial DOM/BaseClassForAllSVGBasicShapes_ForSubclasses.h"; sourceTree = "<group>"; };
 		4D777AC2AA442BDE3B707DEF8CC88572 /* SVGKPattern.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVGKPattern.h; path = Source/Utils/SVGKPattern.h; sourceTree = "<group>"; };
@@ -454,28 +469,30 @@
 		508E2DAB5B9760AE746C6B5E13063BC2 /* CSSRuleList.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSSRuleList.h; path = "Source/DOM classes/Core DOM/CSSRuleList.h"; sourceTree = "<group>"; };
 		5097AF3663952F0EBF1925354124370F /* SVGKExporterNSData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVGKExporterNSData.m; path = Source/Exporters/SVGKExporterNSData.m; sourceTree = "<group>"; };
 		51228429CE1EF13649ECB65207EEC8E8 /* DDAssertMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDAssertMacros.h; path = Classes/DDAssertMacros.h; sourceTree = "<group>"; };
-		5143FA2BF4C1AFEC6BB01265D3122B04 /* CocoaLumberjack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CocoaLumberjack.framework; path = CocoaLumberjack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		523A640F5FBACF42B242EECB4B62164D /* SVGKParserStyles.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVGKParserStyles.m; path = "Source/Parsers/Parser Extensions/SVGKParserStyles.m"; sourceTree = "<group>"; };
 		527F349A437B74CA3E28120AB0196D10 /* DDTTYLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDTTYLogger.h; path = Classes/DDTTYLogger.h; sourceTree = "<group>"; };
 		539227129687EC42A16AE4ADB3415A9E /* CALayerWithChildHitTest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CALayerWithChildHitTest.h; path = "Source/QuartzCore additions/CALayerWithChildHitTest.h"; sourceTree = "<group>"; };
+		54A4CD754912EF231819974F6597F1F1 /* Pods-REST Countries-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-REST Countries-dummy.m"; sourceTree = "<group>"; };
 		557618FC5851E436BCA0E8EC9C53990F /* SVGKSourceLocalFile.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVGKSourceLocalFile.m; path = Source/Sources/SVGKSourceLocalFile.m; sourceTree = "<group>"; };
 		56300D34B31127D7D4796850410972BB /* SVGElementInstanceList.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVGElementInstanceList.h; path = "Source/DOM classes/SVG-DOM/SVGElementInstanceList.h"; sourceTree = "<group>"; };
 		5693E7B6E554CC7555DA262973E8664A /* SVGElementInstance.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVGElementInstance.m; path = "Source/DOM classes/SVG-DOM/SVGElementInstance.m"; sourceTree = "<group>"; };
+		572D67DB8E58982C71AC7EC75714C82F /* Pods-REST CountriesTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-REST CountriesTests-dummy.m"; sourceTree = "<group>"; };
 		573349E94BC21E6F6BAA663086D05CDB /* SVGDocument_Mutable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVGDocument_Mutable.h; path = "Source/DOM classes/SVG-DOM/SVGDocument_Mutable.h"; sourceTree = "<group>"; };
-		57483C254B62B053E572172C82E1F5A4 /* Pods-REST CountriesUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-REST CountriesUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		58B75424EFA6026FFCB1D3D605CA7367 /* DDContextFilterLogFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDContextFilterLogFormatter.h; path = Classes/Extensions/DDContextFilterLogFormatter.h; sourceTree = "<group>"; };
 		591BE451059E9931F739BA576677E49B /* SVGKParserGradient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVGKParserGradient.m; path = "Source/Parsers/Parser Extensions/SVGKParserGradient.m"; sourceTree = "<group>"; };
 		5982ED94B3A95CA5D75D15541CF01CA0 /* SVGNumber.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVGNumber.h; path = "Source/DOM classes/SVG-DOM/SVGNumber.h"; sourceTree = "<group>"; };
+		5A409824D4E5397C6ABD9B5AA5AF40A0 /* Pods-REST CountriesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-REST CountriesTests.release.xcconfig"; sourceTree = "<group>"; };
 		5ABA2A287ECD6985C5BF89525EAD5F6A /* SVGRadialGradientElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVGRadialGradientElement.m; path = "Source/DOM classes/Unported or Partial DOM/SVGRadialGradientElement.m"; sourceTree = "<group>"; };
 		5AF323F3396E56D763FA6AE01FA28DA1 /* CocoaLumberjack.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CocoaLumberjack.modulemap; sourceTree = "<group>"; };
 		5B14C587D1AD95A19B1946CE9D77FBD7 /* SVGPathElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVGPathElement.m; path = "Source/DOM classes/Unported or Partial DOM/SVGPathElement.m"; sourceTree = "<group>"; };
 		5D008CC7A5A1A0F4FB382DBE08897E0D /* NSData+NSInputStream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+NSInputStream.h"; path = "Source/Foundation additions/NSData+NSInputStream.h"; sourceTree = "<group>"; };
 		5D1E06419A03F40DC235537218AD7A65 /* DDMultiFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDMultiFormatter.m; path = Classes/Extensions/DDMultiFormatter.m; sourceTree = "<group>"; };
+		5DA0310C67EF0FA625524A5D6475E93B /* Pods-REST Countries Widget-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-REST Countries Widget-resources.sh"; sourceTree = "<group>"; };
 		5DF1F54ED34E146060F00B5236ACEC48 /* SVGMatrix.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVGMatrix.h; path = "Source/DOM classes/SVG-DOM/SVGMatrix.h"; sourceTree = "<group>"; };
 		5F3833020666B796E9A6453FE3EBE2BE /* Attr.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Attr.h; path = "Source/DOM classes/Core DOM/Attr.h"; sourceTree = "<group>"; };
 		5F868329DCD5255BAC552838A1A1B08E /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
 		5FED2C9FF6262E229EF1EF0331DCAEFD /* SVGKSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVGKSource.m; path = Source/SVGKSource.m; sourceTree = "<group>"; };
-		60F824C8C24D50131BA18BD67C5D3896 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60BE0AA083981294B775B0B6A1D35FAA /* Pods-REST CountriesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-REST CountriesUITests.release.xcconfig"; sourceTree = "<group>"; };
 		6112DBF930F1EB71883E23D2E2E4FE96 /* SVGClipPathElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVGClipPathElement.h; path = "Source/DOM classes/SVG-DOM/SVGClipPathElement.h"; sourceTree = "<group>"; };
 		618A699BA7756D18936C6055E911AB0C /* SVGSVGElement_Mutable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVGSVGElement_Mutable.h; path = "Source/DOM classes/SVG-DOM/SVGSVGElement_Mutable.h"; sourceTree = "<group>"; };
 		62B290C5017B387F2D62EFD206D15449 /* DDLog+LOGV.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "DDLog+LOGV.h"; path = "Classes/DDLog+LOGV.h"; sourceTree = "<group>"; };
@@ -493,20 +510,21 @@
 		6AF1CE9B310708FD0ACB9AC297D7D01A /* SVGKSourceURL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVGKSourceURL.m; path = Source/Sources/SVGKSourceURL.m; sourceTree = "<group>"; };
 		6B277231216D8A452B61E1FB8C4F211A /* StyleSheet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = StyleSheet.m; path = "Source/DOM classes/Core DOM/StyleSheet.m"; sourceTree = "<group>"; };
 		6C07B0990BBCFF95FBDDC17AF0433E77 /* CSSStyleDeclaration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSSStyleDeclaration.m; path = "Source/DOM classes/Core DOM/CSSStyleDeclaration.m"; sourceTree = "<group>"; };
-		6C28FCE795896D4FD286E0A9CCCA7A96 /* Pods-REST Countries-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-REST Countries-acknowledgements.markdown"; sourceTree = "<group>"; };
 		6C3F0DB1DF5745E74E628CA2AC2821BC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6CD52C2A13CF48B41DA1F90DC6E5359A /* SVGGradientLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVGGradientLayer.m; path = "Source/QuartzCore additions/SVGGradientLayer.m"; sourceTree = "<group>"; };
-		6D1A77B9E165A57444BCDE1178E926D9 /* Pods-REST Countries-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-REST Countries-acknowledgements.plist"; sourceTree = "<group>"; };
 		6E1CD2B22F6196936194F265D0D8B8D7 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
 		6E4BCAFCAFD96D0CCE08F94F71A67BDB /* SVGGradientElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVGGradientElement.m; path = "Source/DOM classes/Unported or Partial DOM/SVGGradientElement.m"; sourceTree = "<group>"; };
 		6E89A41E80787DD0C2D7A322C994FAD1 /* SVGKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVGKit.h; path = Source/SVGKit.h; sourceTree = "<group>"; };
+		6F11422B20A8EF899C17DF5DAA4A2322 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F8328D3EBD0B01BDBECA64A43D1DC4E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6FA2561544BDBA54DD48D895114389FE /* NSCharacterSet+SVGKExtensions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSCharacterSet+SVGKExtensions.m"; path = "Source/Foundation additions/NSCharacterSet+SVGKExtensions.m"; sourceTree = "<group>"; };
 		715FBEE597AC466C0BEB5FADE00A71D7 /* SVGSVGElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVGSVGElement.m; path = "Source/DOM classes/Unported or Partial DOM/SVGSVGElement.m"; sourceTree = "<group>"; };
 		71F539B0E5B9C4CAD45B4ABF76C83124 /* SVGKSourceURL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVGKSourceURL.h; path = Source/Sources/SVGKSourceURL.h; sourceTree = "<group>"; };
+		7383B76E10E6AE4A4BF72C8CF87FCC10 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		746D1C284919E4FEA7A3D32390CE9853 /* SVGStyleElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVGStyleElement.h; path = "Source/DOM classes/Unported or Partial DOM/SVGStyleElement.h"; sourceTree = "<group>"; };
 		74DE1A396E4DF04C88E3272C8CDE681D /* DDASLLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDASLLogger.m; path = Classes/DDASLLogger.m; sourceTree = "<group>"; };
-		75802E31C212B8896BFC9D04144D5579 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		759CC12360734EBA793FC762CD5CD3B5 /* SVGKExporterNSData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVGKExporterNSData.h; path = Source/Exporters/SVGKExporterNSData.h; sourceTree = "<group>"; };
+		76791512BB22803D4D8B6A3979F4C4AD /* Pods-REST CountriesTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-REST CountriesTests-frameworks.sh"; sourceTree = "<group>"; };
 		782B52672EAA60D18559702EF7FBE4F9 /* SVGKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVGKit.m; path = Source/SVGKit.m; sourceTree = "<group>"; };
 		785AFAB409593CBA9D68B6AB2B00FF55 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
 		7994A2E251ABDF9E0689B8F14826AE7A /* DOMGlobalSettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DOMGlobalSettings.h; path = "Source/DOM classes/Core DOM/DOMGlobalSettings.h"; sourceTree = "<group>"; };
@@ -514,36 +532,37 @@
 		7A1972C8928E7663785E1B70A4C9E0FC /* DDTTYLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDTTYLogger.m; path = Classes/DDTTYLogger.m; sourceTree = "<group>"; };
 		7A70680F3D0CFC3CE2950E328140313B /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Alamofire.modulemap; sourceTree = "<group>"; };
 		7AA4098117FE1CC101FDE57F32299C46 /* SVGPoint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVGPoint.m; path = "Source/DOM classes/SVG-DOM/SVGPoint.m"; sourceTree = "<group>"; };
+		7AF37FB961B063A518EE44FE7F83F3F7 /* Pods-REST CountriesTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-REST CountriesTests-resources.sh"; sourceTree = "<group>"; };
 		7B5D827229BF4DC72210A8FE4BBE55ED /* SVGKParserDefsAndUse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVGKParserDefsAndUse.h; path = "Source/Parsers/Parser Extensions/SVGKParserDefsAndUse.h"; sourceTree = "<group>"; };
 		7B65273D6F578F40E6231204DE6CE8D2 /* SVGTextPositioningElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVGTextPositioningElement.h; path = "Source/DOM classes/SVG-DOM/SVGTextPositioningElement.h"; sourceTree = "<group>"; };
 		7B6811DBCA620C524BEC30F09BF3CD8F /* Comment.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Comment.m; path = "Source/DOM classes/Core DOM/Comment.m"; sourceTree = "<group>"; };
 		7D64ACA81F02A8C115C1DC2F4947DE54 /* DDDispatchQueueLogFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDDispatchQueueLogFormatter.h; path = Classes/Extensions/DDDispatchQueueLogFormatter.h; sourceTree = "<group>"; };
 		7E1848140C4A4E8AC6F40AA761D644D0 /* SVGMatrix.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVGMatrix.m; path = "Source/DOM classes/SVG-DOM/SVGMatrix.m"; sourceTree = "<group>"; };
+		7E808D94BA88AADE319EAC756D774E8F /* Pods-REST Countries Widget.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-REST Countries Widget.debug.xcconfig"; sourceTree = "<group>"; };
 		7FA4C63C124D9FC088A2F74BC15E043E /* CSSStyleSheet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSSStyleSheet.h; path = "Source/DOM classes/Core DOM/CSSStyleSheet.h"; sourceTree = "<group>"; };
 		7FADC0792BB4DB96244D40D204656AAC /* CSSPrimitiveValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSSPrimitiveValue.h; path = "Source/DOM classes/Core DOM/CSSPrimitiveValue.h"; sourceTree = "<group>"; };
 		7FC9BB8AB016B9FBA0C7A03E1ACAACED /* SVGKLayeredImageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVGKLayeredImageView.m; path = "Source/UIKit additions/SVGKLayeredImageView.m"; sourceTree = "<group>"; };
 		801BC14B406AB2F66955C8ACCB648A0D /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
 		807E4A287532F0E1C05EF3973F9A730F /* MediaList.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MediaList.m; path = "Source/DOM classes/Core DOM/MediaList.m"; sourceTree = "<group>"; };
-		824A2B2215AADBFE00C8903F2D045B22 /* Pods-REST CountriesTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-REST CountriesTests-frameworks.sh"; sourceTree = "<group>"; };
 		829324AF1BB62F3578C3256E4EAC314E /* CSSStyleRule.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSSStyleRule.m; path = "Source/DOM classes/Core DOM/CSSStyleRule.m"; sourceTree = "<group>"; };
 		82B5892C54D7BF559B0EAF3F5704EDD7 /* SVGTransformable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVGTransformable.h; path = "Source/DOM classes/SVG-DOM/SVGTransformable.h"; sourceTree = "<group>"; };
 		83A7CD99D0A1173FC5595E2B8E277587 /* SVGLength.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVGLength.m; path = "Source/DOM classes/SVG-DOM/SVGLength.m"; sourceTree = "<group>"; };
 		83B0BC40243C192ACD6DF72AC07707E0 /* SVGElementInstance.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVGElementInstance.h; path = "Source/DOM classes/SVG-DOM/SVGElementInstance.h"; sourceTree = "<group>"; };
 		8488041F9F16317DB3B5F9BD0132FEC6 /* SVGSVGElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVGSVGElement.h; path = "Source/DOM classes/Unported or Partial DOM/SVGSVGElement.h"; sourceTree = "<group>"; };
+		85CB8C0D411686B07987C32470ADDF12 /* Pods-REST CountriesUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-REST CountriesUITests-resources.sh"; sourceTree = "<group>"; };
 		85F0F36507B97D0CDCD49A0A2E6BA2BB /* SVGKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVGKit-prefix.pch"; sourceTree = "<group>"; };
 		86A7075D75CD0FE692F2D390E0E789AE /* SVGLinearGradientElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVGLinearGradientElement.m; path = "Source/DOM classes/Unported or Partial DOM/SVGLinearGradientElement.m"; sourceTree = "<group>"; };
 		881AB8DA002CF4320E707FBDED5CA5E1 /* SVGElementInstanceList_Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVGElementInstanceList_Internal.h; path = "Source/DOM classes/SVG-DOM/SVGElementInstanceList_Internal.h"; sourceTree = "<group>"; };
 		8922029898D578F13B252E5285A58E43 /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
 		89A2A3A9FF80FB455F6A026077E67D18 /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
 		8AB5185941DF84EE9FE2E6EBFB6036FF /* DDDispatchQueueLogFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDDispatchQueueLogFormatter.m; path = Classes/Extensions/DDDispatchQueueLogFormatter.m; sourceTree = "<group>"; };
-		8ADC4BEDF54110A651652A87AA34C82D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8C14807C88B612E929C4E00F4FC72CF2 /* CSSRule.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSSRule.m; path = "Source/DOM classes/Core DOM/CSSRule.m"; sourceTree = "<group>"; };
 		8CCC06101658B564377D30746413D496 /* SVGKParserDOM.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVGKParserDOM.m; path = "Source/Parsers/Parser Extensions/SVGKParserDOM.m"; sourceTree = "<group>"; };
 		8DDB14952CC7553F9F11FDA90F55292C /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
+		8FB592F6F1BFCB44B3655C7CF998DF28 /* Pods-REST Countries.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-REST Countries.modulemap"; sourceTree = "<group>"; };
 		8FE4DF2FD7CB277FFD8DCA5BB886A0FD /* SVGKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SVGKit-dummy.m"; sourceTree = "<group>"; };
 		8FFF41F2A59C9CB24DA9ADA71396B2E5 /* SVGKParserExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVGKParserExtension.h; path = Source/Parsers/SVGKParserExtension.h; sourceTree = "<group>"; };
 		902A892F5BC09F2FF33B4337EA30737B /* SVGStyleCatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVGStyleCatcher.h; path = "Source/DOM classes/Unported or Partial DOM/SVGStyleCatcher.h"; sourceTree = "<group>"; };
-		912EF515E7B5281518E5474CEFFE0F6B /* Pods_REST_CountriesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_REST_CountriesTests.framework; path = "Pods-REST CountriesTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		924F8DE90CFE3B5E0DC187DBDA6744B5 /* CSSValueList.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSSValueList.m; path = "Source/DOM classes/Core DOM/CSSValueList.m"; sourceTree = "<group>"; };
 		92A7FB876C6BA794231E4C1175089696 /* SVGKParserStyles.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVGKParserStyles.h; path = "Source/Parsers/Parser Extensions/SVGKParserStyles.h"; sourceTree = "<group>"; };
 		931327C6F4A3B624C54C09F14A85120D /* DocumentType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DocumentType.h; path = "Source/DOM classes/Core DOM/DocumentType.h"; sourceTree = "<group>"; };
@@ -554,20 +573,22 @@
 		96D15804A36C949510F511A9F9A6BDDA /* SVGKDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVGKDefine.h; path = Source/SVGKDefine.h; sourceTree = "<group>"; };
 		97D2244CA8B2CA24F62854471AA12204 /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
 		981E7005CA39065120CAB49B1E783C05 /* SVGPreserveAspectRatio.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVGPreserveAspectRatio.m; path = "Source/DOM classes/SVG-DOM/SVGPreserveAspectRatio.m"; sourceTree = "<group>"; };
+		983B2A592A1E45FB56601339CAE4757E /* Pods-REST CountriesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-REST CountriesTests.debug.xcconfig"; sourceTree = "<group>"; };
 		991F11FADC1AB274C0E0E1774A6A07EC /* SVGTextPositioningElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVGTextPositioningElement.m; path = "Source/DOM classes/SVG-DOM/SVGTextPositioningElement.m"; sourceTree = "<group>"; };
 		9BD0436428ADC5FC665B216829EDFB04 /* CALayerWithChildHitTest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CALayerWithChildHitTest.m; path = "Source/QuartzCore additions/CALayerWithChildHitTest.m"; sourceTree = "<group>"; };
 		9BFA8872E538D4B02D83F9A65AC70984 /* SVGKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SVGKit.modulemap; sourceTree = "<group>"; };
 		9C2ED35FBF918EE150CD4F0788D00D56 /* DDFileLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDFileLogger.m; path = Classes/DDFileLogger.m; sourceTree = "<group>"; };
 		9C35449E83606850CF6A74B72D613998 /* StyleSheetList.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = StyleSheetList.m; path = "Source/DOM classes/Core DOM/StyleSheetList.m"; sourceTree = "<group>"; };
 		9C779176303A4549C17F074DD6F4B444 /* SVGViewSpec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVGViewSpec.h; path = "Source/DOM classes/SVG-DOM/SVGViewSpec.h"; sourceTree = "<group>"; };
+		9CA153BDB5E60857AFB88E2BD3E72031 /* Pods-REST Countries-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-REST Countries-acknowledgements.plist"; sourceTree = "<group>"; };
 		9E533F84CF36902849C72A741F775281 /* CSSStyleRule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSSStyleRule.h; path = "Source/DOM classes/Core DOM/CSSStyleRule.h"; sourceTree = "<group>"; };
 		9E9D632351681E07EFB35AB7991D015F /* SVGTitleElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVGTitleElement.h; path = "Source/DOM classes/Unported or Partial DOM/SVGTitleElement.h"; sourceTree = "<group>"; };
 		9F6369F2D97D6EBBDD38EE2D4364DCE3 /* SVGGroupElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVGGroupElement.h; path = "Source/DOM classes/Unported or Partial DOM/SVGGroupElement.h"; sourceTree = "<group>"; };
 		A0C715E6C96885120D22F9517D79FCA9 /* ProcessingInstruction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ProcessingInstruction.m; path = "Source/DOM classes/Core DOM/ProcessingInstruction.m"; sourceTree = "<group>"; };
-		A0F0AB2DEF8B67268BC7DBF2611E31CA /* Pods-REST CountriesUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-REST CountriesUITests-umbrella.h"; sourceTree = "<group>"; };
 		A1F07C3AA0074EF299D67768C2C5FC4A /* SVGGElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVGGElement.m; path = "Source/DOM classes/SVG-DOM/SVGGElement.m"; sourceTree = "<group>"; };
 		A225C52B48041BF47FF9CAD48AD78FCF /* SVGSwitchElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVGSwitchElement.h; path = "Source/DOM classes/Unported or Partial DOM/SVGSwitchElement.h"; sourceTree = "<group>"; };
-		A371F1B950BB11D6450338562FC196C1 /* Pods-REST CountriesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-REST CountriesUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A3218299CCB3DE1799D36D606A5E2FBF /* Pods-REST CountriesUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-REST CountriesUITests.modulemap"; sourceTree = "<group>"; };
+		A35900CE5E34A575379D2864D2A27E4D /* Pods_REST_Countries.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_REST_Countries.framework; path = "Pods-REST Countries.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A414DDAAEB6B8DBE291F4869478AC132 /* CSSValue_ForSubclasses.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSSValue_ForSubclasses.h; path = "Source/DOM classes/Core DOM/CSSValue_ForSubclasses.h"; sourceTree = "<group>"; };
 		A5CB3B3E71136B8A4B9F541DDAB6437E /* NamedNodeMap_Iterable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NamedNodeMap_Iterable.h; path = "Source/DOM classes/Core DOM/NamedNodeMap_Iterable.h"; sourceTree = "<group>"; };
 		A7D9F560A82A9DF9B93F4E5D1A4F6BE6 /* DOMHelperUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DOMHelperUtilities.h; path = "Source/DOM classes/Core DOM/DOMHelperUtilities.h"; sourceTree = "<group>"; };
@@ -579,47 +600,58 @@
 		AA87EF868D830B89695AC43D09782812 /* SVGKParserSVG.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVGKParserSVG.m; path = "Source/Parsers/Parser Extensions/SVGKParserSVG.m"; sourceTree = "<group>"; };
 		AB5D0F109E8EE649D1B56AB9AF3B1FAB /* SVGKSourceString.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVGKSourceString.m; path = Source/Sources/SVGKSourceString.m; sourceTree = "<group>"; };
 		AB915F227668D5BEB67F187E74620E7F /* DocumentFragment.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DocumentFragment.m; path = "Source/DOM classes/Core DOM/DocumentFragment.m"; sourceTree = "<group>"; };
+		ABB0F0DC95294856E72CA78D786DF1AD /* Pods-REST CountriesTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-REST CountriesTests.modulemap"; sourceTree = "<group>"; };
+		ACCFD0AB05019616A945E9C799E80016 /* Pods-REST Countries Widget-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-REST Countries Widget-dummy.m"; sourceTree = "<group>"; };
+		AD99773EEC66813C93F0C9F0F8D14D10 /* Pods-REST CountriesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-REST CountriesUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AE24099F1AF0655D3EDFF5A3F50E4064 /* Pods-REST Countries-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-REST Countries-frameworks.sh"; sourceTree = "<group>"; };
 		AE996DE88885C17129F357E2153169A8 /* CAShapeLayerWithHitTest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CAShapeLayerWithHitTest.h; path = "Source/QuartzCore additions/CAShapeLayerWithHitTest.h"; sourceTree = "<group>"; };
 		AECA1442A08E959ECB57BC18228C0DB6 /* DDLogMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDLogMacros.h; path = Classes/DDLogMacros.h; sourceTree = "<group>"; };
 		AF0D2C86602ECE22D57B0B934CCE7CC0 /* SVGKParseResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVGKParseResult.m; path = Source/Parsers/SVGKParseResult.m; sourceTree = "<group>"; };
+		AF9B2ED5DE01DC0D6B2B13F8A0FCF773 /* Pods-REST Countries-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-REST Countries-umbrella.h"; sourceTree = "<group>"; };
 		B03CA5BF3BD63D7F22B097AED4AF88AD /* SVGPolygonElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVGPolygonElement.h; path = "Source/DOM classes/Unported or Partial DOM/SVGPolygonElement.h"; sourceTree = "<group>"; };
-		B0534536E178305518EB369236ED3666 /* Pods-REST Countries.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-REST Countries.release.xcconfig"; sourceTree = "<group>"; };
 		B1B7EB20BBF709DBDABCF237781F5602 /* SVGEllipseElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVGEllipseElement.h; path = "Source/DOM classes/Unported or Partial DOM/SVGEllipseElement.h"; sourceTree = "<group>"; };
 		B1E4DB3C00B6AC96C54814979F2B68AA /* CSSValue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSSValue.m; path = "Source/DOM classes/Core DOM/CSSValue.m"; sourceTree = "<group>"; };
 		B29B3100655D2313B719F4D40F0F5E69 /* TinySVGTextAreaElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TinySVGTextAreaElement.m; path = "Source/DOM classes/Unported or Partial DOM/TinySVGTextAreaElement.m"; sourceTree = "<group>"; };
 		B34309EAA666DB9E91B466DB4C32B312 /* Node.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Node.h; path = "Source/DOM classes/Core DOM/Node.h"; sourceTree = "<group>"; };
 		B6FC8B0EACFDFF2CB772D2115A269453 /* DocumentType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DocumentType.m; path = "Source/DOM classes/Core DOM/DocumentType.m"; sourceTree = "<group>"; };
+		B70BDF98CEB40572F6BB71E590AF520C /* Pods-REST CountriesTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-REST CountriesTests-umbrella.h"; sourceTree = "<group>"; };
 		B777A112DA52ED0FB27ED1A91D79A429 /* SVGKSourceLocalFile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVGKSourceLocalFile.h; path = Source/Sources/SVGKSourceLocalFile.h; sourceTree = "<group>"; };
 		B81E591865AF9994278585C530BBAF9A /* CSSRule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSSRule.h; path = "Source/DOM classes/Core DOM/CSSRule.h"; sourceTree = "<group>"; };
 		B84CAB09B0060993EDBA7CE473861FCF /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
 		B8ECB221E87EF130BF56988EC546C72C /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
 		B94332A381FD3738B612AB37DF3AF65E /* SVGKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVGKit.xcconfig; sourceTree = "<group>"; };
 		BA2402CF4AA8BF74E6D3ACA6B39AEF47 /* SVGPolylineElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVGPolylineElement.m; path = "Source/DOM classes/Unported or Partial DOM/SVGPolylineElement.m"; sourceTree = "<group>"; };
+		BA46EE75AB7B2C02A30DE3F1A173F04C /* Pods-REST Countries Widget-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-REST Countries Widget-acknowledgements.plist"; sourceTree = "<group>"; };
 		BAA5E96EE0DB71B2C8F8D30AC033C52A /* DDOSLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDOSLogger.h; path = Classes/DDOSLogger.h; sourceTree = "<group>"; };
 		BAC2A5E16C4C44AE92E7877C48D7A1C4 /* AppleSucksDOMImplementation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AppleSucksDOMImplementation.h; path = "Source/DOM classes/Core DOM/AppleSucksDOMImplementation.h"; sourceTree = "<group>"; };
 		BAFA61AC712A22699C69F50E56320FC9 /* SVGKParserDefsAndUse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVGKParserDefsAndUse.m; path = "Source/Parsers/Parser Extensions/SVGKParserDefsAndUse.m"; sourceTree = "<group>"; };
 		BCAF9568A2B45E1C718F8529AB347B2E /* CAShapeLayerWithClipRender.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CAShapeLayerWithClipRender.h; path = "Source/QuartzCore additions/CAShapeLayerWithClipRender.h"; sourceTree = "<group>"; };
+		BCBC02861FDA383BED968485174B7DCB /* Pods-REST CountriesTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-REST CountriesTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		BCE4D0142C8B44AA6458F5A625C2D4CA /* CDATASection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CDATASection.h; path = "Source/DOM classes/Core DOM/CDATASection.h"; sourceTree = "<group>"; };
 		BCF579A9EB2B442863F55CB6578C29DA /* NamedNodeMap.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NamedNodeMap.m; path = "Source/DOM classes/Core DOM/NamedNodeMap.m"; sourceTree = "<group>"; };
+		BEA9B334FA0AC02E44F27C9D04B84480 /* Pods-REST Countries.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-REST Countries.debug.xcconfig"; sourceTree = "<group>"; };
 		BFD305C3A9CC841AE0D8AA8461F639E3 /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Source/SessionManager.swift; sourceTree = "<group>"; };
 		BFE6450CCE7E539F1A24D802E689B695 /* CocoaLumberjack-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaLumberjack-prefix.pch"; sourceTree = "<group>"; };
-		C2CDB2E4216DB8BE71569047E84FB2E8 /* Pods-REST CountriesTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-REST CountriesTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C1AC14A65C698FE1B3E164F089C30576 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3913889B4B0E208202464BE64EB281B /* Pods-REST CountriesTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-REST CountriesTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C445DF796461835EC43F2FCA99EC4B52 /* AppleSucksDOMImplementation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AppleSucksDOMImplementation.m; path = "Source/DOM classes/Core DOM/AppleSucksDOMImplementation.m"; sourceTree = "<group>"; };
+		C478C67FA110D88E7E372417A4C845A7 /* Pods-REST Countries.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-REST Countries.release.xcconfig"; sourceTree = "<group>"; };
 		C523894F37E02AA98A3050D7FBF3B711 /* SVGUseElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVGUseElement.h; path = "Source/DOM classes/SVG-DOM/SVGUseElement.h"; sourceTree = "<group>"; };
+		C5A71AB8DF874A16A1F22C489181D220 /* Pods-REST Countries Widget-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-REST Countries Widget-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C636EE9FBB40438E1305769700F9ECA5 /* SVGLength.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVGLength.h; path = "Source/DOM classes/SVG-DOM/SVGLength.h"; sourceTree = "<group>"; };
-		C65D9B63CA43841F23206410F620D614 /* Pods-REST CountriesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-REST CountriesTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C75F665FA77C0726715AD6FBDDC0589F /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
-		C8993BBB318D28A5F63E230C30BD9C57 /* Pods-REST CountriesTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-REST CountriesTests-resources.sh"; sourceTree = "<group>"; };
+		C939DC59C6BC0D7591CD944A8E851ACC /* Pods_REST_Countries_Widget.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_REST_Countries_Widget.framework; path = "Pods-REST Countries Widget.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA1BA7D5520BEB1BA061B84A8CB7F8F9 /* SVGTitleElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVGTitleElement.m; path = "Source/DOM classes/Unported or Partial DOM/SVGTitleElement.m"; sourceTree = "<group>"; };
 		CA5ECC976D691D07EFFD0094C148A626 /* SVGRadialGradientElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVGRadialGradientElement.h; path = "Source/DOM classes/Unported or Partial DOM/SVGRadialGradientElement.h"; sourceTree = "<group>"; };
 		CA919A407CF135A61A622814A39B2D66 /* SVGKLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVGKLayer.h; path = "Source/QuartzCore additions/SVGKLayer.h"; sourceTree = "<group>"; };
 		CB64857A5CFF178C3FC0AA6CDF2A6557 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
 		CC56C047D76D83A097CF8C88B6517AD7 /* CSSValueList.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSSValueList.h; path = "Source/DOM classes/Core DOM/CSSValueList.h"; sourceTree = "<group>"; };
-		CE4D5D8702EE83BA2276F62F5226EBBB /* Pods-REST CountriesUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-REST CountriesUITests-resources.sh"; sourceTree = "<group>"; };
+		CC7A386FD72A98386B460D086A39F389 /* Pods-REST Countries-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-REST Countries-resources.sh"; sourceTree = "<group>"; };
 		CEAD62AC545FABF0C50F2F71DD47E2EF /* SVGKParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVGKParser.h; path = Source/Parsers/SVGKParser.h; sourceTree = "<group>"; };
 		CEB9307921594E4DB6AA48C7B0E0AFA0 /* SVGKParserGradient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVGKParserGradient.h; path = "Source/Parsers/Parser Extensions/SVGKParserGradient.h"; sourceTree = "<group>"; };
 		CEFA5EC3FE6010953F9376FB32E8A06F /* StyleSheet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = StyleSheet.h; path = "Source/DOM classes/Core DOM/StyleSheet.h"; sourceTree = "<group>"; };
 		CFC75E935170E2FB3EDAF18A7BC65CD4 /* DDLog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDLog.m; path = Classes/DDLog.m; sourceTree = "<group>"; };
+		CFCB74ADABC8C364CB558A92A44D8157 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D086DE4B5C887266BC3E4CDA6FBD97CA /* DocumentCSS.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DocumentCSS.h; path = "Source/DOM classes/Core DOM/DocumentCSS.h"; sourceTree = "<group>"; };
 		D0875888F3FE8E42D9541766C1E5874B /* SVGUseElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVGUseElement.m; path = "Source/DOM classes/SVG-DOM/SVGUseElement.m"; sourceTree = "<group>"; };
 		D16848E5928523B373CCB6595B4B56DA /* CSSPrimitiveValue_ConfigurablePixelsPerInch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSSPrimitiveValue_ConfigurablePixelsPerInch.h; path = "Source/DOM classes/Core DOM/CSSPrimitiveValue_ConfigurablePixelsPerInch.h"; sourceTree = "<group>"; };
@@ -627,24 +659,21 @@
 		D3DAAC21619954DF71BC9EA17B4CA484 /* ProcessingInstruction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ProcessingInstruction.h; path = "Source/DOM classes/Core DOM/ProcessingInstruction.h"; sourceTree = "<group>"; };
 		D40EBC2990F90763219C8BBD60AA492F /* SVGDescriptionElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVGDescriptionElement.h; path = "Source/DOM classes/Unported or Partial DOM/SVGDescriptionElement.h"; sourceTree = "<group>"; };
 		D47FF57D844D8BE0B89F33AF71FD3B9A /* SVGKFastImageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVGKFastImageView.m; path = "Source/UIKit additions/SVGKFastImageView.m"; sourceTree = "<group>"; };
-		D52039D413808AD08F27C9B21C15CDB5 /* Pods-REST CountriesUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-REST CountriesUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		D5257013F2F69363E8D00A15344F6D4C /* Attr.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Attr.m; path = "Source/DOM classes/Core DOM/Attr.m"; sourceTree = "<group>"; };
 		D52A839416EE461258EE8F586D06BC26 /* CGPathAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CGPathAdditions.m; path = "Source/QuartzCore additions/CGPathAdditions.m"; sourceTree = "<group>"; };
 		D58C0AD51AABB6AF2D1FE9D01749B760 /* SVGTextElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVGTextElement.h; path = "Source/DOM classes/Unported or Partial DOM/SVGTextElement.h"; sourceTree = "<group>"; };
 		D8078421158D36A0B460AB32EE2D3A9E /* SVGKSourceNSData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVGKSourceNSData.m; path = Source/Sources/SVGKSourceNSData.m; sourceTree = "<group>"; };
 		D86E4EFE8BEA709A93D71DDA2BA03676 /* DDASLLogCapture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDASLLogCapture.h; path = Classes/DDASLLogCapture.h; sourceTree = "<group>"; };
+		D8B30A705F8DBFAE3B2F36D5538246B7 /* CocoaLumberjack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CocoaLumberjack.framework; path = CocoaLumberjack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D978401394CE211CA905E811EC8BA6AA /* SVGKSourceString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVGKSourceString.h; path = Source/Sources/SVGKSourceString.h; sourceTree = "<group>"; };
 		DA87F420429713AF696ECA7ED6F48BBD /* SVGKImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVGKImageView.h; path = "Source/UIKit additions/SVGKImageView.h"; sourceTree = "<group>"; };
 		DAC34FBFA5C6430E4F0873F7C11E267B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DAE2D1BAF45A592C10F0A0CA45B0F0CE /* Pods-REST Countries.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-REST Countries.modulemap"; sourceTree = "<group>"; };
-		DC9705021DFF72780E0905FB6D47C990 /* Pods-REST CountriesUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-REST CountriesUITests-dummy.m"; sourceTree = "<group>"; };
 		DCB077CEBB359E1BCDBDAEA08BB43D6F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DCC38521D876ACF1F332C4F2D80E27D7 /* SVGTextContentElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVGTextContentElement.m; path = "Source/DOM classes/SVG-DOM/SVGTextContentElement.m"; sourceTree = "<group>"; };
 		DE8F11694780108385E5BAEC6C227750 /* SVGKPattern.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVGKPattern.m; path = Source/Utils/SVGKPattern.m; sourceTree = "<group>"; };
 		DEBB44865C233C310CE91E44FE3D0F05 /* SVGGradientLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVGGradientLayer.h; path = "Source/QuartzCore additions/SVGGradientLayer.h"; sourceTree = "<group>"; };
 		DF76476430069EA257CE73E9DF7F2CC4 /* SVGDefsElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVGDefsElement.h; path = "Source/DOM classes/SVG-DOM/SVGDefsElement.h"; sourceTree = "<group>"; };
 		E08331B8AC1F7ABA6BA571A49A4F0B0B /* SVGKParserPatternsAndGradients.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVGKParserPatternsAndGradients.h; path = "Source/Parsers/Parser Extensions/SVGKParserPatternsAndGradients.h"; sourceTree = "<group>"; };
-		E0DA2BE6D858567F94D9ECE8197A0A7C /* Pods-REST CountriesTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-REST CountriesTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E0E7FD173C2AC007FA62F7FE8995DB31 /* SVGTextContentElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVGTextContentElement.h; path = "Source/DOM classes/SVG-DOM/SVGTextContentElement.h"; sourceTree = "<group>"; };
 		E155A8CB73D9B4BDA99CAE2A1D862123 /* CocoaLumberjack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CocoaLumberjack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1A35AE09E0945D7A48AF9539BA1D938 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
@@ -652,7 +681,8 @@
 		E296AE3142935ACE7C305B7B3DDCE494 /* SVGLinearGradientElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVGLinearGradientElement.h; path = "Source/DOM classes/Unported or Partial DOM/SVGLinearGradientElement.h"; sourceTree = "<group>"; };
 		E2A8442ABDF44240230913980A88E152 /* SVGTransform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVGTransform.h; path = "Source/DOM classes/SVG-DOM/SVGTransform.h"; sourceTree = "<group>"; };
 		E3317AAD557D13059D9A338ADB7166C9 /* SVGLineElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVGLineElement.h; path = "Source/DOM classes/Unported or Partial DOM/SVGLineElement.h"; sourceTree = "<group>"; };
-		E47B470CCA2DF6C009F00D92A71EA939 /* Pods-REST CountriesUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-REST CountriesUITests.modulemap"; sourceTree = "<group>"; };
+		E496704E297AF942F5B196E550B7509E /* Pods-REST CountriesUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-REST CountriesUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E67FBBFEB2758D65D73E423612733908 /* Pods-REST CountriesUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-REST CountriesUITests-frameworks.sh"; sourceTree = "<group>"; };
 		E69FC24E5261C0CE922F26E936BE17F2 /* SVGKPointsAndPathsParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVGKPointsAndPathsParser.m; path = Source/Parsers/SVGKPointsAndPathsParser.m; sourceTree = "<group>"; };
 		E6F30CD61E5EDD6E9BCB6EBECAC07158 /* CSSValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSSValue.h; path = "Source/DOM classes/Core DOM/CSSValue.h"; sourceTree = "<group>"; };
 		E7ADE167E92632C9046FF98AA999D2D5 /* MediaList.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MediaList.h; path = "Source/DOM classes/Core DOM/MediaList.h"; sourceTree = "<group>"; };
@@ -660,19 +690,16 @@
 		E93E2542EDCA0910D05ED522A9038ECE /* SVGGradientElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVGGradientElement.h; path = "Source/DOM classes/Unported or Partial DOM/SVGGradientElement.h"; sourceTree = "<group>"; };
 		E95A92FB1DE8E33438B07E78E863E6E3 /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
 		EB072372B13A0611AE46AB6BC6841C49 /* SVGKExporterUIImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVGKExporterUIImage.h; path = Source/Exporters/SVGKExporterUIImage.h; sourceTree = "<group>"; };
-		EB72920CAD3835A19BF1C48FEE0BBD99 /* Pods_REST_Countries.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_REST_Countries.framework; path = "Pods-REST Countries.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC10EA49A7E3A6E7955DEFFD882E3C15 /* SVGKParserDOM.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVGKParserDOM.h; path = "Source/Parsers/Parser Extensions/SVGKParserDOM.h"; sourceTree = "<group>"; };
 		EC97559AA9421E36E7AB581AF718954B /* SVGUseElement_Mutable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVGUseElement_Mutable.h; path = "Source/DOM classes/SVG-DOM/SVGUseElement_Mutable.h"; sourceTree = "<group>"; };
 		ED3E68B105293D00CFC62ECC13638A82 /* DDOSLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDOSLogger.m; path = Classes/DDOSLogger.m; sourceTree = "<group>"; };
 		EDE6AFF608947E4F6A41BAEABA89877F /* Element.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Element.h; path = "Source/DOM classes/Core DOM/Element.h"; sourceTree = "<group>"; };
+		EF5983FE629A5B16D3F149777D5AF7EC /* Pods-REST CountriesUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-REST CountriesUITests-dummy.m"; sourceTree = "<group>"; };
 		F114421BB6FD3E402559CE6C34BC3EF5 /* SVGImageElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVGImageElement.h; path = "Source/DOM classes/Unported or Partial DOM/SVGImageElement.h"; sourceTree = "<group>"; };
 		F117466B47E45AB8F8268E24D9CA222B /* CSSRuleList+Mutable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CSSRuleList+Mutable.h"; path = "Source/DOM classes/Core DOM/CSSRuleList+Mutable.h"; sourceTree = "<group>"; };
 		F6EE7F80E1971563FD97C16B80E49C02 /* SVGPolylineElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVGPolylineElement.h; path = "Source/DOM classes/Unported or Partial DOM/SVGPolylineElement.h"; sourceTree = "<group>"; };
 		F89EAD8791D12445FAAFEDCA056F26E1 /* BaseClassForAllSVGBasicShapes.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BaseClassForAllSVGBasicShapes.m; path = "Source/DOM classes/Unported or Partial DOM/BaseClassForAllSVGBasicShapes.m"; sourceTree = "<group>"; };
-		F8BB778CB0F051F1669A0EA965AFE469 /* Pods-REST Countries-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-REST Countries-frameworks.sh"; sourceTree = "<group>"; };
 		F93108EE306D8627A163129E6123D311 /* SVGKImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVGKImage.h; path = Source/SVGKImage.h; sourceTree = "<group>"; };
-		F982213E7751D4151FA0CA86956C19C9 /* Pods-REST Countries.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-REST Countries.debug.xcconfig"; sourceTree = "<group>"; };
-		F9E23456D1270A2C15A94B283ABFF3ED /* Pods-REST CountriesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-REST CountriesTests.release.xcconfig"; sourceTree = "<group>"; };
 		FA7694ABF57A07859074598AD732923C /* CocoaLumberjack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CocoaLumberjack.h; path = Classes/CocoaLumberjack.h; sourceTree = "<group>"; };
 		FC4F0EF24E84AEC4F82E7470367749C1 /* DDAbstractDatabaseLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDAbstractDatabaseLogger.h; path = Classes/DDAbstractDatabaseLogger.h; sourceTree = "<group>"; };
 		FC56911706C387A5CDD50D3312255C46 /* Document.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Document.h; path = "Source/DOM classes/Core DOM/Document.h"; sourceTree = "<group>"; };
@@ -687,6 +714,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD4C5001B8CE5D6FA4D7D14897E1DC5B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F6BD46805AA1A4619A3903B162CEFAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3548B9C91AE7F854314FAF02EF6F4EEF /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -787,6 +822,24 @@
 			path = CocoaLumberjack;
 			sourceTree = "<group>";
 		};
+		2BB756D0B9D303D82D411E652FB4E131 /* Pods-REST CountriesTests */ = {
+			isa = PBXGroup;
+			children = (
+				7383B76E10E6AE4A4BF72C8CF87FCC10 /* Info.plist */,
+				ABB0F0DC95294856E72CA78D786DF1AD /* Pods-REST CountriesTests.modulemap */,
+				C3913889B4B0E208202464BE64EB281B /* Pods-REST CountriesTests-acknowledgements.markdown */,
+				BCBC02861FDA383BED968485174B7DCB /* Pods-REST CountriesTests-acknowledgements.plist */,
+				572D67DB8E58982C71AC7EC75714C82F /* Pods-REST CountriesTests-dummy.m */,
+				76791512BB22803D4D8B6A3979F4C4AD /* Pods-REST CountriesTests-frameworks.sh */,
+				7AF37FB961B063A518EE44FE7F83F3F7 /* Pods-REST CountriesTests-resources.sh */,
+				B70BDF98CEB40572F6BB71E590AF520C /* Pods-REST CountriesTests-umbrella.h */,
+				983B2A592A1E45FB56601339CAE4757E /* Pods-REST CountriesTests.debug.xcconfig */,
+				5A409824D4E5397C6ABD9B5AA5AF40A0 /* Pods-REST CountriesTests.release.xcconfig */,
+			);
+			name = "Pods-REST CountriesTests";
+			path = "Target Support Files/Pods-REST CountriesTests";
+			sourceTree = "<group>";
+		};
 		418474938256FB6C39C10142DAE95C6F /* Alamofire */ = {
 			isa = PBXGroup;
 			children = (
@@ -826,6 +879,24 @@
 			name = Extensions;
 			sourceTree = "<group>";
 		};
+		531A4F1E61FB2788B5917E7B413EDEDB /* Pods-REST CountriesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6F8328D3EBD0B01BDBECA64A43D1DC4E /* Info.plist */,
+				A3218299CCB3DE1799D36D606A5E2FBF /* Pods-REST CountriesUITests.modulemap */,
+				E496704E297AF942F5B196E550B7509E /* Pods-REST CountriesUITests-acknowledgements.markdown */,
+				28E4C9AA0400B7FE171F3056712444C4 /* Pods-REST CountriesUITests-acknowledgements.plist */,
+				EF5983FE629A5B16D3F149777D5AF7EC /* Pods-REST CountriesUITests-dummy.m */,
+				E67FBBFEB2758D65D73E423612733908 /* Pods-REST CountriesUITests-frameworks.sh */,
+				85CB8C0D411686B07987C32470ADDF12 /* Pods-REST CountriesUITests-resources.sh */,
+				3708A4A279A68001DD6F08F54D46973E /* Pods-REST CountriesUITests-umbrella.h */,
+				AD99773EEC66813C93F0C9F0F8D14D10 /* Pods-REST CountriesUITests.debug.xcconfig */,
+				60BE0AA083981294B775B0B6A1D35FAA /* Pods-REST CountriesUITests.release.xcconfig */,
+			);
+			name = "Pods-REST CountriesUITests";
+			path = "Target Support Files/Pods-REST CountriesUITests";
+			sourceTree = "<group>";
+		};
 		56692D31FB3E747B0D645AB657D27351 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -840,22 +911,22 @@
 			path = "../Target Support Files/Alamofire";
 			sourceTree = "<group>";
 		};
-		5C5433EBCEF12DD6A0CEAF3FFFF623A2 /* Pods-REST CountriesTests */ = {
+		66568A5FB6ED3AE9EDEEB8D948B8D19E /* Pods-REST Countries */ = {
 			isa = PBXGroup;
 			children = (
-				26BA4806E14536BDC00D23287DF5183F /* Info.plist */,
-				1B8B8F16B22B1BB93C82D547BF9A6CD2 /* Pods-REST CountriesTests.modulemap */,
-				E0DA2BE6D858567F94D9ECE8197A0A7C /* Pods-REST CountriesTests-acknowledgements.markdown */,
-				C2CDB2E4216DB8BE71569047E84FB2E8 /* Pods-REST CountriesTests-acknowledgements.plist */,
-				49B64E218CBC057016A7E3EE38DFC85A /* Pods-REST CountriesTests-dummy.m */,
-				824A2B2215AADBFE00C8903F2D045B22 /* Pods-REST CountriesTests-frameworks.sh */,
-				C8993BBB318D28A5F63E230C30BD9C57 /* Pods-REST CountriesTests-resources.sh */,
-				171FB37516D8A6D9269D4D5C44D10759 /* Pods-REST CountriesTests-umbrella.h */,
-				C65D9B63CA43841F23206410F620D614 /* Pods-REST CountriesTests.debug.xcconfig */,
-				F9E23456D1270A2C15A94B283ABFF3ED /* Pods-REST CountriesTests.release.xcconfig */,
+				6F11422B20A8EF899C17DF5DAA4A2322 /* Info.plist */,
+				8FB592F6F1BFCB44B3655C7CF998DF28 /* Pods-REST Countries.modulemap */,
+				3AF2D3077039AB4E9C2A2CA94A50F62A /* Pods-REST Countries-acknowledgements.markdown */,
+				9CA153BDB5E60857AFB88E2BD3E72031 /* Pods-REST Countries-acknowledgements.plist */,
+				54A4CD754912EF231819974F6597F1F1 /* Pods-REST Countries-dummy.m */,
+				AE24099F1AF0655D3EDFF5A3F50E4064 /* Pods-REST Countries-frameworks.sh */,
+				CC7A386FD72A98386B460D086A39F389 /* Pods-REST Countries-resources.sh */,
+				AF9B2ED5DE01DC0D6B2B13F8A0FCF773 /* Pods-REST Countries-umbrella.h */,
+				BEA9B334FA0AC02E44F27C9D04B84480 /* Pods-REST Countries.debug.xcconfig */,
+				C478C67FA110D88E7E372417A4C845A7 /* Pods-REST Countries.release.xcconfig */,
 			);
-			name = "Pods-REST CountriesTests";
-			path = "Target Support Files/Pods-REST CountriesTests";
+			name = "Pods-REST Countries";
+			path = "Target Support Files/Pods-REST Countries";
 			sourceTree = "<group>";
 		};
 		6AA34F963EBAA78A3CF51B35985304F6 /* Support Files */ = {
@@ -896,55 +967,51 @@
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				6B2F64F8A4E1C2F2C615859938C4A2C7 /* Frameworks */,
 				C5C82AFD7C4EAC0EE072E1FFDDB3BC19 /* Pods */,
-				EB4476BFEE6F199E73E57248E2B7CFC2 /* Products */,
-				96549DB1C4E0ECCDA037A7D5E5526F3C /* Targets Support Files */,
+				9453989829D421E59201D4956B40BA2A /* Products */,
+				AAD3E1ECB24D775BD4BD34E331338E88 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		93017A1330D9A775FEF78FB247B839B3 /* Pods-REST CountriesUITests */ = {
+		9453989829D421E59201D4956B40BA2A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8ADC4BEDF54110A651652A87AA34C82D /* Info.plist */,
-				E47B470CCA2DF6C009F00D92A71EA939 /* Pods-REST CountriesUITests.modulemap */,
-				57483C254B62B053E572172C82E1F5A4 /* Pods-REST CountriesUITests-acknowledgements.markdown */,
-				D52039D413808AD08F27C9B21C15CDB5 /* Pods-REST CountriesUITests-acknowledgements.plist */,
-				DC9705021DFF72780E0905FB6D47C990 /* Pods-REST CountriesUITests-dummy.m */,
-				0326F4A3019911286D442B6534E8A992 /* Pods-REST CountriesUITests-frameworks.sh */,
-				CE4D5D8702EE83BA2276F62F5226EBBB /* Pods-REST CountriesUITests-resources.sh */,
-				A0F0AB2DEF8B67268BC7DBF2611E31CA /* Pods-REST CountriesUITests-umbrella.h */,
-				A371F1B950BB11D6450338562FC196C1 /* Pods-REST CountriesUITests.debug.xcconfig */,
-				2E7D6B461D5BCB55B6192F1CEEAE5FE1 /* Pods-REST CountriesUITests.release.xcconfig */,
+				CFCB74ADABC8C364CB558A92A44D8157 /* Alamofire.framework */,
+				D8B30A705F8DBFAE3B2F36D5538246B7 /* CocoaLumberjack.framework */,
+				A35900CE5E34A575379D2864D2A27E4D /* Pods_REST_Countries.framework */,
+				C939DC59C6BC0D7591CD944A8E851ACC /* Pods_REST_Countries_Widget.framework */,
+				23B22BBA5CE97EF87BE23EF659CE2E6D /* Pods_REST_CountriesTests.framework */,
+				0D0B406D6F740C99A70F34AB8BCF7234 /* Pods_REST_CountriesUITests.framework */,
+				1518D1D4DFF879652B1B2C0EE06EA249 /* SVGKit.framework */,
 			);
-			name = "Pods-REST CountriesUITests";
-			path = "Target Support Files/Pods-REST CountriesUITests";
+			name = Products;
 			sourceTree = "<group>";
 		};
-		96549DB1C4E0ECCDA037A7D5E5526F3C /* Targets Support Files */ = {
+		97C08453FE9632D8BC306BA08618D66D /* Pods-REST Countries Widget */ = {
 			isa = PBXGroup;
 			children = (
-				AF357521D7AD85BC57517BE84DFA7F99 /* Pods-REST Countries */,
-				5C5433EBCEF12DD6A0CEAF3FFFF623A2 /* Pods-REST CountriesTests */,
-				93017A1330D9A775FEF78FB247B839B3 /* Pods-REST CountriesUITests */,
+				C1AC14A65C698FE1B3E164F089C30576 /* Info.plist */,
+				24E03F32C346132257E353F180EFC5EA /* Pods-REST Countries Widget.modulemap */,
+				C5A71AB8DF874A16A1F22C489181D220 /* Pods-REST Countries Widget-acknowledgements.markdown */,
+				BA46EE75AB7B2C02A30DE3F1A173F04C /* Pods-REST Countries Widget-acknowledgements.plist */,
+				ACCFD0AB05019616A945E9C799E80016 /* Pods-REST Countries Widget-dummy.m */,
+				5DA0310C67EF0FA625524A5D6475E93B /* Pods-REST Countries Widget-resources.sh */,
+				235D1A88DCCF521300EEC9F5031ABB81 /* Pods-REST Countries Widget-umbrella.h */,
+				7E808D94BA88AADE319EAC756D774E8F /* Pods-REST Countries Widget.debug.xcconfig */,
+				03D8B969B6F2C34AA85699CC7D11B2C9 /* Pods-REST Countries Widget.release.xcconfig */,
+			);
+			name = "Pods-REST Countries Widget";
+			path = "Target Support Files/Pods-REST Countries Widget";
+			sourceTree = "<group>";
+		};
+		AAD3E1ECB24D775BD4BD34E331338E88 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				66568A5FB6ED3AE9EDEEB8D948B8D19E /* Pods-REST Countries */,
+				97C08453FE9632D8BC306BA08618D66D /* Pods-REST Countries Widget */,
+				2BB756D0B9D303D82D411E652FB4E131 /* Pods-REST CountriesTests */,
+				531A4F1E61FB2788B5917E7B413EDEDB /* Pods-REST CountriesUITests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		AF357521D7AD85BC57517BE84DFA7F99 /* Pods-REST Countries */ = {
-			isa = PBXGroup;
-			children = (
-				60F824C8C24D50131BA18BD67C5D3896 /* Info.plist */,
-				DAE2D1BAF45A592C10F0A0CA45B0F0CE /* Pods-REST Countries.modulemap */,
-				6C28FCE795896D4FD286E0A9CCCA7A96 /* Pods-REST Countries-acknowledgements.markdown */,
-				6D1A77B9E165A57444BCDE1178E926D9 /* Pods-REST Countries-acknowledgements.plist */,
-				424FF16598A059E8F4F5DF89DA4745F6 /* Pods-REST Countries-dummy.m */,
-				F8BB778CB0F051F1669A0EA965AFE469 /* Pods-REST Countries-frameworks.sh */,
-				1F10941BDD0DDDA51902083C9D0FDF29 /* Pods-REST Countries-resources.sh */,
-				2CBFEAB483F5A32BBED17037DB19880B /* Pods-REST Countries-umbrella.h */,
-				F982213E7751D4151FA0CA86956C19C9 /* Pods-REST Countries.debug.xcconfig */,
-				B0534536E178305518EB369236ED3666 /* Pods-REST Countries.release.xcconfig */,
-			);
-			name = "Pods-REST Countries";
-			path = "Target Support Files/Pods-REST Countries";
 			sourceTree = "<group>";
 		};
 		B710F0A3D824D34D8D77F76F033D9FA0 /* SVGKit */ = {
@@ -1197,19 +1264,6 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		EB4476BFEE6F199E73E57248E2B7CFC2 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				75802E31C212B8896BFC9D04144D5579 /* Alamofire.framework */,
-				5143FA2BF4C1AFEC6BB01265D3122B04 /* CocoaLumberjack.framework */,
-				EB72920CAD3835A19BF1C48FEE0BBD99 /* Pods_REST_Countries.framework */,
-				912EF515E7B5281518E5474CEFFE0F6B /* Pods_REST_CountriesTests.framework */,
-				3BC536362FE75E653D33CC2DCB97F959 /* Pods_REST_CountriesUITests.framework */,
-				108AA64BF0934971088B066AD2EAC2EA /* SVGKit.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -1241,6 +1295,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				86D03763D73CAE6A2BE50BCD6927217B /* Pods-REST CountriesTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D95528E79C665009A5B0222423B469B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52BC38453C5A0D13FD72A686A3D07CBA /* Pods-REST Countries Widget-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1424,7 +1486,7 @@
 			);
 			name = "Pods-REST CountriesUITests";
 			productName = "Pods-REST CountriesUITests";
-			productReference = 3BC536362FE75E653D33CC2DCB97F959 /* Pods_REST_CountriesUITests.framework */;
+			productReference = 0D0B406D6F740C99A70F34AB8BCF7234 /* Pods_REST_CountriesUITests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		53CA98893B88CD6EA6F3179CC204A0A2 /* Pods-REST CountriesTests */ = {
@@ -1443,7 +1505,7 @@
 			);
 			name = "Pods-REST CountriesTests";
 			productName = "Pods-REST CountriesTests";
-			productReference = 912EF515E7B5281518E5474CEFFE0F6B /* Pods_REST_CountriesTests.framework */;
+			productReference = 23B22BBA5CE97EF87BE23EF659CE2E6D /* Pods_REST_CountriesTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		63B7B406D55867DF99FCA1237684FB8C /* Pods-REST Countries */ = {
@@ -1464,7 +1526,27 @@
 			);
 			name = "Pods-REST Countries";
 			productName = "Pods-REST Countries";
-			productReference = EB72920CAD3835A19BF1C48FEE0BBD99 /* Pods_REST_Countries.framework */;
+			productReference = A35900CE5E34A575379D2864D2A27E4D /* Pods_REST_Countries.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		88BA661E9DE0345B2CB93E427A9CE864 /* Pods-REST Countries Widget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9360F75F773247A273986AAD85F78ECA /* Build configuration list for PBXNativeTarget "Pods-REST Countries Widget" */;
+			buildPhases = (
+				4D95528E79C665009A5B0222423B469B /* Headers */,
+				E6C84DED8D52A4EEB4DE08DD31C21F42 /* Sources */,
+				0F6BD46805AA1A4619A3903B162CEFAA /* Frameworks */,
+				B6418D33EB87E0D83121BD7DB3C31815 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				541A07C27D42C0047ED071DDB138158E /* PBXTargetDependency */,
+				3DA7B9CA03D047B39FCC5D8807984293 /* PBXTargetDependency */,
+			);
+			name = "Pods-REST Countries Widget";
+			productName = "Pods-REST Countries Widget";
+			productReference = C939DC59C6BC0D7591CD944A8E851ACC /* Pods_REST_Countries_Widget.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		B289C8391B929AE99E9155095CC48B07 /* SVGKit */ = {
@@ -1483,7 +1565,7 @@
 			);
 			name = SVGKit;
 			productName = SVGKit;
-			productReference = 108AA64BF0934971088B066AD2EAC2EA /* SVGKit.framework */;
+			productReference = 1518D1D4DFF879652B1B2C0EE06EA249 /* SVGKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		DB92966AB0B8FBB717367BD16F6D1C51 /* CocoaLumberjack */ = {
@@ -1501,7 +1583,7 @@
 			);
 			name = CocoaLumberjack;
 			productName = CocoaLumberjack;
-			productReference = 5143FA2BF4C1AFEC6BB01265D3122B04 /* CocoaLumberjack.framework */;
+			productReference = D8B30A705F8DBFAE3B2F36D5538246B7 /* CocoaLumberjack.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		E76458C58C9140B6A16D60547E68E80C /* Alamofire */ = {
@@ -1519,7 +1601,7 @@
 			);
 			name = Alamofire;
 			productName = Alamofire;
-			productReference = 75802E31C212B8896BFC9D04144D5579 /* Alamofire.framework */;
+			productReference = CFCB74ADABC8C364CB558A92A44D8157 /* Alamofire.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -1539,13 +1621,14 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = EB4476BFEE6F199E73E57248E2B7CFC2 /* Products */;
+			productRefGroup = 9453989829D421E59201D4956B40BA2A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				E76458C58C9140B6A16D60547E68E80C /* Alamofire */,
 				DB92966AB0B8FBB717367BD16F6D1C51 /* CocoaLumberjack */,
 				63B7B406D55867DF99FCA1237684FB8C /* Pods-REST Countries */,
+				88BA661E9DE0345B2CB93E427A9CE864 /* Pods-REST Countries Widget */,
 				53CA98893B88CD6EA6F3179CC204A0A2 /* Pods-REST CountriesTests */,
 				3F6BF7DBD4C62731784292F6D418204E /* Pods-REST CountriesUITests */,
 				B289C8391B929AE99E9155095CC48B07 /* SVGKit */,
@@ -1583,6 +1666,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		89C620EB0D6518CD3574BD6BFCC3C1A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6418D33EB87E0D83121BD7DB3C31815 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1757,6 +1847,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E6C84DED8D52A4EEB4DE08DD31C21F42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91FFE8C22B4A0DF6D5B04445076CD091 /* Pods-REST Countries Widget-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F2FD0532BB3E255D4E5B290DA0B9B761 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1789,6 +1887,18 @@
 			name = CocoaLumberjack;
 			target = DB92966AB0B8FBB717367BD16F6D1C51 /* CocoaLumberjack */;
 			targetProxy = D9F45DAA653665CEB6BA508F732CCCC0 /* PBXContainerItemProxy */;
+		};
+		3DA7B9CA03D047B39FCC5D8807984293 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SVGKit;
+			target = B289C8391B929AE99E9155095CC48B07 /* SVGKit */;
+			targetProxy = 3C81D4A8FFD97CA00BC60F66D6747AD5 /* PBXContainerItemProxy */;
+		};
+		541A07C27D42C0047ED071DDB138158E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CocoaLumberjack;
+			target = DB92966AB0B8FBB717367BD16F6D1C51 /* CocoaLumberjack */;
+			targetProxy = A592A8BDEAE5F0A9DE3C4F123A3B3A79 /* PBXContainerItemProxy */;
 		};
 		542BA18EEFE8010D3FDF785656156DF5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1885,7 +1995,7 @@
 		};
 		1941853DF5C9CEC02A99308B6FE3584D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B0534536E178305518EB369236ED3666 /* Pods-REST Countries.release.xcconfig */;
+			baseConfigurationReference = C478C67FA110D88E7E372417A4C845A7 /* Pods-REST Countries.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1924,7 +2034,7 @@
 		};
 		1A65236A10DFBC94B533C2E27CF0F8CD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C65D9B63CA43841F23206410F620D614 /* Pods-REST CountriesTests.debug.xcconfig */;
+			baseConfigurationReference = 983B2A592A1E45FB56601339CAE4757E /* Pods-REST CountriesTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1996,10 +2106,51 @@
 			};
 			name = Release;
 		};
-		6F9FBBD51394755E94907A99E2FAFE0F /* Release */ = {
+		2A4DE2AEDA5B91437F5E5E0A74B5674B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03D8B969B6F2C34AA85699CC7D11B2C9 /* Pods-REST Countries Widget.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-REST Countries Widget/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-REST Countries Widget/Pods-REST Countries Widget.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6C408C2959FC4E833810972082132A4E /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B94332A381FD3738B612AB37DF3AF65E /* SVGKit.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -2032,10 +2183,13 @@
 			};
 			name = Release;
 		};
-		6FA9BA44CAADB742B918BB352A1244D2 /* Debug */ = {
+		6E88FD2D6444235EEFEFD9BF9986DCE6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B94332A381FD3738B612AB37DF3AF65E /* SVGKit.xcconfig */;
+			baseConfigurationReference = 7E808D94BA88AADE319EAC756D774E8F /* Pods-REST Countries Widget.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -2045,22 +2199,23 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SVGKit/SVGKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SVGKit/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-REST Countries Widget/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "Target Support Files/SVGKit/SVGKit.modulemap";
-				PRODUCT_MODULE_NAME = SVGKit;
-				PRODUCT_NAME = SVGKit;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-REST Countries Widget/Pods-REST Countries Widget.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -2129,10 +2284,11 @@
 			};
 			name = Release;
 		};
-		89BDD225CAA4A0FA10977463423AADDD /* Debug */ = {
+		892C1F120815B7F8A2DF5D2F9503FB17 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3EEDA5188C5AA426BA82FDA863ED2ADB /* CocoaLumberjack.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -2159,14 +2315,15 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		97270865DEEDC8479C79B253E791F74B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F982213E7751D4151FA0CA86956C19C9 /* Pods-REST Countries.debug.xcconfig */;
+			baseConfigurationReference = BEA9B334FA0AC02E44F27C9D04B84480 /* Pods-REST Countries.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -2204,7 +2361,7 @@
 		};
 		B8F193863E33D60404B0F9D95BF2C561 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2E7D6B461D5BCB55B6192F1CEEAE5FE1 /* Pods-REST CountriesUITests.release.xcconfig */;
+			baseConfigurationReference = 60BE0AA083981294B775B0B6A1D35FAA /* Pods-REST CountriesUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -2241,45 +2398,9 @@
 			};
 			name = Release;
 		};
-		BEBBBADF0AF7C931C77369B5E73DF4FB /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3EEDA5188C5AA426BA82FDA863ED2ADB /* CocoaLumberjack.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CocoaLumberjack/CocoaLumberjack-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CocoaLumberjack/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/CocoaLumberjack/CocoaLumberjack.modulemap";
-				PRODUCT_MODULE_NAME = CocoaLumberjack;
-				PRODUCT_NAME = CocoaLumberjack;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		D7EF449D9F0685B4DDFBD19CD781FC47 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A371F1B950BB11D6450338562FC196C1 /* Pods-REST CountriesUITests.debug.xcconfig */;
+			baseConfigurationReference = AD99773EEC66813C93F0C9F0F8D14D10 /* Pods-REST CountriesUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -2315,9 +2436,81 @@
 			};
 			name = Debug;
 		};
+		E2779EB5553787C52076B5309B2C0A0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B94332A381FD3738B612AB37DF3AF65E /* SVGKit.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SVGKit/SVGKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SVGKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SVGKit/SVGKit.modulemap";
+				PRODUCT_MODULE_NAME = SVGKit;
+				PRODUCT_NAME = SVGKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E551E6A7E3DF2B725E818C787E6AB517 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EEDA5188C5AA426BA82FDA863ED2ADB /* CocoaLumberjack.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CocoaLumberjack/CocoaLumberjack-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CocoaLumberjack/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CocoaLumberjack/CocoaLumberjack.modulemap";
+				PRODUCT_MODULE_NAME = CocoaLumberjack;
+				PRODUCT_NAME = CocoaLumberjack;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		F5AB8DAD8915DB7A1EF50E58B9CAD54F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F9E23456D1270A2C15A94B283ABFF3ED /* Pods-REST CountriesTests.release.xcconfig */;
+			baseConfigurationReference = 5A409824D4E5397C6ABD9B5AA5AF40A0 /* Pods-REST CountriesTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -2413,8 +2606,8 @@
 		0CA7E12AC2720DABFCA208E97EB4FEE2 /* Build configuration list for PBXNativeTarget "CocoaLumberjack" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				89BDD225CAA4A0FA10977463423AADDD /* Debug */,
-				BEBBBADF0AF7C931C77369B5E73DF4FB /* Release */,
+				E551E6A7E3DF2B725E818C787E6AB517 /* Debug */,
+				892C1F120815B7F8A2DF5D2F9503FB17 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2431,8 +2624,8 @@
 		3EF8CBFC0F84258AC2FF58140AFBA15F /* Build configuration list for PBXNativeTarget "SVGKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6FA9BA44CAADB742B918BB352A1244D2 /* Debug */,
-				6F9FBBD51394755E94907A99E2FAFE0F /* Release */,
+				E2779EB5553787C52076B5309B2C0A0B /* Debug */,
+				6C408C2959FC4E833810972082132A4E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2451,6 +2644,15 @@
 			buildConfigurations = (
 				1A65236A10DFBC94B533C2E27CF0F8CD /* Debug */,
 				F5AB8DAD8915DB7A1EF50E58B9CAD54F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9360F75F773247A273986AAD85F78ECA /* Build configuration list for PBXNativeTarget "Pods-REST Countries Widget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E88FD2D6444235EEFEFD9BF9986DCE6 /* Debug */,
+				2A4DE2AEDA5B91437F5E5E0A74B5674B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

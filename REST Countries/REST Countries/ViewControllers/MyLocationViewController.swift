@@ -167,7 +167,7 @@ extension MyLocationViewController: UITableViewDelegate {
         headerLabel.textColor = .turquoise
         headerLabel.text = self.tableView(tableView, titleForHeaderInSection: section)
         headerLabel.sizeToFit()
-        headerView.addSubview(headerLabel, withConstraints: [
+        headerView.addSubview(headerLabel, with: [
             headerLabel.leadingAnchor.constraint(equalTo: headerView.leadingAnchor, constant: 20),
             headerLabel.bottomAnchor.constraint(equalTo: headerView.bottomAnchor, constant: -8),
             headerLabel.trailingAnchor.constraint(equalTo: headerView.trailingAnchor)

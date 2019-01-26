@@ -12,7 +12,7 @@ import SVGKit
 class CountryCell: UITableViewCell {
     
     @IBOutlet var countryView: UIView?
-    @IBOutlet var flagView: SVGKImageView?
+    @IBOutlet var flagView: FlagView?
     @IBOutlet var countryNameLabel: UILabel?
     @IBOutlet var populationCountLabel: UILabel?
     @IBOutlet var areaSizeLabel: UILabel?
@@ -24,8 +24,6 @@ class CountryCell: UITableViewCell {
             if flag != "https://restcountries.eu/data/shn.svg" {
                 self.flagView?.image = SVGKImage(contentsOf: flagUrl)
             }
-            flagView?.layer.borderColor = UIColor.lightGray.cgColor
-            flagView?.layer.borderWidth = 0.5
         }
 
         countryNameLabel?.text = country?.name

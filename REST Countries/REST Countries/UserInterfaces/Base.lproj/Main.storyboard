@@ -109,7 +109,7 @@
                                                                 <constraint firstItem="HSr-Bz-Ahz" firstAttribute="leading" secondItem="owd-bk-IDH" secondAttribute="leading" id="wkw-HN-A0F"/>
                                                             </constraints>
                                                         </view>
-                                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sJa-tc-l6a" customClass="SVGKFastImageView">
+                                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sJa-tc-l6a" customClass="FlagView" customModule="REST_Countries" customModuleProvider="target">
                                                             <rect key="frame" x="15" y="15" width="83.333333333333329" height="50"/>
                                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <constraints>
@@ -256,7 +256,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="123"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="y7X-Jd-cRJ" customClass="SVGKFastImageView">
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="y7X-Jd-cRJ" customClass="FlagView" customModule="REST_Countries" customModuleProvider="target">
                                                     <rect key="frame" x="125" y="19" width="125" height="75"/>
                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <constraints>

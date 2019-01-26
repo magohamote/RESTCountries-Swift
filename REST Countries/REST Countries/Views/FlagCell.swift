@@ -11,13 +11,11 @@ import SVGKit
 
 class FlagCell: UITableViewCell {
     
-    @IBOutlet weak var flagView: SVGKImageView?
+    @IBOutlet weak var flagView: FlagView?
     
     func config(with flagUrlString: String?) {
         if let flagUrlString = flagUrlString, let flagUrl = URL(string: flagUrlString) {
             flagView?.image = SVGKImage(contentsOf: flagUrl)
-            flagView?.layer.borderColor = UIColor.lightGray.cgColor
-            flagView?.layer.borderWidth = 0.5
         }
     }
 }

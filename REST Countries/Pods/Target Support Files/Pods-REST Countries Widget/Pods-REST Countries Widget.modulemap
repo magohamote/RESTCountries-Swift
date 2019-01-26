@@ -1,0 +1,6 @@
+framework module Pods_REST_Countries_Widget {
+  umbrella header "Pods-REST Countries Widget-umbrella.h"
+
+  export *
+  module * { export * }
+}
