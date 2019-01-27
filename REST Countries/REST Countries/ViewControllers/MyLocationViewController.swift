@@ -41,7 +41,7 @@ class MyLocationViewController: UIViewController {
     var myCountryName: String?
     
     private let sharedDefaults = UserDefaults(suiteName: "group.eu.restcountries.REST-Countries")
-    private var countryViewModel = CountryViewModel()
+    private var countryViewModel = CountryViewModel(service: Service())
     private var myCountry: Country? {
         didSet {
             tableView?.reloadData()

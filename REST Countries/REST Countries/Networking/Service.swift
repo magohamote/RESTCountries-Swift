@@ -11,7 +11,7 @@ import Foundation
 import Alamofire
 import os.log
 
-struct Service {
+class Service {
     
     func requestMyCountry(countryName: String, completion: @escaping (_ response: [Country]?, _ error: Error?) -> Void) {
         requestCountriesData(url: Endpoints.name, queryParam: countryName, filter: Endpoints.currentCountryFilter) { response, error in

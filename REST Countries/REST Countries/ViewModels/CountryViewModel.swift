@@ -17,26 +17,30 @@ class CountryViewModel {
     
     weak var delegate: CountryViewModelDelegate?
     
-    let service = Service()
+    var service: Service?
+    
+    init(service: Service) {
+        self.service = service
+    }
     
     func requestMyCountry(countryName: String) {
-        service.requestMyCountry(countryName: countryName, completion: completionBlock)
+        service?.requestMyCountry(countryName: countryName, completion: completionBlock)
     }
     
     func requestAllCountries() {
-        service.requestAllCountries(completion: completionBlock)
+        service?.requestAllCountries(completion: completionBlock)
     }
     
     func requestCountriesByName(countryName: String) {
-        service.requestCountryByName(countryName: countryName, completion: completionBlock)
+        service?.requestCountryByName(countryName: countryName, completion: completionBlock)
     }
     
     func requestCountriesByCapital(capital: String) {
-        service.requestCountryByCapital(capital: capital, completion: completionBlock)
+        service?.requestCountryByCapital(capital: capital, completion: completionBlock)
     }
     
     func requestCountriesByLanguage(language: String) {
-        service.requestCountryByLanguage(language: language, completion: completionBlock)
+        service?.requestCountryByLanguage(language: language, completion: completionBlock)
     }
     
     private func completionBlock(result: [Country]?, error: Error?) {

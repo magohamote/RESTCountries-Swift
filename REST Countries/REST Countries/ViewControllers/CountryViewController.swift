@@ -13,7 +13,7 @@ class CountryViewController: UIViewController {
     @IBOutlet weak var tableView: UITableView?
     
     private let searchController = SearchController(searchResultsController: nil)
-    private let countryViewModel = CountryViewModel()
+    private let countryViewModel = CountryViewModel(service: Service())
     private let locationManager = LocationManager()
     private let endpoints = [Endpoints.name, Endpoints.capital, Endpoints.language]
     private var scope: SearchScope = .name

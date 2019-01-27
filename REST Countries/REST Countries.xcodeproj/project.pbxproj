@@ -26,12 +26,22 @@
 		8204441521FCF47A00DDE1DF /* UIColor+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D1380321F7C46600E60037 /* UIColor+Hex.swift */; };
 		8204441721FCF6DB00DDE1DF /* FlagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8204441621FCF6DB00DDE1DF /* FlagView.swift */; };
 		8204441821FCF70100DDE1DF /* FlagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8204441621FCF6DB00DDE1DF /* FlagView.swift */; };
+		821CFD6E21FDDED400B0B4F1 /* ModelsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821CFD6D21FDDED400B0B4F1 /* ModelsTests.swift */; };
+		821CFD7021FDDFA300B0B4F1 /* MockService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821CFD6F21FDDFA300B0B4F1 /* MockService.swift */; };
+		821CFD7221FDE00500B0B4F1 /* MockRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821CFD7121FDE00500B0B4F1 /* MockRequest.swift */; };
+		821CFD7721FDE12000B0B4F1 /* my_country.json in Resources */ = {isa = PBXBuildFile; fileRef = 821CFD7621FDE12000B0B4F1 /* my_country.json */; };
+		821CFD7A21FDE29F00B0B4F1 /* XCTestCase+GetTestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821CFD7921FDE29F00B0B4F1 /* XCTestCase+GetTestData.swift */; };
+		821CFD7C21FDE3A600B0B4F1 /* languages.json in Resources */ = {isa = PBXBuildFile; fileRef = 821CFD7B21FDE3A600B0B4F1 /* languages.json */; };
+		821CFD8421FDE55C00B0B4F1 /* currency.json in Resources */ = {isa = PBXBuildFile; fileRef = 821CFD8321FDE55C00B0B4F1 /* currency.json */; };
+		821CFD8621FDE56500B0B4F1 /* bad_data.json in Resources */ = {isa = PBXBuildFile; fileRef = 821CFD8521FDE56500B0B4F1 /* bad_data.json */; };
+		821CFD8821FDE57200B0B4F1 /* regional_block.json in Resources */ = {isa = PBXBuildFile; fileRef = 821CFD8721FDE57200B0B4F1 /* regional_block.json */; };
+		821CFD8C21FDE58700B0B4F1 /* country.json in Resources */ = {isa = PBXBuildFile; fileRef = 821CFD8B21FDE58700B0B4F1 /* country.json */; };
+		821CFD9021FDE88F00B0B4F1 /* ViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821CFD8F21FDE88F00B0B4F1 /* ViewModelTests.swift */; };
 		82D137BF21F7015800E60037 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D137BE21F7015800E60037 /* AppDelegate.swift */; };
 		82D137C121F7015800E60037 /* CountryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D137C021F7015800E60037 /* CountryViewController.swift */; };
 		82D137C421F7015800E60037 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82D137C221F7015800E60037 /* Main.storyboard */; };
 		82D137C621F7015A00E60037 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82D137C521F7015A00E60037 /* Assets.xcassets */; };
 		82D137C921F7015A00E60037 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82D137C721F7015A00E60037 /* LaunchScreen.storyboard */; };
-		82D137D421F7015A00E60037 /* REST_CountriesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D137D321F7015A00E60037 /* REST_CountriesTests.swift */; };
 		82D137DF21F7015A00E60037 /* REST_CountriesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D137DE21F7015A00E60037 /* REST_CountriesUITests.swift */; };
 		82D137F121F701AD00E60037 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D137F021F701AD00E60037 /* Country.swift */; };
 		82D137F321F7034000E60037 /* RegionalBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D137F221F7034000E60037 /* RegionalBlock.swift */; };
@@ -112,6 +122,17 @@
 		820443FB21FCD86600DDE1DF /* CountryData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryData.swift; sourceTree = "<group>"; };
 		8204441221FCEE0900DDE1DF /* ItemControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemControl.swift; sourceTree = "<group>"; };
 		8204441621FCF6DB00DDE1DF /* FlagView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagView.swift; sourceTree = "<group>"; };
+		821CFD6D21FDDED400B0B4F1 /* ModelsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelsTests.swift; sourceTree = "<group>"; };
+		821CFD6F21FDDFA300B0B4F1 /* MockService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockService.swift; sourceTree = "<group>"; };
+		821CFD7121FDE00500B0B4F1 /* MockRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockRequest.swift; sourceTree = "<group>"; };
+		821CFD7621FDE12000B0B4F1 /* my_country.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = my_country.json; sourceTree = "<group>"; };
+		821CFD7921FDE29F00B0B4F1 /* XCTestCase+GetTestData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTestCase+GetTestData.swift"; sourceTree = "<group>"; };
+		821CFD7B21FDE3A600B0B4F1 /* languages.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = languages.json; sourceTree = "<group>"; };
+		821CFD8321FDE55C00B0B4F1 /* currency.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = currency.json; sourceTree = "<group>"; };
+		821CFD8521FDE56500B0B4F1 /* bad_data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = bad_data.json; sourceTree = "<group>"; };
+		821CFD8721FDE57200B0B4F1 /* regional_block.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = regional_block.json; sourceTree = "<group>"; };
+		821CFD8B21FDE58700B0B4F1 /* country.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = country.json; sourceTree = "<group>"; };
+		821CFD8F21FDE88F00B0B4F1 /* ViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelTests.swift; sourceTree = "<group>"; };
 		82D137BB21F7015800E60037 /* REST Countries.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "REST Countries.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		82D137BE21F7015800E60037 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		82D137C021F7015800E60037 /* CountryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryViewController.swift; sourceTree = "<group>"; };
@@ -120,7 +141,6 @@
 		82D137C821F7015A00E60037 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		82D137CA21F7015A00E60037 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		82D137CF21F7015A00E60037 /* REST CountriesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "REST CountriesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		82D137D321F7015A00E60037 /* REST_CountriesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = REST_CountriesTests.swift; sourceTree = "<group>"; };
 		82D137D521F7015A00E60037 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		82D137DA21F7015A00E60037 /* REST CountriesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "REST CountriesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		82D137DE21F7015A00E60037 /* REST_CountriesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = REST_CountriesUITests.swift; sourceTree = "<group>"; };
@@ -221,6 +241,43 @@
 			path = "REST Countries Widget";
 			sourceTree = "<group>";
 		};
+		821CFD7321FDE0E200B0B4F1 /* TestResources */ = {
+			isa = PBXGroup;
+			children = (
+				821CFD7421FDE0F000B0B4F1 /* Good */,
+				821CFD7521FDE0F800B0B4F1 /* Bad */,
+			);
+			path = TestResources;
+			sourceTree = "<group>";
+		};
+		821CFD7421FDE0F000B0B4F1 /* Good */ = {
+			isa = PBXGroup;
+			children = (
+				821CFD7621FDE12000B0B4F1 /* my_country.json */,
+				821CFD7B21FDE3A600B0B4F1 /* languages.json */,
+				821CFD8321FDE55C00B0B4F1 /* currency.json */,
+				821CFD8721FDE57200B0B4F1 /* regional_block.json */,
+				821CFD8B21FDE58700B0B4F1 /* country.json */,
+			);
+			path = Good;
+			sourceTree = "<group>";
+		};
+		821CFD7521FDE0F800B0B4F1 /* Bad */ = {
+			isa = PBXGroup;
+			children = (
+				821CFD8521FDE56500B0B4F1 /* bad_data.json */,
+			);
+			path = Bad;
+			sourceTree = "<group>";
+		};
+		821CFD7821FDE27700B0B4F1 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				821CFD7921FDE29F00B0B4F1 /* XCTestCase+GetTestData.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		82D137B221F7015800E60037 = {
 			isa = PBXGroup;
 			children = (
@@ -267,8 +324,13 @@
 		82D137D221F7015A00E60037 /* REST CountriesTests */ = {
 			isa = PBXGroup;
 			children = (
-				82D137D321F7015A00E60037 /* REST_CountriesTests.swift */,
 				82D137D521F7015A00E60037 /* Info.plist */,
+				821CFD6D21FDDED400B0B4F1 /* ModelsTests.swift */,
+				821CFD8F21FDE88F00B0B4F1 /* ViewModelTests.swift */,
+				821CFD6F21FDDFA300B0B4F1 /* MockService.swift */,
+				821CFD7121FDE00500B0B4F1 /* MockRequest.swift */,
+				821CFD7321FDE0E200B0B4F1 /* TestResources */,
+				821CFD7821FDE27700B0B4F1 /* Extensions */,
 			);
 			path = "REST CountriesTests";
 			sourceTree = "<group>";
@@ -443,6 +505,7 @@
 				82D137CB21F7015A00E60037 /* Sources */,
 				82D137CC21F7015A00E60037 /* Frameworks */,
 				82D137CD21F7015A00E60037 /* Resources */,
+				9331C7B14AD3246299109113 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -553,6 +616,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				821CFD8C21FDE58700B0B4F1 /* country.json in Resources */,
+				821CFD8421FDE55C00B0B4F1 /* currency.json in Resources */,
+				821CFD8621FDE56500B0B4F1 /* bad_data.json in Resources */,
+				821CFD8821FDE57200B0B4F1 /* regional_block.json in Resources */,
+				821CFD7721FDE12000B0B4F1 /* my_country.json in Resources */,
+				821CFD7C21FDE3A600B0B4F1 /* languages.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -634,6 +703,28 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9331C7B14AD3246299109113 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-REST CountriesTests/Pods-REST CountriesTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-REST CountriesTests/Pods-REST CountriesTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		B8B41C11EB7F6247C3771CF8 /* [CP] Check Pods Manifest.lock */ = {
@@ -739,7 +830,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				82D137D421F7015A00E60037 /* REST_CountriesTests.swift in Sources */,
+				821CFD6E21FDDED400B0B4F1 /* ModelsTests.swift in Sources */,
+				821CFD7021FDDFA300B0B4F1 /* MockService.swift in Sources */,
+				821CFD7221FDE00500B0B4F1 /* MockRequest.swift in Sources */,
+				821CFD7A21FDE29F00B0B4F1 /* XCTestCase+GetTestData.swift in Sources */,
+				821CFD9021FDE88F00B0B4F1 /* ViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

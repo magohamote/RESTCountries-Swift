@@ -1,0 +1,49 @@
+[
+    {
+        "name": "Switzerland",
+        "capital": "Bern",
+        "region": "Europe",
+        "population": 1,
+        "latlng": [
+            1,
+            1
+        ],
+        "area": 1,
+        "currencies": [
+            {
+                "code": "CHF",
+                "name": "Swiss franc",
+                "symbol": "Fr"
+            }
+        ],
+        "languages": [
+            {
+                "iso639_1": "de",
+                "iso639_2": "deu",
+                "name": "German",
+                "nativeName": "Deutsch"
+            },
+            {
+                "iso639_1": "fr",
+                "iso639_2": "fra",
+                "name": "French",
+                "nativeName": "français"
+            },
+            {
+                "iso639_1": "it",
+                "iso639_2": "ita",
+                "name": "Italian",
+                "nativeName": "Italiano"
+            }
+        ],
+        "flag": "flag",
+        "regionalBlocs": [
+            {
+                "acronym": "EFTA",
+                "name": "European Free Trade Association",
+                "otherAcronyms": [],
+                "otherNames": []
+            }
+        ]
+    }
+]
