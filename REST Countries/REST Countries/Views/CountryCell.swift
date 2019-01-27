@@ -19,9 +19,9 @@ class CountryCell: UITableViewCell {
     
     func config(withCountry country: Country?) {
         if let flag = country?.flag, let flagUrl = URL(string: flag) {
-            // This svg is malformed and makes the SVGKit library crash
-            // (SwiftSVG is even worse than SVGKit)
-            if flag != "https://restcountries.eu/data/shn.svg" {
+            // This svg cannot be displayed by SVGKit library and makes
+            // the app crash (SwiftSVG is even worst than SVGKit)
+            if !flag.contains("shn.svg") {
                 self.flagView?.image = SVGKImage(contentsOf: flagUrl)
             }
         }

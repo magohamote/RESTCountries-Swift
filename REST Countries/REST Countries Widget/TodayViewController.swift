@@ -26,40 +26,44 @@ class TodayViewController: UIViewController, NCWidgetProviding {
     override func viewDidLoad() {
         super.viewDidLoad()
         extensionContext?.widgetLargestAvailableDisplayMode = .expanded
-        
+    }
+
+    func widgetPerformUpdate(completionHandler: (@escaping (NCUpdateResult) -> Void)) {
         let sharedDefaults = UserDefaults.init(suiteName: "group.eu.restcountries.REST-Countries")
         if let data = sharedDefaults?.value(forKey:"myCountry") as? Data {
             myCountry = try? PropertyListDecoder().decode(Country.self, from: data)
             
             guard let myCountry = myCountry else {
+                completionHandler(NCUpdateResult.failed)
                 return
             }
             
-            if let flag = myCountry.flag, let flagUrl = URL(string: flag) {
-                flagView?.image = SVGKImage(contentsOf: flagUrl)
-            }
-            
-            countryNameLabel?.text = myCountry.name
-            capitalLabel?.text = myCountry.capital
-            populationLabel?.text = String(myCountry.population.formattedWithSeparator)
-            regionLabel?.text = myCountry.region
-            regionalBlocksControl?.items = (myCountry.regionalBlocks ?? [RegionalBlock]()).map { $0.name }
-            languagesControl?.items = (myCountry.languages ?? [Language]()).map { $0.name }
-            currenciesControl?.items = (myCountry.currencies ?? [Currency]()).map { "\($0.name) - \($0.symbol)" }
+            updateUI(myCountry: myCountry)
+            completionHandler(NCUpdateResult.newData)
         }
-    }
         
-    func widgetPerformUpdate(completionHandler: (@escaping (NCUpdateResult) -> Void)) {
-        // Perform any setup necessary in order to update the view.
-        
-        completionHandler(NCUpdateResult.newData)
+        completionHandler(NCUpdateResult.failed)
     }
     
     func widgetActiveDisplayModeDidChange(_ activeDisplayMode: NCWidgetDisplayMode, withMaximumSize maxSize: CGSize) {
         if activeDisplayMode == .compact {
             preferredContentSize = maxSize
         } else if activeDisplayMode == .expanded {
-            preferredContentSize = CGSize(width: maxSize.width, height: 351)
+            preferredContentSize = CGSize(width: maxSize.width, height: 325)
         }
+    }
+    
+    private func updateUI(myCountry: Country) {
+        if let flag = myCountry.flag, let flagUrl = URL(string: flag) {
+            flagView?.image = SVGKImage(contentsOf: flagUrl)
+        }
+        
+        countryNameLabel?.text = myCountry.name
+        capitalLabel?.text = myCountry.capital
+        populationLabel?.text = String(myCountry.population.formattedWithSeparator)
+        regionLabel?.text = myCountry.region
+        regionalBlocksControl?.items = (myCountry.regionalBlocks ?? [RegionalBlock]()).map { $0.name }
+        languagesControl?.items = (myCountry.languages ?? [Language]()).map { $0.name }
+        currenciesControl?.items = (myCountry.currencies ?? [Currency]()).map { "\($0.name) - \($0.symbol)" }
     }
 }
