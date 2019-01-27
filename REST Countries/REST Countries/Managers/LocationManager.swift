@@ -69,7 +69,7 @@ extension LocationManager: CLLocationManagerDelegate {
             return
         }
         
-        if myLocation == nil || lastLocation.distance(from: (myLocation ?? lastLocation)) > 1000 {
+        if (myLocation == nil || lastLocation.distance(from: (myLocation ?? lastLocation)) > 1000) && Reachability.isConnected() {
             myLocation = lastLocation
             locationManagerDelegate?.locationManagerDidUpdate(self)
         }

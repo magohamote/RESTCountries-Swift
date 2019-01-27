@@ -19,7 +19,7 @@ class CountryViewModel {
     
     var service: Service?
     
-    init(service: Service) {
+    init(service: Service = Service()) {
         self.service = service
     }
     

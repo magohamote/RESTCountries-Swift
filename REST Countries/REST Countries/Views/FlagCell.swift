@@ -14,7 +14,7 @@ class FlagCell: UITableViewCell {
     @IBOutlet weak var flagView: FlagView?
     
     func config(with flagUrlString: String?) {
-        if let flagUrlString = flagUrlString, let flagUrl = URL(string: flagUrlString) {
+        if let flagUrlString = flagUrlString, let flagUrl = URL(string: flagUrlString), Reachability.isConnected() {
             flagView?.image = SVGKImage(contentsOf: flagUrl)
         }
     }

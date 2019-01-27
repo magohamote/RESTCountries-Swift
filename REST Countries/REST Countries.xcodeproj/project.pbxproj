@@ -37,6 +37,8 @@
 		821CFD8821FDE57200B0B4F1 /* regional_block.json in Resources */ = {isa = PBXBuildFile; fileRef = 821CFD8721FDE57200B0B4F1 /* regional_block.json */; };
 		821CFD8C21FDE58700B0B4F1 /* country.json in Resources */ = {isa = PBXBuildFile; fileRef = 821CFD8B21FDE58700B0B4F1 /* country.json */; };
 		821CFD9021FDE88F00B0B4F1 /* ViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821CFD8F21FDE88F00B0B4F1 /* ViewModelTests.swift */; };
+		821CFD9421FE45C900B0B4F1 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821CFD9321FE45C900B0B4F1 /* Reachability.swift */; };
+		821CFD9621FE468300B0B4F1 /* UIViewController+Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821CFD9521FE468300B0B4F1 /* UIViewController+Alert.swift */; };
 		82D137BF21F7015800E60037 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D137BE21F7015800E60037 /* AppDelegate.swift */; };
 		82D137C121F7015800E60037 /* CountryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D137C021F7015800E60037 /* CountryViewController.swift */; };
 		82D137C421F7015800E60037 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82D137C221F7015800E60037 /* Main.storyboard */; };
@@ -133,6 +135,8 @@
 		821CFD8721FDE57200B0B4F1 /* regional_block.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = regional_block.json; sourceTree = "<group>"; };
 		821CFD8B21FDE58700B0B4F1 /* country.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = country.json; sourceTree = "<group>"; };
 		821CFD8F21FDE88F00B0B4F1 /* ViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelTests.swift; sourceTree = "<group>"; };
+		821CFD9321FE45C900B0B4F1 /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		821CFD9521FE468300B0B4F1 /* UIViewController+Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Alert.swift"; sourceTree = "<group>"; };
 		82D137BB21F7015800E60037 /* REST Countries.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "REST Countries.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		82D137BE21F7015800E60037 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		82D137C021F7015800E60037 /* CountryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryViewController.swift; sourceTree = "<group>"; };
@@ -396,6 +400,7 @@
 			children = (
 				82D1380F21F8911300E60037 /* Service.swift */,
 				82D1381121F8914800E60037 /* Endpoints.swift */,
+				821CFD9321FE45C900B0B4F1 /* Reachability.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -429,6 +434,7 @@
 				82D1380D21F88FF500E60037 /* Formatter+Separator.swift */,
 				82FCBF4C21F8B5D90073C5AF /* Collection+SafeIndex.swift */,
 				82F5BDE021FB614D00788E76 /* UIView+AutoLayout.swift */,
+				821CFD9521FE468300B0B4F1 /* UIViewController+Alert.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -802,6 +808,7 @@
 				82D1380121F7C23F00E60037 /* RoundButton.swift in Sources */,
 				82D1381021F8911300E60037 /* Service.swift in Sources */,
 				82FCBF5521F9A9960073C5AF /* MyLocationViewController.swift in Sources */,
+				821CFD9421FE45C900B0B4F1 /* Reachability.swift in Sources */,
 				82D1380821F7C89E00E60037 /* UIViewController+Identifier.swift in Sources */,
 				82D137F721F704C300E60037 /* Currency.swift in Sources */,
 				82D1381221F8914800E60037 /* Endpoints.swift in Sources */,
@@ -823,6 +830,7 @@
 				82FCBF5121F8D8D50073C5AF /* NavigationController.swift in Sources */,
 				82D137BF21F7015800E60037 /* AppDelegate.swift in Sources */,
 				82D1380421F7C46600E60037 /* UIColor+Hex.swift in Sources */,
+				821CFD9621FE468300B0B4F1 /* UIViewController+Alert.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

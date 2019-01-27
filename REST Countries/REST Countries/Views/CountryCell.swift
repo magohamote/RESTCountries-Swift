@@ -18,7 +18,7 @@ class CountryCell: UITableViewCell {
     @IBOutlet var areaSizeLabel: UILabel?
     
     func config(withCountry country: Country?) {
-        if let flag = country?.flag, let flagUrl = URL(string: flag) {
+        if let flag = country?.flag, let flagUrl = URL(string: flag), Reachability.isConnected() {
             // This svg cannot be displayed by SVGKit library and makes
             // the app crash (SwiftSVG is even worst than SVGKit)
             if !flag.contains("shn.svg") {

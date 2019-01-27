@@ -41,7 +41,7 @@ class MyLocationViewController: UIViewController {
     var myCountryName: String?
     
     private let sharedDefaults = UserDefaults(suiteName: "group.eu.restcountries.REST-Countries")
-    private var countryViewModel = CountryViewModel(service: Service())
+    private var countryViewModel = CountryViewModel()
     private var myCountry: Country? {
         didSet {
             tableView?.reloadData()
@@ -73,11 +73,15 @@ class MyLocationViewController: UIViewController {
     }
     
     private func fetchCountryInfo() {
-        guard let myCountryName = myCountryName else {
-            return
+        if Reachability.isConnected() {
+            guard let myCountryName = myCountryName else {
+                return
+            }
+            
+            countryViewModel.requestMyCountry(countryName: myCountryName.replacingOccurrences(of: " ", with: "%20"))
+        } else {
+            showError(withMessage: NetworkError.noInternet.rawValue)
         }
-        
-        countryViewModel.requestMyCountry(countryName: myCountryName.replacingOccurrences(of: " ", with: "%20"))
     }
 }
 

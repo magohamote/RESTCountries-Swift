@@ -13,7 +13,7 @@ class CountryViewController: UIViewController {
     @IBOutlet weak var tableView: UITableView?
     
     private let searchController = SearchController(searchResultsController: nil)
-    private let countryViewModel = CountryViewModel(service: Service())
+    private let countryViewModel = CountryViewModel()
     private let locationManager = LocationManager()
     private let endpoints = [Endpoints.name, Endpoints.capital, Endpoints.language]
     private var scope: SearchScope = .name
@@ -40,6 +40,13 @@ class CountryViewController: UIViewController {
         
         setupSearchBar()
         setupMyLocationButton()
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        if !Reachability.isConnected() {
+            showError(withMessage: NetworkError.noInternet.rawValue)
+        }
     }
     
     private func setupSearchBar() {
@@ -85,7 +92,11 @@ extension CountryViewController: UITableViewDataSource {
 // MARK: - LocationManagerDelegate
 extension CountryViewController: LocationManagerDelegate {
     func locationManagerDidUpdate(_ locationManager: LocationManager) {
-        countryViewModel.requestAllCountries()
+        if Reachability.isConnected() {
+            countryViewModel.requestAllCountries()
+        } else {
+            showError(withMessage: NetworkError.noInternet.rawValue)
+        }
     }
 
     func locationManagerGotCurrentCity(_ locationManager: LocationManager) {
@@ -132,25 +143,31 @@ extension CountryViewController: UISearchBarDelegate {
 // MARK: - UISearchResultsUpdating
 extension CountryViewController: UISearchResultsUpdating {
     func updateSearchResults(for searchController: UISearchController) {
+        
         searchForCountry()
+        
     }
 }
 
 private extension CountryViewController {
     func searchForCountry() {
-        guard let searchText = searchController.searchBar.text, searchText.count > 0 else {
-            return
-        }
-        
-        switch scope {
-        case .name:
-            countryViewModel.requestCountriesByName(countryName: searchText)
-        case .capital:
-            countryViewModel.requestCountriesByCapital(capital: searchText)
-        case .language:
-            if searchText.count == 2 {
-                countryViewModel.requestCountriesByLanguage(language: searchText)
+        if Reachability.isConnected() {
+            guard let searchText = searchController.searchBar.text, searchText.count > 0 else {
+                return
             }
+            
+            switch scope {
+            case .name:
+                countryViewModel.requestCountriesByName(countryName: searchText)
+            case .capital:
+                countryViewModel.requestCountriesByCapital(capital: searchText)
+            case .language:
+                if searchText.count == 2 {
+                    countryViewModel.requestCountriesByLanguage(language: searchText)
+                }
+            }
+        } else {
+            showError(withMessage: NetworkError.noInternet.rawValue)
         }
     }
     

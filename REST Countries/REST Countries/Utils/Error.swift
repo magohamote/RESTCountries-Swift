@@ -11,3 +11,7 @@ import Foundation
 enum FormatError: Error {
     case badFormatError
 }
+
+enum NetworkError: String, Error {
+    case noInternet = "No internet connection available."
+}
