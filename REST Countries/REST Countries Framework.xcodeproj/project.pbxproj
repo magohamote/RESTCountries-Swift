@@ -12,6 +12,18 @@
 		82E8142421FF9C29006DA235 /* Formatter+Separator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E8142321FF9C29006DA235 /* Formatter+Separator.swift */; };
 		82E8142621FF9D4F006DA235 /* UIView+AutoLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E8142521FF9D4F006DA235 /* UIView+AutoLayout.swift */; };
 		82E8142821FF9D7B006DA235 /* SharedUserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E8142721FF9D7B006DA235 /* SharedUserDefaults.swift */; };
+		82E8143921FFABF4006DA235 /* REST_Countries_Framework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82FE008821FF220F00340244 /* REST_Countries_Framework.framework */; };
+		82E8145321FFAC14006DA235 /* MockRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E8144521FFAC11006DA235 /* MockRequest.swift */; };
+		82E8145421FFAC14006DA235 /* ViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E8144621FFAC12006DA235 /* ViewModelTests.swift */; };
+		82E8145521FFAC14006DA235 /* ModelsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E8144721FFAC13006DA235 /* ModelsTests.swift */; };
+		82E8145621FFAC14006DA235 /* MockService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E8144021FFAC11006DA235 /* MockService.swift */; };
+		82E8145721FFAEEB006DA235 /* XCTestCase+GetTestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E8145121FFAC14006DA235 /* XCTestCase+GetTestData.swift */; };
+		82E8145821FFAF05006DA235 /* my_country.json in Resources */ = {isa = PBXBuildFile; fileRef = 82E8144821FFAC13006DA235 /* my_country.json */; };
+		82E8145921FFAF05006DA235 /* languages.json in Resources */ = {isa = PBXBuildFile; fileRef = 82E8144921FFAC13006DA235 /* languages.json */; };
+		82E8145A21FFAF05006DA235 /* currency.json in Resources */ = {isa = PBXBuildFile; fileRef = 82E8144A21FFAC13006DA235 /* currency.json */; };
+		82E8145B21FFAF05006DA235 /* regional_block.json in Resources */ = {isa = PBXBuildFile; fileRef = 82E8144B21FFAC13006DA235 /* regional_block.json */; };
+		82E8145C21FFAF05006DA235 /* country.json in Resources */ = {isa = PBXBuildFile; fileRef = 82E8144C21FFAC13006DA235 /* country.json */; };
+		82E8145D21FFAF09006DA235 /* bad_data.json in Resources */ = {isa = PBXBuildFile; fileRef = 82E8144E21FFAC13006DA235 /* bad_data.json */; };
 		82FE008D21FF220F00340244 /* REST_Countries_Framework.h in Headers */ = {isa = PBXBuildFile; fileRef = 82FE008B21FF220F00340244 /* REST_Countries_Framework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		82FE00AD21FF240C00340244 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FE00AA21FF240B00340244 /* Service.swift */; };
 		82FE00AE21FF240C00340244 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FE00AB21FF240B00340244 /* Reachability.swift */; };
@@ -26,12 +38,35 @@
 		82FE00C021FF251100340244 /* Collection+SafeIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FE00BF21FF251100340244 /* Collection+SafeIndex.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		82E8143A21FFABF4006DA235 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82FE007F21FF220F00340244 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82FE008721FF220F00340244;
+			remoteInfo = "REST Countries Framework";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		82E8141D21FF979E006DA235 /* Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
 		82E8142121FF9BED006DA235 /* UIColor+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Hex.swift"; sourceTree = "<group>"; };
 		82E8142321FF9C29006DA235 /* Formatter+Separator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Formatter+Separator.swift"; sourceTree = "<group>"; };
 		82E8142521FF9D4F006DA235 /* UIView+AutoLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+AutoLayout.swift"; sourceTree = "<group>"; };
 		82E8142721FF9D7B006DA235 /* SharedUserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedUserDefaults.swift; sourceTree = "<group>"; };
+		82E8143421FFABF4006DA235 /* REST_Countries_FrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = REST_Countries_FrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		82E8143821FFABF4006DA235 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82E8144021FFAC11006DA235 /* MockService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockService.swift; sourceTree = "<group>"; };
+		82E8144521FFAC11006DA235 /* MockRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockRequest.swift; sourceTree = "<group>"; };
+		82E8144621FFAC12006DA235 /* ViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelTests.swift; sourceTree = "<group>"; };
+		82E8144721FFAC13006DA235 /* ModelsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelsTests.swift; sourceTree = "<group>"; };
+		82E8144821FFAC13006DA235 /* my_country.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = my_country.json; sourceTree = "<group>"; };
+		82E8144921FFAC13006DA235 /* languages.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = languages.json; sourceTree = "<group>"; };
+		82E8144A21FFAC13006DA235 /* currency.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = currency.json; sourceTree = "<group>"; };
+		82E8144B21FFAC13006DA235 /* regional_block.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = regional_block.json; sourceTree = "<group>"; };
+		82E8144C21FFAC13006DA235 /* country.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = country.json; sourceTree = "<group>"; };
+		82E8144E21FFAC13006DA235 /* bad_data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = bad_data.json; sourceTree = "<group>"; };
+		82E8145121FFAC14006DA235 /* XCTestCase+GetTestData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTestCase+GetTestData.swift"; sourceTree = "<group>"; };
 		82FE008821FF220F00340244 /* REST_Countries_Framework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = REST_Countries_Framework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		82FE008B21FF220F00340244 /* REST_Countries_Framework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = REST_Countries_Framework.h; sourceTree = "<group>"; };
 		82FE008C21FF220F00340244 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +84,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		82E8143121FFABF4006DA235 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82E8143921FFABF4006DA235 /* REST_Countries_Framework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		82FE008521FF220F00340244 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -59,10 +102,62 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		82E8143521FFABF4006DA235 /* REST_Countries_FrameworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				82E8144721FFAC13006DA235 /* ModelsTests.swift */,
+				82E8144621FFAC12006DA235 /* ViewModelTests.swift */,
+				82E8144021FFAC11006DA235 /* MockService.swift */,
+				82E8144521FFAC11006DA235 /* MockRequest.swift */,
+				82E8145021FFAC13006DA235 /* TestResources */,
+				82E8145221FFAC14006DA235 /* Extensions */,
+				82E8143821FFABF4006DA235 /* Info.plist */,
+			);
+			path = REST_Countries_FrameworkTests;
+			sourceTree = "<group>";
+		};
+		82E8144D21FFAC13006DA235 /* Good */ = {
+			isa = PBXGroup;
+			children = (
+				82E8144821FFAC13006DA235 /* my_country.json */,
+				82E8144921FFAC13006DA235 /* languages.json */,
+				82E8144A21FFAC13006DA235 /* currency.json */,
+				82E8144B21FFAC13006DA235 /* regional_block.json */,
+				82E8144C21FFAC13006DA235 /* country.json */,
+			);
+			path = Good;
+			sourceTree = "<group>";
+		};
+		82E8144F21FFAC13006DA235 /* Bad */ = {
+			isa = PBXGroup;
+			children = (
+				82E8144E21FFAC13006DA235 /* bad_data.json */,
+			);
+			path = Bad;
+			sourceTree = "<group>";
+		};
+		82E8145021FFAC13006DA235 /* TestResources */ = {
+			isa = PBXGroup;
+			children = (
+				82E8144D21FFAC13006DA235 /* Good */,
+				82E8144F21FFAC13006DA235 /* Bad */,
+			);
+			path = TestResources;
+			sourceTree = "<group>";
+		};
+		82E8145221FFAC14006DA235 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				82E8145121FFAC14006DA235 /* XCTestCase+GetTestData.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		82FE007E21FF220F00340244 = {
 			isa = PBXGroup;
 			children = (
 				82FE008A21FF220F00340244 /* REST Countries Framework */,
+				82E8143521FFABF4006DA235 /* REST_Countries_FrameworkTests */,
 				82FE008921FF220F00340244 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -71,6 +166,7 @@
 			isa = PBXGroup;
 			children = (
 				82FE008821FF220F00340244 /* REST_Countries_Framework.framework */,
+				82E8143421FFABF4006DA235 /* REST_Countries_FrameworkTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -162,6 +258,24 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		82E8143321FFABF4006DA235 /* REST_Countries_FrameworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82E8143E21FFABF4006DA235 /* Build configuration list for PBXNativeTarget "REST_Countries_FrameworkTests" */;
+			buildPhases = (
+				82E8143021FFABF4006DA235 /* Sources */,
+				82E8143121FFABF4006DA235 /* Frameworks */,
+				82E8143221FFABF4006DA235 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82E8143B21FFABF4006DA235 /* PBXTargetDependency */,
+			);
+			name = REST_Countries_FrameworkTests;
+			productName = REST_Countries_FrameworkTests;
+			productReference = 82E8143421FFABF4006DA235 /* REST_Countries_FrameworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		82FE008721FF220F00340244 /* REST Countries Framework */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 82FE009021FF220F00340244 /* Build configuration list for PBXNativeTarget "REST Countries Framework" */;
@@ -186,9 +300,13 @@
 		82FE007F21FF220F00340244 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Cédric Rolland";
 				TargetAttributes = {
+					82E8143321FFABF4006DA235 = {
+						CreatedOnToolsVersion = 10.1;
+					};
 					82FE008721FF220F00340244 = {
 						CreatedOnToolsVersion = 10.1;
 						LastSwiftMigration = 1010;
@@ -208,11 +326,25 @@
 			projectRoot = "";
 			targets = (
 				82FE008721FF220F00340244 /* REST Countries Framework */,
+				82E8143321FFABF4006DA235 /* REST_Countries_FrameworkTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		82E8143221FFABF4006DA235 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82E8145821FFAF05006DA235 /* my_country.json in Resources */,
+				82E8145A21FFAF05006DA235 /* currency.json in Resources */,
+				82E8145C21FFAF05006DA235 /* country.json in Resources */,
+				82E8145B21FFAF05006DA235 /* regional_block.json in Resources */,
+				82E8145921FFAF05006DA235 /* languages.json in Resources */,
+				82E8145D21FFAF09006DA235 /* bad_data.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		82FE008621FF220F00340244 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -223,6 +355,18 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		82E8143021FFABF4006DA235 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82E8145621FFAC14006DA235 /* MockService.swift in Sources */,
+				82E8145321FFAC14006DA235 /* MockRequest.swift in Sources */,
+				82E8145421FFAC14006DA235 /* ViewModelTests.swift in Sources */,
+				82E8145721FFAEEB006DA235 /* XCTestCase+GetTestData.swift in Sources */,
+				82E8145521FFAC14006DA235 /* ModelsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		82FE008421FF220F00340244 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -248,7 +392,51 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		82E8143B21FFABF4006DA235 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82FE008721FF220F00340244 /* REST Countries Framework */;
+			targetProxy = 82E8143A21FFABF4006DA235 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		82E8143C21FFABF4006DA235 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 847P2LXN5F;
+				INFOPLIST_FILE = REST_Countries_FrameworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "eu.restcountries.REST-Countries-FrameworkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		82E8143D21FFABF4006DA235 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 847P2LXN5F;
+				INFOPLIST_FILE = REST_Countries_FrameworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "eu.restcountries.REST-Countries-FrameworkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		82FE008E21FF220F00340244 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -427,6 +615,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		82E8143E21FFABF4006DA235 /* Build configuration list for PBXNativeTarget "REST_Countries_FrameworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82E8143C21FFABF4006DA235 /* Debug */,
+				82E8143D21FFABF4006DA235 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		82FE008221FF220F00340244 /* Build configuration list for PBXProject "REST Countries Framework" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

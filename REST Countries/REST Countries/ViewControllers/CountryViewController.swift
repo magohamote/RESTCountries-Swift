@@ -41,6 +41,9 @@ class CountryViewController: UIViewController {
         tableView?.dataSource = self
         tableView?.tableFooterView = UIView()
         
+        let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(dismissKeyboard(_:)))
+        view.addGestureRecognizer(tap)
+        
         setupSearchBar()
         setupMyLocationButton()
     }
@@ -64,6 +67,11 @@ class CountryViewController: UIViewController {
         myLocationButton.tintColor = .white
         navigationItem.rightBarButtonItem = myLocationButton
         navigationItem.rightBarButtonItem?.isEnabled = false
+    }
+    
+    // MARK: - Targets
+    @objc private func dismissKeyboard(_ sender: UITapGestureRecognizer) {
+        searchController.searchBar.endEditing(true)
     }
     
     @objc private func openMyLocation(_ sender: UIBarButtonItem) {
@@ -154,18 +162,22 @@ extension CountryViewController: UISearchResultsUpdating {
 private extension CountryViewController {
     func searchForCountry() {
         if Reachability.isConnected() {
-            guard let searchText = searchController.searchBar.text, searchText.count > 0 else {
+            guard let searchText = searchController.searchBar.text else {
                 return
             }
             
-            switch scope {
-            case .name:
-                countryViewModel.requestCountriesByName(countryName: searchText)
-            case .capital:
-                countryViewModel.requestCountriesByCapital(capital: searchText)
-            case .language:
-                if searchText.count == 2 {
-                    countryViewModel.requestCountriesByLanguage(language: searchText)
+            if searchText.count == 0 {
+                countryViewModel.requestAllCountries()
+            } else {
+                switch scope {
+                case .name:
+                    countryViewModel.requestCountriesByName(countryName: searchText)
+                case .capital:
+                    countryViewModel.requestCountriesByCapital(capital: searchText)
+                case .language:
+                    if searchText.count == 2 {
+                        countryViewModel.requestCountriesByLanguage(language: searchText)
+                    }
                 }
             }
         } else {

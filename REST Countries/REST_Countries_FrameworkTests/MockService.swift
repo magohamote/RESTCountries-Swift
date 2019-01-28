@@ -7,9 +7,8 @@
 //
 
 import Foundation
-import Alamofire
 
-@testable import REST_Countries
+@testable import REST_Countries_Framework
 
 class MockService: Service {
     
@@ -31,7 +30,7 @@ class MockService: Service {
         request(completion: completion)
     }
     
-    override func requestCountryByName(countryName: String, filter: String, completion: @escaping ([Country]?, Error?) -> Void) {
+    override func requestCountryByName(countryName: String, completion: @escaping ([Country]?, Error?) -> Void) {
         request(completion: completion)
     }
     
@@ -47,11 +46,11 @@ class MockService: Service {
         do {
             MockRequest.response.json = try JSONSerialization.jsonObject(with: data, options: .allowFragments) as AnyObject
         } catch {
-            completion(nil, FormatError.badFormatError)
+            completion(nil, RequestError.invalidData)
             return
         }
         
-        _ = request("dummyURL").responseJSON { (request, response, JSON, error) -> Void in
+        _ = MockRequest(request: "dummyURL").responseJSON { (request, response, JSON, error) -> Void in
             if let jsonData = JSON as? [[String: Any]] {
                 var countries = [Country]()
                 
@@ -63,25 +62,11 @@ class MockService: Service {
                 
                 completion(countries, nil)
             } else {
-                completion(nil, FormatError.badFormatError)
+                completion(nil, RequestError.invalidData)
             }
         }
     }
-    
-    private func request(
-        _ url: URLConvertible,
-        method: HTTPMethod = .get,
-        parameters: Parameters? = nil,
-        encoding: ParameterEncoding = URLEncoding.default,
-        headers: HTTPHeaders? = nil) -> MockRequest {
-        
-        guard let url = url as? String else {
-            return MockRequest(request: "")
-        }
-        
-        return MockRequest(request: url)
-    }
-    
+
     private func getTestData(name: String) -> Data? {
         let testBundle = Bundle(for: type(of: self))
         guard let path = testBundle.path(forResource: name, ofType: "json") else {

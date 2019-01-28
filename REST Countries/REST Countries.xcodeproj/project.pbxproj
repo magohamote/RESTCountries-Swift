@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		111BB3CCE34A0A7F04EC70F5 /* Pods_REST_CountriesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C0F2907B0E968A56878ECB1 /* Pods_REST_CountriesTests.framework */; };
 		138F9B97E6C5447D9C9ED5C7 /* Pods_REST_CountriesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6AA4E777661F9571FCDA7F7 /* Pods_REST_CountriesUITests.framework */; };
 		820443EA21FC854000DDE1DF /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 820443D521FC830E00DDE1DF /* NotificationCenter.framework */; };
 		820443ED21FC854000DDE1DF /* MyCountryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820443EC21FC854000DDE1DF /* MyCountryViewController.swift */; };
@@ -15,17 +14,6 @@
 		820443FD21FCDB3C00DDE1DF /* REST Countries Widget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 820443E921FC854000DDE1DF /* REST Countries Widget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		8204441321FCEE0900DDE1DF /* ItemControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8204441221FCEE0900DDE1DF /* ItemControl.swift */; };
 		8204441721FCF6DB00DDE1DF /* FlagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8204441621FCF6DB00DDE1DF /* FlagView.swift */; };
-		821CFD6E21FDDED400B0B4F1 /* ModelsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821CFD6D21FDDED400B0B4F1 /* ModelsTests.swift */; };
-		821CFD7021FDDFA300B0B4F1 /* MockService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821CFD6F21FDDFA300B0B4F1 /* MockService.swift */; };
-		821CFD7221FDE00500B0B4F1 /* MockRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821CFD7121FDE00500B0B4F1 /* MockRequest.swift */; };
-		821CFD7721FDE12000B0B4F1 /* my_country.json in Resources */ = {isa = PBXBuildFile; fileRef = 821CFD7621FDE12000B0B4F1 /* my_country.json */; };
-		821CFD7A21FDE29F00B0B4F1 /* XCTestCase+GetTestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821CFD7921FDE29F00B0B4F1 /* XCTestCase+GetTestData.swift */; };
-		821CFD7C21FDE3A600B0B4F1 /* languages.json in Resources */ = {isa = PBXBuildFile; fileRef = 821CFD7B21FDE3A600B0B4F1 /* languages.json */; };
-		821CFD8421FDE55C00B0B4F1 /* currency.json in Resources */ = {isa = PBXBuildFile; fileRef = 821CFD8321FDE55C00B0B4F1 /* currency.json */; };
-		821CFD8621FDE56500B0B4F1 /* bad_data.json in Resources */ = {isa = PBXBuildFile; fileRef = 821CFD8521FDE56500B0B4F1 /* bad_data.json */; };
-		821CFD8821FDE57200B0B4F1 /* regional_block.json in Resources */ = {isa = PBXBuildFile; fileRef = 821CFD8721FDE57200B0B4F1 /* regional_block.json */; };
-		821CFD8C21FDE58700B0B4F1 /* country.json in Resources */ = {isa = PBXBuildFile; fileRef = 821CFD8B21FDE58700B0B4F1 /* country.json */; };
-		821CFD9021FDE88F00B0B4F1 /* ViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821CFD8F21FDE88F00B0B4F1 /* ViewModelTests.swift */; };
 		821CFD9621FE468300B0B4F1 /* UIViewController+Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821CFD9521FE468300B0B4F1 /* UIViewController+Alert.swift */; };
 		82D137BF21F7015800E60037 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D137BE21F7015800E60037 /* AppDelegate.swift */; };
 		82D137C121F7015800E60037 /* CountryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D137C021F7015800E60037 /* CountryViewController.swift */; };
@@ -58,13 +46,6 @@
 			remoteGlobalIDString = 820443E821FC854000DDE1DF;
 			remoteInfo = "REST Countries Widget";
 		};
-		82D137D021F7015A00E60037 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 82D137B321F7015800E60037 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 82D137BA21F7015800E60037;
-			remoteInfo = "REST Countries";
-		};
 		82D137DB21F7015A00E60037 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 82D137B321F7015800E60037 /* Project object */;
@@ -78,6 +59,13 @@
 			proxyType = 2;
 			remoteGlobalIDString = 82FE008821FF220F00340244;
 			remoteInfo = "REST Countries Framework";
+		};
+		82E8144321FFAC11006DA235 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82E8140A21FF93AD006DA235 /* REST Countries Framework.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 82E8143421FFABF4006DA235;
+			remoteInfo = REST_Countries_FrameworkTests;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -129,17 +117,6 @@
 		820443FA21FCCB0500DDE1DF /* REST Countries Widget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "REST Countries Widget.entitlements"; sourceTree = "<group>"; };
 		8204441221FCEE0900DDE1DF /* ItemControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemControl.swift; sourceTree = "<group>"; };
 		8204441621FCF6DB00DDE1DF /* FlagView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagView.swift; sourceTree = "<group>"; };
-		821CFD6D21FDDED400B0B4F1 /* ModelsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelsTests.swift; sourceTree = "<group>"; };
-		821CFD6F21FDDFA300B0B4F1 /* MockService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockService.swift; sourceTree = "<group>"; };
-		821CFD7121FDE00500B0B4F1 /* MockRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockRequest.swift; sourceTree = "<group>"; };
-		821CFD7621FDE12000B0B4F1 /* my_country.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = my_country.json; sourceTree = "<group>"; };
-		821CFD7921FDE29F00B0B4F1 /* XCTestCase+GetTestData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTestCase+GetTestData.swift"; sourceTree = "<group>"; };
-		821CFD7B21FDE3A600B0B4F1 /* languages.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = languages.json; sourceTree = "<group>"; };
-		821CFD8321FDE55C00B0B4F1 /* currency.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = currency.json; sourceTree = "<group>"; };
-		821CFD8521FDE56500B0B4F1 /* bad_data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = bad_data.json; sourceTree = "<group>"; };
-		821CFD8721FDE57200B0B4F1 /* regional_block.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = regional_block.json; sourceTree = "<group>"; };
-		821CFD8B21FDE58700B0B4F1 /* country.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = country.json; sourceTree = "<group>"; };
-		821CFD8F21FDE88F00B0B4F1 /* ViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelTests.swift; sourceTree = "<group>"; };
 		821CFD9521FE468300B0B4F1 /* UIViewController+Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Alert.swift"; sourceTree = "<group>"; };
 		82D137BB21F7015800E60037 /* REST Countries.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "REST Countries.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		82D137BE21F7015800E60037 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -148,8 +125,6 @@
 		82D137C521F7015A00E60037 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		82D137C821F7015A00E60037 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		82D137CA21F7015A00E60037 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		82D137CF21F7015A00E60037 /* REST CountriesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "REST CountriesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		82D137D521F7015A00E60037 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		82D137DA21F7015A00E60037 /* REST CountriesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "REST CountriesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		82D137DE21F7015A00E60037 /* REST_CountriesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = REST_CountriesUITests.swift; sourceTree = "<group>"; };
 		82D137E021F7015A00E60037 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -195,14 +170,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		82D137CC21F7015A00E60037 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				111BB3CCE34A0A7F04EC70F5 /* Pods_REST_CountriesTests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		82D137D721F7015A00E60037 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -233,49 +200,12 @@
 			isa = PBXGroup;
 			children = (
 				820443FA21FCCB0500DDE1DF /* REST Countries Widget.entitlements */,
+				820443F121FC854000DDE1DF /* Info.plist */,
 				820443EC21FC854000DDE1DF /* MyCountryViewController.swift */,
 				8204441221FCEE0900DDE1DF /* ItemControl.swift */,
-				820443EE21FC854000DDE1DF /* MainInterface.storyboard */,
-				820443F121FC854000DDE1DF /* Info.plist */,
+				82E8142D21FFA544006DA235 /* UserInterfaces */,
 			);
 			path = "REST Countries Widget";
-			sourceTree = "<group>";
-		};
-		821CFD7321FDE0E200B0B4F1 /* TestResources */ = {
-			isa = PBXGroup;
-			children = (
-				821CFD7421FDE0F000B0B4F1 /* Good */,
-				821CFD7521FDE0F800B0B4F1 /* Bad */,
-			);
-			path = TestResources;
-			sourceTree = "<group>";
-		};
-		821CFD7421FDE0F000B0B4F1 /* Good */ = {
-			isa = PBXGroup;
-			children = (
-				821CFD7621FDE12000B0B4F1 /* my_country.json */,
-				821CFD7B21FDE3A600B0B4F1 /* languages.json */,
-				821CFD8321FDE55C00B0B4F1 /* currency.json */,
-				821CFD8721FDE57200B0B4F1 /* regional_block.json */,
-				821CFD8B21FDE58700B0B4F1 /* country.json */,
-			);
-			path = Good;
-			sourceTree = "<group>";
-		};
-		821CFD7521FDE0F800B0B4F1 /* Bad */ = {
-			isa = PBXGroup;
-			children = (
-				821CFD8521FDE56500B0B4F1 /* bad_data.json */,
-			);
-			path = Bad;
-			sourceTree = "<group>";
-		};
-		821CFD7821FDE27700B0B4F1 /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				821CFD7921FDE29F00B0B4F1 /* XCTestCase+GetTestData.swift */,
-			);
-			path = Extensions;
 			sourceTree = "<group>";
 		};
 		82D137B221F7015800E60037 = {
@@ -283,7 +213,6 @@
 			children = (
 				82E8140A21FF93AD006DA235 /* REST Countries Framework.xcodeproj */,
 				82D137BD21F7015800E60037 /* REST Countries */,
-				82D137D221F7015A00E60037 /* REST CountriesTests */,
 				82D137DD21F7015A00E60037 /* REST CountriesUITests */,
 				820443EB21FC854000DDE1DF /* REST Countries Widget */,
 				82D137BC21F7015800E60037 /* Products */,
@@ -296,7 +225,6 @@
 			isa = PBXGroup;
 			children = (
 				82D137BB21F7015800E60037 /* REST Countries.app */,
-				82D137CF21F7015A00E60037 /* REST CountriesTests.xctest */,
 				82D137DA21F7015A00E60037 /* REST CountriesUITests.xctest */,
 				820443E921FC854000DDE1DF /* REST Countries Widget.appex */,
 			);
@@ -316,20 +244,6 @@
 				82D137ED21F7017A00E60037 /* Resources */,
 			);
 			path = "REST Countries";
-			sourceTree = "<group>";
-		};
-		82D137D221F7015A00E60037 /* REST CountriesTests */ = {
-			isa = PBXGroup;
-			children = (
-				82D137D521F7015A00E60037 /* Info.plist */,
-				821CFD6D21FDDED400B0B4F1 /* ModelsTests.swift */,
-				821CFD8F21FDE88F00B0B4F1 /* ViewModelTests.swift */,
-				821CFD6F21FDDFA300B0B4F1 /* MockService.swift */,
-				821CFD7121FDE00500B0B4F1 /* MockRequest.swift */,
-				821CFD7321FDE0E200B0B4F1 /* TestResources */,
-				821CFD7821FDE27700B0B4F1 /* Extensions */,
-			);
-			path = "REST CountriesTests";
 			sourceTree = "<group>";
 		};
 		82D137DD21F7015A00E60037 /* REST CountriesUITests */ = {
@@ -404,8 +318,17 @@
 			isa = PBXGroup;
 			children = (
 				82E8141921FF946A006DA235 /* REST_Countries_Framework.framework */,
+				82E8144421FFAC11006DA235 /* REST_Countries_FrameworkTests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		82E8142D21FFA544006DA235 /* UserInterfaces */ = {
+			isa = PBXGroup;
+			children = (
+				820443EE21FC854000DDE1DF /* MainInterface.storyboard */,
+			);
+			path = UserInterfaces;
 			sourceTree = "<group>";
 		};
 		E300448E2D5E3F27F1564162 /* Frameworks */ = {
@@ -465,25 +388,6 @@
 			productReference = 82D137BB21F7015800E60037 /* REST Countries.app */;
 			productType = "com.apple.product-type.application";
 		};
-		82D137CE21F7015A00E60037 /* REST CountriesTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 82D137E621F7015A00E60037 /* Build configuration list for PBXNativeTarget "REST CountriesTests" */;
-			buildPhases = (
-				85036561C75EA9D3E5535D2A /* [CP] Check Pods Manifest.lock */,
-				82D137CB21F7015A00E60037 /* Sources */,
-				82D137CC21F7015A00E60037 /* Frameworks */,
-				82D137CD21F7015A00E60037 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				82D137D121F7015A00E60037 /* PBXTargetDependency */,
-			);
-			name = "REST CountriesTests";
-			productName = "REST CountriesTests";
-			productReference = 82D137CF21F7015A00E60037 /* REST CountriesTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 		82D137D921F7015A00E60037 /* REST CountriesUITests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 82D137E921F7015A00E60037 /* Build configuration list for PBXNativeTarget "REST CountriesUITests" */;
@@ -529,10 +433,6 @@
 							};
 						};
 					};
-					82D137CE21F7015A00E60037 = {
-						CreatedOnToolsVersion = 10.1;
-						TestTargetID = 82D137BA21F7015800E60037;
-					};
 					82D137D921F7015A00E60037 = {
 						CreatedOnToolsVersion = 10.1;
 						TestTargetID = 82D137BA21F7015800E60037;
@@ -560,7 +460,6 @@
 			targets = (
 				82D137BA21F7015800E60037 /* REST Countries */,
 				820443E821FC854000DDE1DF /* REST Countries Widget */,
-				82D137CE21F7015A00E60037 /* REST CountriesTests */,
 				82D137D921F7015A00E60037 /* REST CountriesUITests */,
 			);
 		};
@@ -572,6 +471,13 @@
 			fileType = wrapper.framework;
 			path = REST_Countries_Framework.framework;
 			remoteRef = 82E8141821FF946A006DA235 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		82E8144421FFAC11006DA235 /* REST_Countries_FrameworkTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = REST_Countries_FrameworkTests.xctest;
+			remoteRef = 82E8144321FFAC11006DA235 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -592,19 +498,6 @@
 				82D137C921F7015A00E60037 /* LaunchScreen.storyboard in Resources */,
 				82D137C621F7015A00E60037 /* Assets.xcassets in Resources */,
 				82D137C421F7015800E60037 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		82D137CD21F7015A00E60037 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				821CFD8C21FDE58700B0B4F1 /* country.json in Resources */,
-				821CFD8421FDE55C00B0B4F1 /* currency.json in Resources */,
-				821CFD8621FDE56500B0B4F1 /* bad_data.json in Resources */,
-				821CFD8821FDE57200B0B4F1 /* regional_block.json in Resources */,
-				821CFD7721FDE12000B0B4F1 /* my_country.json in Resources */,
-				821CFD7C21FDE3A600B0B4F1 /* languages.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -662,28 +555,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-REST Countries/Pods-REST Countries-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		85036561C75EA9D3E5535D2A /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-REST CountriesTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		B8B41C11EB7F6247C3771CF8 /* [CP] Check Pods Manifest.lock */ = {
@@ -763,18 +634,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		82D137CB21F7015A00E60037 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				821CFD6E21FDDED400B0B4F1 /* ModelsTests.swift in Sources */,
-				821CFD7021FDDFA300B0B4F1 /* MockService.swift in Sources */,
-				821CFD7221FDE00500B0B4F1 /* MockRequest.swift in Sources */,
-				821CFD7A21FDE29F00B0B4F1 /* XCTestCase+GetTestData.swift in Sources */,
-				821CFD9021FDE88F00B0B4F1 /* ViewModelTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		82D137D621F7015A00E60037 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -790,11 +649,6 @@
 			isa = PBXTargetDependency;
 			target = 820443E821FC854000DDE1DF /* REST Countries Widget */;
 			targetProxy = 820443FE21FCDB3C00DDE1DF /* PBXContainerItemProxy */;
-		};
-		82D137D121F7015A00E60037 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 82D137BA21F7015800E60037 /* REST Countries */;
-			targetProxy = 82D137D021F7015A00E60037 /* PBXContainerItemProxy */;
 		};
 		82D137DC21F7015A00E60037 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1097,50 +951,6 @@
 			};
 			name = Release;
 		};
-		82D137E721F7015A00E60037 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8F79F1DFD9022B8C2703A150 /* Pods-REST CountriesTests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 847P2LXN5F;
-				INFOPLIST_FILE = "REST CountriesTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "eu.restcountries.REST-CountriesTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/REST Countries.app/REST Countries";
-			};
-			name = Debug;
-		};
-		82D137E821F7015A00E60037 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E5DFC8A782087EB33E0C699F /* Pods-REST CountriesTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 847P2LXN5F;
-				INFOPLIST_FILE = "REST CountriesTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "eu.restcountries.REST-CountriesTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/REST Countries.app/REST Countries";
-			};
-			name = Release;
-		};
 		82D137EA21F7015A00E60037 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9DB273819C3FB69D57C2EE30 /* Pods-REST CountriesUITests.debug.xcconfig */;
@@ -1209,15 +1019,6 @@
 			buildConfigurations = (
 				82D137E421F7015A00E60037 /* Debug */,
 				82D137E521F7015A00E60037 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		82D137E621F7015A00E60037 /* Build configuration list for PBXNativeTarget "REST CountriesTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				82D137E721F7015A00E60037 /* Debug */,
-				82D137E821F7015A00E60037 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

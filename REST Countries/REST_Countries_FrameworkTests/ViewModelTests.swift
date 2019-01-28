@@ -8,8 +8,8 @@
 
 import XCTest
 import Foundation
-import Alamofire
-@testable import REST_Countries
+
+@testable import REST_Countries_Framework
 
 class ViewModelTests: XCTestCase, CountryViewModelDelegate {
     

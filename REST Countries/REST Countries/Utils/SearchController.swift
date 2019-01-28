@@ -17,6 +17,8 @@ class SearchController: UISearchController {
         searchBar.barStyle = .blackTranslucent
         obscuresBackgroundDuringPresentation = false
         searchBar.placeholder = Placeholder.name
+        let textFieldInsideSearchBar = searchBar.value(forKey: "searchField") as? UITextField
+        textFieldInsideSearchBar?.textColor = UIColor.white 
     }
 }
 

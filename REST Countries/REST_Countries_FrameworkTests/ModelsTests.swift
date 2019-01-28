@@ -8,7 +8,8 @@
 
 import XCTest
 import Foundation
-@testable import REST_Countries
+
+@testable import REST_Countries_Framework
 
 class ModelsTests: XCTestCase {
     
