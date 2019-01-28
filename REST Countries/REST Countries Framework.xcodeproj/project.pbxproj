@@ -24,6 +24,7 @@
 		82E8145B21FFAF05006DA235 /* regional_block.json in Resources */ = {isa = PBXBuildFile; fileRef = 82E8144B21FFAC13006DA235 /* regional_block.json */; };
 		82E8145C21FFAF05006DA235 /* country.json in Resources */ = {isa = PBXBuildFile; fileRef = 82E8144C21FFAC13006DA235 /* country.json */; };
 		82E8145D21FFAF09006DA235 /* bad_data.json in Resources */ = {isa = PBXBuildFile; fileRef = 82E8144E21FFAC13006DA235 /* bad_data.json */; };
+		82E8145F21FFB382006DA235 /* countries.json in Resources */ = {isa = PBXBuildFile; fileRef = 82E8145E21FFB382006DA235 /* countries.json */; };
 		82FE008D21FF220F00340244 /* REST_Countries_Framework.h in Headers */ = {isa = PBXBuildFile; fileRef = 82FE008B21FF220F00340244 /* REST_Countries_Framework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		82FE00AD21FF240C00340244 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FE00AA21FF240B00340244 /* Service.swift */; };
 		82FE00AE21FF240C00340244 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FE00AB21FF240B00340244 /* Reachability.swift */; };
@@ -67,6 +68,7 @@
 		82E8144C21FFAC13006DA235 /* country.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = country.json; sourceTree = "<group>"; };
 		82E8144E21FFAC13006DA235 /* bad_data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = bad_data.json; sourceTree = "<group>"; };
 		82E8145121FFAC14006DA235 /* XCTestCase+GetTestData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTestCase+GetTestData.swift"; sourceTree = "<group>"; };
+		82E8145E21FFB382006DA235 /* countries.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = countries.json; sourceTree = "<group>"; };
 		82FE008821FF220F00340244 /* REST_Countries_Framework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = REST_Countries_Framework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		82FE008B21FF220F00340244 /* REST_Countries_Framework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = REST_Countries_Framework.h; sourceTree = "<group>"; };
 		82FE008C21FF220F00340244 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -124,6 +126,7 @@
 				82E8144A21FFAC13006DA235 /* currency.json */,
 				82E8144B21FFAC13006DA235 /* regional_block.json */,
 				82E8144C21FFAC13006DA235 /* country.json */,
+				82E8145E21FFB382006DA235 /* countries.json */,
 			);
 			path = Good;
 			sourceTree = "<group>";
@@ -341,6 +344,7 @@
 				82E8145C21FFAF05006DA235 /* country.json in Resources */,
 				82E8145B21FFAF05006DA235 /* regional_block.json in Resources */,
 				82E8145921FFAF05006DA235 /* languages.json in Resources */,
+				82E8145F21FFB382006DA235 /* countries.json in Resources */,
 				82E8145D21FFAF09006DA235 /* bad_data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

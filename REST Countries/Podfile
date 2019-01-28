@@ -8,16 +8,6 @@ target 'REST Countries' do
 
   # Pods for REST Countries
   pod 'SVGKit'
-  
-  target 'REST CountriesTests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
-
-  target 'REST CountriesUITests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
 
 end
 

@@ -1,0 +1,248 @@
+[
+    {
+        "name": "Algeria",
+        "capital": "Algiers",
+        "region": "Africa",
+        "population": 40400000,
+        "latlng": [
+            28,
+            3
+        ],
+        "area": 2381741,
+        "currencies": [
+            {
+                "code": "DZD",
+                "name": "Algerian dinar",
+                "symbol": "د.ج"
+            }
+        ],
+        "languages": [
+            {
+                "iso639_1": "ar",
+                "iso639_2": "ara",
+                "name": "Arabic",
+                "nativeName": "Arabic"
+            }
+        ],
+        "flag": "https://restcountries.eu/data/dza.svg",
+        "regionalBlocs": [
+            {
+                "acronym": "AU",
+                "name": "African Union",
+                "otherAcronyms": [],
+                "otherNames": [
+                    "Union africaine",
+                    "União Africana",
+                    "Unión Africana",
+                    "Umoja wa Afrika"
+                ]
+            },
+            {
+                "acronym": "AL",
+                "name": "Arab League",
+                "otherAcronyms": [],
+                "otherNames": [
+                    "Jāmiʻat ad-Duwal al-ʻArabīyah",
+                    "League of Arab States"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Germany",
+        "capital": "Berlin",
+        "region": "Europe",
+        "population": 81770900,
+        "latlng": [
+            51,
+            9
+        ],
+        "area": 357114,
+        "currencies": [
+            {
+                "code": "EUR",
+                "name": "Euro",
+                "symbol": "€"
+            }
+        ],
+        "languages": [
+            {
+                "iso639_1": "de",
+                "iso639_2": "deu",
+                "name": "German",
+                "nativeName": "Deutsch"
+            }
+        ],
+        "flag": "https://restcountries.eu/data/deu.svg",
+        "regionalBlocs": [
+            {
+                "acronym": "EU",
+                "name": "European Union",
+                "otherAcronyms": [],
+                "otherNames": []
+            }
+        ]
+    },
+    {
+        "name": "Niger",
+        "capital": "Niamey",
+        "region": "Africa",
+        "population": 20715000,
+        "latlng": [
+            16,
+            8
+        ],
+        "area": 1267000,
+        "currencies": [
+            {
+                "code": "XOF",
+                "name": "West African CFA franc",
+                "symbol": "Fr"
+            }
+        ],
+        "languages": [
+            {
+                "iso639_1": "fr",
+                "iso639_2": "fra",
+                "name": "French",
+                "nativeName": "français"
+            }
+        ],
+        "flag": "https://restcountries.eu/data/ner.svg",
+        "regionalBlocs": [
+            {
+                "acronym": "AU",
+                "name": "African Union",
+                "otherAcronyms": [],
+                "otherNames": [
+                    "Union africaine",
+                    "União Africana",
+                    "Unión Africana",
+                    "Umoja wa Afrika"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Nigeria",
+        "capital": "Abuja",
+        "region": "Africa",
+        "population": 186988000,
+        "latlng": [
+            10,
+            8
+        ],
+        "area": 923768,
+        "currencies": [
+            {
+                "code": "NGN",
+                "name": "Nigerian naira",
+                "symbol": "₦"
+            }
+        ],
+        "languages": [
+            {
+                "iso639_1": "en",
+                "iso639_2": "eng",
+                "name": "English",
+                "nativeName": "English"
+            }
+        ],
+        "flag": "https://restcountries.eu/data/nga.svg",
+        "regionalBlocs": [
+            {
+                "acronym": "AU",
+                "name": "African Union",
+                "otherAcronyms": [],
+                "otherNames": [
+                    "Union africaine",
+                    "União Africana",
+                    "Unión Africana",
+                    "Umoja wa Afrika"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Denmark",
+        "capital": "Copenhagen",
+        "region": "Europe",
+        "population": 5717014,
+        "latlng": [
+            56,
+            10
+        ],
+        "area": 43094,
+        "currencies": [
+            {
+                "code": "DKK",
+                "name": "Danish krone",
+                "symbol": "kr"
+            }
+        ],
+        "languages": [
+            {
+                "iso639_1": "da",
+                "iso639_2": "dan",
+                "name": "Danish",
+                "nativeName": "dansk"
+            }
+        ],
+        "flag": "https://restcountries.eu/data/dnk.svg",
+        "regionalBlocs": [
+            {
+                "acronym": "EU",
+                "name": "European Union",
+                "otherAcronyms": [],
+                "otherNames": []
+            }
+        ]
+    },
+    {
+        "name": "Norway",
+        "capital": "Oslo",
+        "region": "Europe",
+        "population": 5223256,
+        "latlng": [
+            62,
+            10
+        ],
+        "area": 323802,
+        "currencies": [
+            {
+                "code": "NOK",
+                "name": "Norwegian krone",
+                "symbol": "kr"
+            }
+        ],
+        "languages": [
+            {
+                "iso639_1": "no",
+                "iso639_2": "nor",
+                "name": "Norwegian",
+                "nativeName": "Norsk"
+            },
+            {
+                "iso639_1": "nb",
+                "iso639_2": "nob",
+                "name": "Norwegian Bokmål",
+                "nativeName": "Norsk bokmål"
+            },
+            {
+                "iso639_1": "nn",
+                "iso639_2": "nno",
+                "name": "Norwegian Nynorsk",
+                "nativeName": "Norsk nynorsk"
+            }
+        ],
+        "flag": "https://restcountries.eu/data/nor.svg",
+        "regionalBlocs": [
+            {
+                "acronym": "EFTA",
+                "name": "European Free Trade Association",
+                "otherAcronyms": [],
+                "otherNames": []
+            }
+        ]
+    }
+]
