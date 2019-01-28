@@ -8,6 +8,7 @@
 
 import UIKit
 import CoreLocation
+import REST_Countries_Framework
 
 enum MyLocationHeaders: String, CaseIterable {
     case flag = "Flag"
@@ -42,9 +43,11 @@ class MyLocationViewController: UIViewController {
     
     private let sharedDefaults = UserDefaults(suiteName: SharedUserDefaults.suiteName)
     private var countryViewModel = CountryViewModel()
-    private var myCountry: Country? {
+    private var myCountry: REST_Countries_Framework.Country? {
         didSet {
-            tableView?.reloadData()
+            DispatchQueue.main.async { [unowned self] in
+                self.tableView?.reloadData()
+            }
         }
     }
     
@@ -182,7 +185,7 @@ extension MyLocationViewController: UITableViewDelegate {
 }
 
 extension MyLocationViewController: CountryViewModelDelegate {
-    func didReceiveCountries(countries: [Country]) {
+    func didReceiveCountries(countries: [REST_Countries_Framework.Country]) {
         myCountry = countries.first
         do {
             sharedDefaults?.set(try PropertyListEncoder().encode(myCountry), forKey:"myCountry")

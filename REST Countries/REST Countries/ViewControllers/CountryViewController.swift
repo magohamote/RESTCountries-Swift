@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import REST_Countries_Framework
 
 class CountryViewController: UIViewController {
 
@@ -17,9 +18,11 @@ class CountryViewController: UIViewController {
     private let locationManager = LocationManager()
     private var scope: SearchScope = .name
     
-    private var countries = [Country]() {
+    private var countries = [REST_Countries_Framework.Country]() {
         didSet {
-            tableView?.reloadData()
+            DispatchQueue.main.async { [unowned self] in
+                self.tableView?.reloadData()
+            }
         }
     }
     
@@ -107,7 +110,7 @@ extension CountryViewController: LocationManagerDelegate {
 
 // MARK: - CountryViewModelDelegate
 extension CountryViewController: CountryViewModelDelegate {
-    func didReceiveCountries(countries: [Country]) {
+    func didReceiveCountries(countries: [REST_Countries_Framework.Country]) {
         guard let myLocation = locationManager.myLocation else {
             self.countries = countries
             return

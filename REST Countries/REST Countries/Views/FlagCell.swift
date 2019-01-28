@@ -8,6 +8,7 @@
 
 import UIKit
 import SVGKit
+import REST_Countries_Framework
 
 class FlagCell: UITableViewCell {
     
