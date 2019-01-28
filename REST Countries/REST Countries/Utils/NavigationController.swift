@@ -19,11 +19,6 @@ class NavigationController: UINavigationController {
         
         setNeedsStatusBarAppearanceUpdate()
         
-        // background of Navigation Controller is visible during transition
-        // so I changed the color to match the rest
-        let win = UIApplication.shared.delegate?.window
-        win??.backgroundColor = .white
-        
         navigationBar.barTintColor = .turquoise
         navigationBar.isTranslucent = false
         navigationBar.prefersLargeTitles = true

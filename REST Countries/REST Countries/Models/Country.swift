@@ -6,7 +6,6 @@
 //  Copyright © 2019 Cédric Rolland. All rights reserved.
 //
 
-import Foundation
 import CoreLocation
 
 struct Country: Codable {

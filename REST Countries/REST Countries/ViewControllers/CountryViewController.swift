@@ -15,7 +15,6 @@ class CountryViewController: UIViewController {
     private let searchController = SearchController(searchResultsController: nil)
     private let countryViewModel = CountryViewModel()
     private let locationManager = LocationManager()
-    private let endpoints = [Endpoints.name, Endpoints.capital, Endpoints.language]
     private var scope: SearchScope = .name
     
     private var countries = [Country]() {
@@ -24,6 +23,7 @@ class CountryViewController: UIViewController {
         }
     }
     
+    // MARK: - Life cycle
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -49,6 +49,7 @@ class CountryViewController: UIViewController {
         }
     }
     
+    // MARK: - Setup
     private func setupSearchBar() {
         searchController.searchBar.delegate = self
         searchController.searchResultsUpdater = self
@@ -143,9 +144,7 @@ extension CountryViewController: UISearchBarDelegate {
 // MARK: - UISearchResultsUpdating
 extension CountryViewController: UISearchResultsUpdating {
     func updateSearchResults(for searchController: UISearchController) {
-        
         searchForCountry()
-        
     }
 }
 

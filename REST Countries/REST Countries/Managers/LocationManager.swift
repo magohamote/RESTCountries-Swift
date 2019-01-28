@@ -54,9 +54,9 @@ class LocationManager: NSObject {
             }
 
             let identifier = NSLocale.localeIdentifier(fromComponents: dictionary)
-            let country = NSLocale(localeIdentifier: "en_US").displayName(forKey: .identifier, value: identifier)
+            let countryName = NSLocale(localeIdentifier: "en_US").displayName(forKey: .identifier, value: identifier)
 
-            self.myCountryName = country
+            self.myCountryName = countryName
             self.locationManagerDelegate?.locationManagerGotCurrentCity(self)
         })
     }

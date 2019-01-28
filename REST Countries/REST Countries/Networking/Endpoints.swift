@@ -6,13 +6,12 @@
 //  Copyright © 2019 Cédric Rolland. All rights reserved.
 //
 
-import Foundation
-
 struct Endpoints {
-    static let all = "https://restcountries.eu/rest/v2/all"
-    static let name = "https://restcountries.eu/rest/v2/name/"
-    static let capital = "https://restcountries.eu/rest/v2/capital/"
-    static let language = "https://restcountries.eu/rest/v2/lang/"
+    private static let baseURL = "https://restcountries.eu/rest/v2/"
+    static let all = "\(baseURL)all"
+    static let name = "\(baseURL)name/"
+    static let capital = "\(baseURL)capital/"
+    static let language = "\(baseURL)lang/"
     static let searchFilter = "?fields=name;flag;population;area;latlng"
     static let currentCountryFilter = "?fields=name;flag;population;capital;region;regionalBlocs;languages;currencies;latlng;area"
 }

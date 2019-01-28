@@ -6,8 +6,6 @@
 //  Copyright © 2019 Cédric Rolland. All rights reserved.
 //
 
-import Foundation
-
 protocol CountryData {
     var name: String { get }
     static func getCountryData(json: [[String: Any]]?) -> [CountryData]?

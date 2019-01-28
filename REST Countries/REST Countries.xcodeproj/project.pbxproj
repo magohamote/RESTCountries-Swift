@@ -63,10 +63,11 @@
 		82FCBF3521F8A9430073C5AF /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FCBF3421F8A9430073C5AF /* Error.swift */; };
 		82FCBF3721F8AAC80073C5AF /* CountryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FCBF3621F8AAC80073C5AF /* CountryViewModel.swift */; };
 		82FCBF4D21F8B5D90073C5AF /* Collection+SafeIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FCBF4C21F8B5D90073C5AF /* Collection+SafeIndex.swift */; };
-		82FCBF4F21F8BCCD0073C5AF /* LocationPermissionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FCBF4E21F8BCCD0073C5AF /* LocationPermissionManager.swift */; };
 		82FCBF5121F8D8D50073C5AF /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FCBF5021F8D8D50073C5AF /* NavigationController.swift */; };
 		82FCBF5321F8DF7F0073C5AF /* SearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FCBF5221F8DF7F0073C5AF /* SearchController.swift */; };
 		82FCBF5521F9A9960073C5AF /* MyLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FCBF5421F9A9960073C5AF /* MyLocationViewController.swift */; };
+		82FE001921FF027600340244 /* SharedUserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FE001821FF027600340244 /* SharedUserDefaults.swift */; };
+		82FE001A21FF02B200340244 /* SharedUserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FE001821FF027600340244 /* SharedUserDefaults.swift */; };
 		AB5B2FFEA55A67C277F557C9 /* Pods_REST_Countries.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8D088FCD81429401C3A7D5D /* Pods_REST_Countries.framework */; };
 		E7F8A8713DE45683C2C7315B /* Pods_REST_Countries_Widget.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF9C7DAB2298879F4C701D65 /* Pods_REST_Countries_Widget.framework */; };
 /* End PBXBuildFile section */
@@ -167,10 +168,10 @@
 		82FCBF3421F8A9430073C5AF /* Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
 		82FCBF3621F8AAC80073C5AF /* CountryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryViewModel.swift; sourceTree = "<group>"; };
 		82FCBF4C21F8B5D90073C5AF /* Collection+SafeIndex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Collection+SafeIndex.swift"; sourceTree = "<group>"; };
-		82FCBF4E21F8BCCD0073C5AF /* LocationPermissionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPermissionManager.swift; sourceTree = "<group>"; };
 		82FCBF5021F8D8D50073C5AF /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
 		82FCBF5221F8DF7F0073C5AF /* SearchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchController.swift; sourceTree = "<group>"; };
 		82FCBF5421F9A9960073C5AF /* MyLocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyLocationViewController.swift; sourceTree = "<group>"; };
+		82FE001821FF027600340244 /* SharedUserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedUserDefaults.swift; sourceTree = "<group>"; };
 		8F79F1DFD9022B8C2703A150 /* Pods-REST CountriesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-REST CountriesTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-REST CountriesTests/Pods-REST CountriesTests.debug.xcconfig"; sourceTree = "<group>"; };
 		9DB273819C3FB69D57C2EE30 /* Pods-REST CountriesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-REST CountriesUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-REST CountriesUITests/Pods-REST CountriesUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		AF9C7DAB2298879F4C701D65 /* Pods_REST_Countries_Widget.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_REST_Countries_Widget.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -237,8 +238,8 @@
 			isa = PBXGroup;
 			children = (
 				820443FA21FCCB0500DDE1DF /* REST Countries Widget.entitlements */,
-				8204441221FCEE0900DDE1DF /* ItemControl.swift */,
 				820443EC21FC854000DDE1DF /* TodayViewController.swift */,
+				8204441221FCEE0900DDE1DF /* ItemControl.swift */,
 				820443EE21FC854000DDE1DF /* MainInterface.storyboard */,
 				820443F121FC854000DDE1DF /* Info.plist */,
 			);
@@ -409,7 +410,6 @@
 			isa = PBXGroup;
 			children = (
 				82D137FA21F7BAEA00E60037 /* LocationManager.swift */,
-				82FCBF4E21F8BCCD0073C5AF /* LocationPermissionManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -422,6 +422,7 @@
 				82FCBF3421F8A9430073C5AF /* Error.swift */,
 				82FCBF5021F8D8D50073C5AF /* NavigationController.swift */,
 				82FCBF5221F8DF7F0073C5AF /* SearchController.swift */,
+				82FE001821FF027600340244 /* SharedUserDefaults.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -796,6 +797,7 @@
 				8204440521FCE10500DDE1DF /* CountryData.swift in Sources */,
 				8204441821FCF70100DDE1DF /* FlagView.swift in Sources */,
 				8204440221FCE0FB00DDE1DF /* RegionalBlock.swift in Sources */,
+				82FE001A21FF02B200340244 /* SharedUserDefaults.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -813,7 +815,6 @@
 				82D137F721F704C300E60037 /* Currency.swift in Sources */,
 				82D1381221F8914800E60037 /* Endpoints.swift in Sources */,
 				82D137C121F7015800E60037 /* CountryViewController.swift in Sources */,
-				82FCBF4F21F8BCCD0073C5AF /* LocationPermissionManager.swift in Sources */,
 				82FCBF3721F8AAC80073C5AF /* CountryViewModel.swift in Sources */,
 				82D137F521F7042700E60037 /* Language.swift in Sources */,
 				8204441721FCF6DB00DDE1DF /* FlagView.swift in Sources */,
@@ -824,6 +825,7 @@
 				820443FC21FCD86600DDE1DF /* CountryData.swift in Sources */,
 				82D1380E21F88FF500E60037 /* Formatter+Separator.swift in Sources */,
 				82D137F121F701AD00E60037 /* Country.swift in Sources */,
+				82FE001921FF027600340244 /* SharedUserDefaults.swift in Sources */,
 				82FCBF4D21F8B5D90073C5AF /* Collection+SafeIndex.swift in Sources */,
 				82D1380C21F88EB200E60037 /* CountryCell.swift in Sources */,
 				82D137F321F7034000E60037 /* RegionalBlock.swift in Sources */,

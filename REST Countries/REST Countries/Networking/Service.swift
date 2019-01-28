@@ -6,38 +6,38 @@
 //  Copyright © 2019 Cédric Rolland. All rights reserved.
 //
 
-import Foundation
-
 import Alamofire
 import os.log
 
 class Service {
     
-    func requestMyCountry(countryName: String, completion: @escaping (_ response: [Country]?, _ error: Error?) -> Void) {
+    typealias countryCompletion = (_ response: [Country]?, _ error: Error?) -> Void
+    
+    func requestMyCountry(countryName: String, completion: @escaping countryCompletion) {
         requestCountriesData(url: Endpoints.name, queryParam: countryName, filter: Endpoints.currentCountryFilter) { response, error in
             completion(response, error)
         }
     }
     
-    func requestAllCountries(completion: @escaping (_ response: [Country]?, _ error: Error?) -> Void) {
+    func requestAllCountries(completion: @escaping countryCompletion) {
         requestCountriesData(url: Endpoints.all) { response, error in
             completion(response, error)
         }
     }
     
-    func requestCountryByName(countryName: String, filter: String = Endpoints.searchFilter, completion: @escaping (_ response: [Country]?, _ error: Error?) -> Void) {
+    func requestCountryByName(countryName: String, completion: @escaping countryCompletion) {
         requestCountriesData(url: Endpoints.name, queryParam: countryName) { response, error in
             completion(response, error)
         }
     }
     
-    func requestCountryByCapital(capital: String, completion: @escaping (_ response: [Country]?, _ error: Error?) -> Void) {
+    func requestCountryByCapital(capital: String, completion: @escaping countryCompletion) {
         requestCountriesData(url: Endpoints.capital, queryParam: capital) { response, error in
             completion(response, error)
         }
     }
     
-    func requestCountryByLanguage(language: String, completion: @escaping (_ response: [Country]?, _ error: Error?) -> Void) {
+    func requestCountryByLanguage(language: String, completion: @escaping countryCompletion) {
         requestCountriesData(url: Endpoints.language, queryParam: language) { response, error in
             completion(response, error)
         }

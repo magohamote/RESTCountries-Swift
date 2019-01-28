@@ -6,8 +6,6 @@
 //  Copyright © 2019 Cédric Rolland. All rights reserved.
 //
 
-import Foundation
-
 struct Language: CountryData, Codable {
     var name: String
     let iso639_1: String
@@ -32,7 +30,7 @@ struct Language: CountryData, Codable {
 extension Language {
     init?(withJson json: [String : Any]?) {
         guard let name = json?["name"] as? String,
-             let iso639_1 = json?["iso639_1"] as? String else {
+            let iso639_1 = json?["iso639_1"] as? String else {
                 return nil
         }
         

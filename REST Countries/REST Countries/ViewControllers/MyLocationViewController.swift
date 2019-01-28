@@ -40,7 +40,7 @@ class MyLocationViewController: UIViewController {
     
     var myCountryName: String?
     
-    private let sharedDefaults = UserDefaults(suiteName: "group.eu.restcountries.REST-Countries")
+    private let sharedDefaults = UserDefaults(suiteName: SharedUserDefaults.suiteName)
     private var countryViewModel = CountryViewModel()
     private var myCountry: Country? {
         didSet {

@@ -6,8 +6,6 @@
 //  Copyright © 2019 Cédric Rolland. All rights reserved.
 //
 
-import Foundation
-
 struct Currency: CountryData, Codable {
     var name: String
     let symbol: String
@@ -33,7 +31,6 @@ extension Currency {
     init?(withJson json: [String : Any]?) {
         guard let name = json?["name"] as? String,
             let symbol = json?["symbol"] as? String else {
-                
                 return nil
         }
 

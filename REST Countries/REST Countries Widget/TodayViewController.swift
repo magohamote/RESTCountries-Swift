@@ -29,7 +29,7 @@ class TodayViewController: UIViewController, NCWidgetProviding {
     }
 
     func widgetPerformUpdate(completionHandler: (@escaping (NCUpdateResult) -> Void)) {
-        let sharedDefaults = UserDefaults.init(suiteName: "group.eu.restcountries.REST-Countries")
+        let sharedDefaults = UserDefaults.init(suiteName: SharedUserDefaults.suiteName)
         if let data = sharedDefaults?.value(forKey:"myCountry") as? Data {
             myCountry = try? PropertyListDecoder().decode(Country.self, from: data)
             

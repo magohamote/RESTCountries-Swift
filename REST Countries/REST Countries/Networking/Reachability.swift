@@ -6,7 +6,6 @@
 //  Copyright © 2019 Cédric Rolland. All rights reserved.
 //
 
-import Foundation
 import SystemConfiguration
 
 class Reachability {

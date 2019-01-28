@@ -6,8 +6,6 @@
 //  Copyright © 2019 Cédric Rolland. All rights reserved.
 //
 
-import Foundation
-
 protocol CountryViewModelDelegate: AnyObject {
     func didReceiveCountries(countries: [Country])
     func didFailDownloadCountries(error: Error)
