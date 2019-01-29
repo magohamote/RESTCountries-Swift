@@ -107,8 +107,6 @@ extension MyCountryViewController: LocationManagerDelegate {
     func locationManagerDidUpdate(_ locationManager: LocationManager) {}
     
     func locationManagerGotCurrentCity(_ locationManager: LocationManager) {
-        widgetPerformUpdate { _ in
-            
-        }
+        widgetPerformUpdate { _ in }
     }
 }

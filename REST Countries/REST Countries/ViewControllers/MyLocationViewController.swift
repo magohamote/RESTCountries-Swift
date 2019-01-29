@@ -105,17 +105,21 @@ extension MyLocationViewController: UITableViewDataSource {
             }
             
             return regionalBlocks.count
+
         case .languages:
             guard let languages = myLocation.languages else {
                 return 0
             }
+            
             return languages.count
+
         case .currencies:
             guard let currencies = myLocation.currencies else {
                 return 0
             }
             
             return currencies.count
+
         default:
             return 1
         }
@@ -136,18 +140,25 @@ extension MyLocationViewController: UITableViewDataSource {
             
             flagCell.config(with: myLocation.flag)
             return flagCell
+        
         case .fullName:
             cell.textLabel?.text = myLocation.name
+       
         case .population:
             cell.textLabel?.text = String(myLocation.population.formattedWithSeparator)
+        
         case .capital:
             cell.textLabel?.text = myLocation.capital
+        
         case .region:
             cell.textLabel?.text = myLocation.region
+        
         case .regionalBlocks:
             cell.textLabel?.text = myLocation.regionalBlocks?[safe: indexPath.row]?.name
+        
         case .languages:
             cell.textLabel?.text = myLocation.languages?[safe: indexPath.row]?.name
+        
         case .currencies:
             cell.textLabel?.text = "\(myLocation.currencies?[safe: indexPath.row]?.name ?? "") - \(myLocation.currencies?[safe: indexPath.row]?.symbol ?? "")"
         }
@@ -195,6 +206,6 @@ extension MyLocationViewController: CountryViewModelDelegate {
     }
     
     func didFailDownloadCountries(error: Error) {
-        print("error getting your country")
+        print("error getting your country: \(error.localizedDescription)")
     }
 }

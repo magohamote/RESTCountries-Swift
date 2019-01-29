@@ -68,8 +68,10 @@ extension AskLocationPermissionViewController: CLLocationManagerDelegate {
         switch status {
         case .denied, .restricted:
             updateEnableButtonToSettings()
+        
         case .authorizedWhenInUse, .authorizedAlways:
             pushCountryViewController(true)
+        
         default:
             return
         }

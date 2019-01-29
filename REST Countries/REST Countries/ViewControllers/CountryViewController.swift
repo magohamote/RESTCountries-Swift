@@ -130,7 +130,7 @@ extension CountryViewController: CountryViewModelDelegate {
     }
     
     func didFailDownloadCountries(error: Error) {
-        print("error")
+        print(error.localizedDescription)
     }
 }
 
@@ -172,8 +172,10 @@ private extension CountryViewController {
                 switch scope {
                 case .name:
                     countryViewModel.requestCountriesByName(countryName: searchText)
+               
                 case .capital:
                     countryViewModel.requestCountriesByCapital(capital: searchText)
+                
                 case .language:
                     if searchText.count == 2 {
                         countryViewModel.requestCountriesByLanguage(language: searchText)
@@ -189,8 +191,10 @@ private extension CountryViewController {
         switch scope {
         case .name:
             searchController.searchBar.placeholder = Placeholder.name
+        
         case .capital:
             searchController.searchBar.placeholder = Placeholder.capital
+        
         case .language:
             searchController.searchBar.placeholder = Placeholder.language
         }
